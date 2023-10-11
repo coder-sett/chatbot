@@ -35,8 +35,8 @@ const init = async () => {
     loading.value = true
     const { data } = await fetchBotList()
     loading.value = false
-    botList.value = data.map((item) => item.id)
-    console.log(data.map((item) => item.id))
+    botList.value = data.map((item: any) => item.id)
+    console.log(data.map((item: any) => item.id))
     modelA.value = "gpt-3.5-turbo"
     modelB.value = "vicuna-7b-v1.5"
   } catch (err) {
