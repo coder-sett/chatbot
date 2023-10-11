@@ -29,10 +29,10 @@ export default defineConfig((env) => {
       port: 1008,
       open: false,
       proxy: {
-        "/v1": {
+        "/api": {
           target: viteEnv.VITE_APP_API_BASE_URL,
           changeOrigin: true, // 允许跨域
-          // rewrite: (path) => path.replace("/api/", "/"),
+          rewrite: (path) => path.replace("/api/", "/"),
         },
       },
     },
