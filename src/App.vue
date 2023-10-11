@@ -1,25 +1,14 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue"
+import Main from "./views/Main.vue"
 import { ElConfigProvider } from "element-plus"
+import type { EpPropMergeType } from "element-plus/es/utils/vue/props/types"
+import { ref } from "vue"
 </script>
 
 <template>
-  <ElConfigProvider>
-    <HelloWorld msg="Vite + Vue" />
+  <ElConfigProvider size="large">
+    <Main msg="Vite + Vue" />
   </ElConfigProvider>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+<style scoped></style>

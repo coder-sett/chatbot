@@ -7,8 +7,18 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    Avatar: typeof import('./src/components/Message/Avatar.vue')['default']
+    ElButton: typeof import('element-plus/es')['ElButton']
+    ElIcon: typeof import('element-plus/es')['ElIcon']
+    ElInput: typeof import('element-plus/es')['ElInput']
+    ElOption: typeof import('element-plus/es')['ElOption']
+    ElSelect: typeof import('element-plus/es')['ElSelect']
+    ElTabPane: typeof import('element-plus/es')['ElTabPane']
+    ElTabs: typeof import('element-plus/es')['ElTabs']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    Message: typeof import('./src/components/Message/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Text: typeof import('./src/components/Message/Text.vue')['default']
   }
 }
