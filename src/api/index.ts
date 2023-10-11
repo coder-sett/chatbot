@@ -3,7 +3,7 @@ import { post, get } from "@/utils/request"
 
 export function fetchBotList<T = any>() {
   return get<T>({
-    url: "/models",
+    url: "/v1/models",
   })
 }
 
@@ -56,7 +56,7 @@ export function fetchChatAPIProcess<T = any>(params: {
   // }
 
   return post<T>({
-    url: "/chat/completions",
+    url: "/v1/chat/completions",
     data,
     responseType: "stream",
     signal: params.signal,
