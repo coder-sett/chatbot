@@ -287,15 +287,15 @@ onMounted(() => {
 <template>
   <div class="w-full text-sm mb-4">
     <div class="my-4">
-      <h3 class="font-semibold mb-3">Rules</h3>
+      <h3 class="font-semibold mb-3">规则</h3>
       <ul class="list-disc px-4">
-        <li>Chat with two models side-by-side and vote for which one is better!</li>
-        <li>You pick the models you want to chat with.</li>
-        <li>You can do multiple turns of conversations before voting.</li>
-        <li>Click “Clear history” to start a new round.</li>
+        <li>与两个模型并排聊天，并投票选出哪个更好!</li>
+        <li>你可以下拉选择你想聊天的模型。</li>
+        <li>你可以在投票前进行多次对话。</li>
+        <li>点击“清除历史记录”开始新一轮。</li>
       </ul>
       <h3 class="font-semibold my-3">Battle</h3>
-      Choose two models to chat with
+      选择两个模型进行聊天
     </div>
     <div class="w-full h-[680px] p-4 flex flex-col border rounded-sm">
       <div class="flex-1 w-full grid grid-cols-2 gap-4 h-full">
@@ -360,19 +360,17 @@ onMounted(() => {
     <div class="mt-4 flex">
       <el-input v-model="prompt" placeholder="" @keypress="handleEnter" />
       <el-button class="ml-4" type="primary" :disabled="buttonDisabled" @click="handleSubmit"
-        >Send</el-button
+        >发送</el-button
       >
     </div>
     <div class="mt-4 grid grid-cols-3 gap-4">
       <el-button class="!ml-0" :icon="CircleClose" :disabled="!loading" @click="handleStop"
-        >Stop Responding
+        >停止生成
       </el-button>
-      <el-button class="!ml-0" :disabled="loading" @click="handleDelete"
-        >🗑️ Clear history</el-button
-      >
       <el-button class="!ml-0" :icon="Refresh" :disabled="loading" @click="handleRegenerate"
-        >Regenerate</el-button
+        >重新生成</el-button
       >
+      <el-button class="!ml-0" :disabled="loading" @click="handleDelete">🗑️ 清除历史记录</el-button>
     </div>
   </div>
 </template>

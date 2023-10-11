@@ -17,10 +17,10 @@ const handleClick = (tab: TabsPaneContext, event: Event) => {
   <div class="w-full overflow-auto">
     <section class="max-w-[1240px] w-full mx-auto my-5 px-5">
       <el-tabs class="mb-0" type="border-card" v-model="activeName" @tab-click="handleClick">
-        <el-tab-pane label="Chatbot Arena (battle)" name="first">
+        <el-tab-pane label="Chatbot Compass (battle)" name="first">
           <Battle />
         </el-tab-pane>
-        <el-tab-pane label="Chatbot Arena (side-by-side)" name="second"> <Side /></el-tab-pane>
+        <el-tab-pane label="Chatbot Compass (side-by-side)" name="second"> <Side /></el-tab-pane>
       </el-tabs>
     </section>
   </div>
