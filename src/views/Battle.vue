@@ -290,7 +290,7 @@ onMounted(() => {
     <div class="my-4">
       <h3 class="font-semibold mb-3">规则</h3>
       <ul class="list-disc px-4">
-        <li>与两个匿名模型并排聊天，并投票选出一个更好!</li>
+        <li>与两个匿名模型并排聊天，并投票选出哪个更好!</li>
         <li>你可以在投票前进行多次对话。模型的名称将在你投票后揭晓。</li>
         <!-- <li>
           The names of the models will be revealed after your vote. Conversations with identity
