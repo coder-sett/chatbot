@@ -40,7 +40,7 @@ const wrapClass = computed(() => {
     "rounded-xl",
     props.inversion
       ? "bg-[#fff7ed] border border-[#fdba74] text-[#24292f] rounded-br-none"
-      : "bg-[#f6f8fa] border border-[#e5e7eb] text-[#24292f] rounded-bl-none",
+      : "bg-[#f3f4f6] border border-[#e5e7eb] text-[#24292f] rounded-bl-none",
     // props.inversion ? "message-request" : "message-reply",
     { "text-red-500": props.error },
   ]

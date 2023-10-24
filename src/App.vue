@@ -6,8 +6,9 @@ import { ref } from "vue"
 </script>
 
 <template>
-  <ElConfigProvider size="large">
-    <Main msg="Vite + Vue" />
+  <ElConfigProvider>
+    <!-- <Main /> -->
+    <RouterView />
   </ElConfigProvider>
 </template>
 

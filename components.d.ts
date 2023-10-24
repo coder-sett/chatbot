@@ -7,14 +7,22 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    BotBattle: typeof import('./src/components/Bot/BotBattle.vue')['default']
+    Compare: typeof import('./src/components/Bot/Compare.vue')['default']
+    copy: typeof import('./src/components/Header copy/index.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
+    ElCarousel: typeof import('element-plus/es')['ElCarousel']
+    ElCarouselItem: typeof import('element-plus/es')['ElCarouselItem']
     ElIcon: typeof import('element-plus/es')['ElIcon']
     ElInput: typeof import('element-plus/es')['ElInput']
     ElOption: typeof import('element-plus/es')['ElOption']
     ElSelect: typeof import('element-plus/es')['ElSelect']
     ElTabPane: typeof import('element-plus/es')['ElTabPane']
     ElTabs: typeof import('element-plus/es')['ElTabs']
+    Footer: typeof import('./src/components/Footer/index.vue')['default']
+    Header: typeof import('./src/components/Header/index.vue')['default']
     Message: typeof import('./src/components/Message/index.vue')['default']
+    MessageBox: typeof import('./src/components/Bot/MessageBox.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Text: typeof import('./src/components/Message/Text.vue')['default']

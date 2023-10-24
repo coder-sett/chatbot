@@ -285,27 +285,27 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="w-full text-sm mb-4">
+  <div class="w-full mb-4">
     <div class="my-4">
-      <h3 class="font-semibold mb-3">规则</h3>
+      <h3 class="font-semibold mb-5 text-xl">规则</h3>
       <ul class="list-disc px-4">
-        <li>与两个模型并排聊天，并投票选出哪个更好!</li>
-        <li>你可以下拉选择你想聊天的模型。</li>
-        <li>你可以在投票前进行多次对话。</li>
-        <li>点击“清除历史记录”开始新一轮。</li>
+        <li class="my-2">与两个模型并排聊天，并投票选出哪个更好!</li>
+        <li class="my-2">你可以下拉选择你想聊天的模型。</li>
+        <li class="my-2">你可以在投票前进行多次对话。</li>
+        <li class="my-2">点击“清除历史记录”开始新一轮。</li>
       </ul>
-      <h3 class="font-semibold my-3">Battle</h3>
+      <h3 class="font-semibold my-5 text-xl">Battle</h3>
       选择两个模型进行聊天
     </div>
-    <div class="w-full h-[680px] p-4 flex flex-col border rounded-sm">
-      <div class="flex-1 w-full grid grid-cols-2 gap-4 h-full">
+    <div class="w-full h-[680px] py-4 flex flex-col">
+      <div class="flex-1 w-full grid grid-cols-2 gap-6 h-full">
         <div>
-          <el-select class="ml-0 mb-2 w-full" v-model="modelA" placeholder="Select">
+          <el-select size="large" class="ml-0 mb-3 w-full" v-model="modelA" placeholder="Select">
             <el-option v-for="item in botList" :key="item" :label="item" :value="item" />
           </el-select>
           <div class="border h-[600px] rounded-sm overflow-hidden flex flex-col">
-            <div class="h-8">
-              <span class="border border-t-0 border-l-0 py-1 px-2"
+            <div class="h-8 mt-3 ml-4">
+              <span class="font-semibold"
                 >modelA<span v-if="showName"
                   >: <span class="text-[#eb3e1b]">{{ modelA }}</span></span
                 ></span
@@ -325,12 +325,12 @@ onMounted(() => {
           </div>
         </div>
         <div>
-          <el-select class="ml-0 mb-2 w-full" v-model="modelB" placeholder="Select">
+          <el-select size="large" class="ml-0 mb-3 w-full" v-model="modelB" placeholder="Select">
             <el-option v-for="item in botList" :key="item" :label="item" :value="item" />
           </el-select>
           <div class="border h-[600px] rounded-sm overflow-hidden flex flex-col">
-            <div class="h-8">
-              <span class="border border-t-0 border-l-0 py-1 px-2"
+            <div class="h-8 mt-3 ml-4">
+              <span class="font-semibold"
                 >modelB<span v-if="showName"
                   >: <span class="text-[#eb3e1b]">{{ modelB }}</span></span
                 ></span

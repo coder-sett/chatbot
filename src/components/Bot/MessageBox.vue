@@ -1,0 +1,47 @@
+import { log } from 'console';
+<script setup lang="ts">
+import { ref } from "vue"
+import { CompareItem } from "@/store"
+import BotBattle from "@/components/Bot/BotBattle.vue"
+import { useChatStore } from "@/store"
+
+const { bot } = defineProps<{ bot: CompareItem }>()
+const chatStore = useChatStore()
+chatStore.addChatSources(bot.name)
+const dataSources = chatStore.getChatByName(bot.name)
+console.log(dataSources)
+const modelA = ref<string>("")
+const activeName = ref("first")
+const showName = ref<boolean>(false)
+const handleClick = (tab: TabsPaneContext, event: Event) => {
+  console.log(tab, event)
+}
+</script>
+
+<template>
+  <div class="h-full flex-1 rounded-xl overflow-hidden flex flex-col my-box">
+    <div class="h-8 mt-3 ml-4">
+      <span class="font-semibold">{{ bot.name }}</span>
+    </div>
+    <div class="overflow-auto h-[560px]">
+      <Message
+        v-for="(item, index) of dataSources.chatList"
+        :key="index"
+        :date-time="item.dateTime"
+        :text="item.text"
+        :inversion="item.inversion"
+        :error="item.error"
+        :loading="item.loading"
+      />
+    </div>
+  </div>
+</template>
+
+<style>
+.el-tabs__item.is-active {
+  /* color: black; */
+}
+.el-tabs__item {
+  /* color: rgba(0, 0, 0, 0.6); */
+}
+</style>
