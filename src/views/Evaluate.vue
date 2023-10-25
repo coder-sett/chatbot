@@ -2,7 +2,6 @@
 import { ref } from "vue"
 import type { TabsPaneContext } from "element-plus"
 import Battle from "./Battle.vue"
-import Side from "./Side.vue"
 import BotBattle from "@/components/Bot/BotBattle.vue"
 
 defineProps<{ msg: string }>()

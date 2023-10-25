@@ -37,11 +37,8 @@ const handleClick = (tab: TabsPaneContext, event: Event) => {
   </div>
 </template>
 
-<style>
-.el-tabs__item.is-active {
-  /* color: black; */
-}
-.el-tabs__item {
-  /* color: rgba(0, 0, 0, 0.6); */
+<style scoped>
+.my-box {
+  box-shadow: 0 0 2px #919eab33, 0 4px 24px #919eab24;
 }
 </style>

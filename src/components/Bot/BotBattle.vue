@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, created, onMounted, computed } from "vue"
 import { Refresh, CircleClose, Delete } from "@element-plus/icons-vue"
+import { ThumbsUp, CloseOne } from "@icon-park/vue-next"
 import { fetchBotList, fetchChatAPIProcess } from "@/api"
 import Compare from "@/components/Bot/Compare.vue"
 import MessageBox from "@/components/Bot/MessageBox.vue"
@@ -273,27 +274,39 @@ onMounted(() => {
       <el-button class="!ml-0" @click="handleShowName" type="primary">Tie</el-button>
       <el-button class="!ml-0" @click="handleShowName" type="primary">Both are bad</el-button>
     </div>
-    <div class="mt-8 flex items-center justify-between space-x-2">
-      <el-button size="large" circle :icon="CircleClose" :disabled="!loading" @click="handleStop">
-      </el-button>
-      <el-button
-        size="large"
-        circle
-        :icon="Refresh"
-        :disabled="loading"
-        @click="handleRegenerate"
-      ></el-button>
-      <el-button
-        size="large"
-        type="danger"
-        circle
-        class=""
-        :icon="Delete"
-        :disabled="loading"
-        @click="handleDelete"
-      ></el-button>
+    <div class="mt-8 flex items-center justify-between space-x-4">
+      <el-tooltip effect="dark" content="停止生成" placement="top">
+        <el-button size="large" circle :icon="CloseOne" :disabled="!loading" @click="handleStop">
+        </el-button>
+      </el-tooltip>
 
-      <el-input size="large" v-model="prompt" placeholder="" @keypress="handleEnter" />
+      <el-tooltip effect="dark" content="重新生成" placement="top">
+        <el-button
+          size="large"
+          circle
+          :icon="Refresh"
+          :disabled="loading"
+          @click="handleRegenerate"
+        ></el-button>
+      </el-tooltip>
+      <el-tooltip effect="dark" content="清除历史记录" placement="top">
+        <el-button
+          size="large"
+          type="danger"
+          circle
+          :icon="Delete"
+          :disabled="loading"
+          @click="handleDelete"
+        ></el-button>
+      </el-tooltip>
+
+      <el-input
+        class="my-box"
+        size="large"
+        v-model="prompt"
+        placeholder=""
+        @keypress="handleEnter"
+      />
       <el-button
         size="large"
         class="ml-4"
@@ -306,8 +319,14 @@ onMounted(() => {
   </div>
 </template>
 
-<style scoped>
+<style>
 .my-box {
   box-shadow: 0 0 2px #919eab33, 0 4px 24px #919eab24;
+}
+.el-input__wrapper {
+  /* box-shadow: 0 0 2px #dcdfe6, 0 2px 6px #dcdfe6; */
+}
+.el-input__wrapper:hover {
+  /* box-shadow: 0 0 2px #dcdfe6, 0 2px 6px #dcdfe6; */
 }
 </style>
