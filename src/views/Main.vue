@@ -125,6 +125,24 @@ const imgList = ref<any>([
         <div class="text-4xl font-bold">用户评价</div>
         <div class="text-[#86909c] mt-4">以下是部分用户对该AI模型点评页面的评价：</div>
       </div>
+      <div class="mt-20 w-full">
+        <el-carousel :interval="5000000" arrow="always">
+          <el-carousel-item v-for="item in 1" :key="item">
+            <div class="px-40 py-10 text-center flex flex-col items-center">
+              <div class="text-xl text-center font-semibold">
+                这个AI模型点评页面真是太棒了！设计简洁大方，用户体验很好。我喜欢它提供的模型介绍、参数、相关产品和用户评价等功能，非常实用！
+              </div>
+              <div class="h-16 w-16 mt-8">
+                <img
+                  src="https://img.jsdesign2.com/assets/element/ai_AheJcMcjCpO/image/2184303fa24312bc9b749c25c9187c99a09cf309.png"
+                  alt=""
+                />
+              </div>
+              <div class="text-xl font-semibold mt-6">葛志强</div>
+            </div>
+          </el-carousel-item>
+        </el-carousel>
+      </div>
       <!-- <el-tabs class="mb-0" type="border-card" v-model="activeName" @tab-click="handleClick">
         <el-tab-pane label="Chatbot Compass (battle)" name="first">
           <Battle />
@@ -141,7 +159,7 @@ const imgList = ref<any>([
   color: #888;
 }
 .el-carousel__item h3 {
-  color: #475669;
+  /* color: #475669; */
   opacity: 0.75;
   margin: 0;
   text-align: center;
@@ -152,7 +170,7 @@ const imgList = ref<any>([
 }
 
 .el-carousel__item:nth-child(2n + 1) {
-  background-color: #d3dce6;
+  /* background-color: #d3dce6; */
 }
 .el-carousel__item {
   border-radius: 12px;

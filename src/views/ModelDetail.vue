@@ -12,6 +12,14 @@ const activeName = ref("first")
 const input = ref("")
 console.log(route.query.name)
 const model = route.query?.name || "ChatGPT"
+const modelInfo = {
+  ChatGPT: {
+    info: "GPT-3.5 由openAI开发并通过API提供服务，模型能够理解和生成自然语言或代码。在GPT-3.5系列中，最具能力且成本效益最高的模型是gpt-3.5-turbo，它经过了针对聊天功能进行优化，并通过Chat completions API实现。它同样也适用于传统的对话任务。",
+  },
+  "T5-3b": {
+    info: "FastChat-T5是一个开源聊天机器人，通过在来自ShareGPT的用户共享对话数据上微调Flan-t5-xl（30亿参数）进行训练而得到。它基于编码-解码变压器架构，并能自动生成回应来响应用户的输入。",
+  },
+}
 </script>
 
 <template>
@@ -23,7 +31,10 @@ const model = route.query?.name || "ChatGPT"
           <div class="h-30">
             <div class="text-4xl font-bold mb-10">{{ model }}</div>
             <div>
-              这是一个AI模型点评页面，提供模型介绍、参数、相关产品、用户评价和模型试用等功能模块。
+              {{
+                modelInfo?.[model]["info"] ||
+                "这是一个AI模型点评页面，提供模型介绍、参数、相关产品、用户评价和模型试用等功能模块。"
+              }}
             </div>
           </div>
           <div class="mt-10">
@@ -98,24 +109,7 @@ const model = route.query?.name || "ChatGPT"
           </div>
         </div>
       </div>
-      <div class="mt-40 w-full">
-        <el-carousel :interval="5000000" arrow="always">
-          <el-carousel-item v-for="item in 1" :key="item">
-            <div class="px-40 py-10 text-center flex flex-col items-center">
-              <div class="text-xl text-center font-semibold">
-                这个AI模型点评页面真是太棒了！设计简洁大方，用户体验很好。我喜欢它提供的模型介绍、参数、相关产品和用户评价等功能，非常实用！
-              </div>
-              <div class="h-16 w-16 mt-8">
-                <img
-                  src="https://img.jsdesign2.com/assets/element/ai_AheJcMcjCpO/image/2184303fa24312bc9b749c25c9187c99a09cf309.png"
-                  alt=""
-                />
-              </div>
-              <div class="text-xl font-semibold mt-6">葛志强</div>
-            </div>
-          </el-carousel-item>
-        </el-carousel>
-      </div>
+
       <div class="mt-40 w-full flex">
         <div class="flex-1 mr-16">
           <div class="flex mb-10">

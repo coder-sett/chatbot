@@ -66,7 +66,7 @@ const fetchChatAPIOnce = async (
   controller: { signal: any } | undefined
 ) => {
   return await fetchChatAPIProcess({
-    model: model,
+    model: "gpt-3.5-turbo",
     prompt: message,
     signal: controller?.signal,
     onDownloadProgress: ({ event }) => {

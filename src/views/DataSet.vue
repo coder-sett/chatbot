@@ -9,9 +9,16 @@ import GLM from "@/assets/GLM.png"
 
 const router = useRouter()
 const input = ref("")
-const imgList = ref<any>(["基础大模型", "行业大模型", "领域大模型"])
-const modelList = ref<any>(["ChatGPT", "T5-3b", "ChatGLM", "Other", "Other", "Other"])
-const activeName = ref("基础大模型")
+const imgList = ref<any>(["多模态", "自然语言处理", "语音识别"])
+const modelList = ref<any>([
+  "openai_humaneval",
+  "THUDM/AgentInstruct",
+  "EleutherAI/proof-pile-2",
+  "fka/awesome-chatgpt-prompts",
+  "open-web-math/open-web-math",
+  "stingning/ultrachat",
+])
+const activeName = ref("多模态")
 const img2List = ref<any>([
   ChatGPT,
   T5,
@@ -27,19 +34,19 @@ const img2List = ref<any>([
     <Header />
     <section class="flex-1 max-w-[1240px] w-full mx-auto my-5 px-5">
       <div class="flex justify-between h-60 items-center">
-        <div class="text-4xl font-bold">AI模型点评</div>
+        <div class="text-4xl font-bold">AI模型数据集</div>
         <div class="max-w-[620px]">
           <div>
-            欢迎来到AI模型点评页面，这里提供全面的模型介绍、参数、相关产品以及用户评价，让你更好地了解和选择AI模型。
+            这里提供全面的AI模型数据集的分类和数据集列表展示，让你更好地了解和选择AI模型数据集。
           </div>
           <div class="flex mt-8">
-            <el-input v-model="input" size="large" placeholder="输入模型名称" />
+            <el-input v-model="input" size="large" placeholder="输入数据集名称" />
             <el-button class="ml-4" size="large">搜索</el-button>
           </div>
         </div>
       </div>
       <div class="flex justify-between h-30 items-center mt-40">
-        <div class="text-4xl font-bold">AI模型列表</div>
+        <div class="text-4xl font-bold">AI模型数据集列表</div>
       </div>
       <div class="flex justify-between items-start mt-10 mb-40">
         <div class="w-60">
@@ -53,18 +60,7 @@ const img2List = ref<any>([
           </div>
         </div>
         <div class="flex-1 ml-10 grid grid-cols-3 gap-6">
-          <div
-            class="py-2 items-center cursor-pointer"
-            @click="
-              router.push({
-                path: '/modelDetail',
-                query: {
-                  name: modelList[index],
-                },
-              })
-            "
-            v-for="(item, index) in img2List"
-          >
+          <div class="py-2 items-center cursor-pointer" v-for="(item, index) in img2List">
             <div class="rounded-xl overflow-hidden"><img class="w-full h-full" :src="item" /></div>
             <div class="mt-3 font-bold">{{ modelList[index] }}</div>
             <div class="mt-2 text-sm text-ellipsis whitespace-nowrap overflow-hidden">
