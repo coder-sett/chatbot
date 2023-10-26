@@ -7,7 +7,7 @@ export interface CompareStore {
 export const useCompareStore = defineStore("compare-store", {
   state: () => {
     return {
-      CompareList: [{ name: "ChatGPT-3.5" }],
+      CompareList: [],
     }
   },
 
@@ -26,6 +26,9 @@ export const useCompareStore = defineStore("compare-store", {
     },
     getCompareList() {
       return this.$state.CompareList
+    },
+    clearCompareList() {
+      this.CompareList = []
     },
   },
 })

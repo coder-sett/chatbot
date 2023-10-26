@@ -1,18 +1,18 @@
 import { valueEquals } from 'element-plus'; import { log } from 'console';
 <script setup lang="ts">
-import { ref, computed, nextTick } from "vue"
+import { ref, computed, onUnmounted } from "vue"
 import { useCompareStore, useChatStore } from "@/store"
 import { onClickOutside } from "@vueuse/core"
+import { useRoute } from "vue-router"
 
 const compareStore = useCompareStore()
 const chatStore = useChatStore()
 const compareList = computed(() => compareStore.CompareList)
 
 const inputref = ref()
-const activeName = ref("first")
 const isSearch = ref(false)
-const allList = ref(["ChatGPT-3.5", "ChatGPT-4", "vicuna-7b-v1.5", "chatGLM"])
-const searchList2 = ref(["ChatGPT-3.5", "ChatGPT-4", "vicuna-7b-v1.5", "chatGLM"])
+const allList = ref(["ChatGPT-3.5", "T5-3b", "vicuna-7b-v1.5", "chatGLM"])
+const searchList2 = ref(["ChatGPT-3.5", "T5-3b", "vicuna-7b-v1.5", "chatGLM"])
 
 const target = ref(null)
 onClickOutside(target, (event) => (isSearch.value = false))
@@ -31,6 +31,16 @@ const deleteCompare = (name) => {
   compareStore.deleteCompareItem({ name })
   chatStore.deleteSources(name)
 }
+
+const route = useRoute()
+addCompare(route?.query.name || "ChatGPT")
+
+onUnmounted(() => {
+  compareStore.clearCompareList()
+  // compareList.value.forEach((item) => {
+  //   deleteCompare(item.name)
+  // })
+})
 </script>
 
 <template>

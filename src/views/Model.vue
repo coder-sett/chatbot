@@ -3,14 +3,20 @@ import { ref } from "vue"
 import Header from "@/components/Header/index.vue"
 import Footer from "@/components/Footer/index.vue"
 import { useRouter } from "vue-router"
+import ChatGPT from "@/assets/ChatGPT.png"
+import T5 from "@/assets/t5.png"
 
 const router = useRouter()
 const input = ref("")
-const imgList = ref<any>(["图像识别", "语音识别", "自然语言处理", "推荐系统", "人脸识别"])
-const activeName = ref("图像识别")
+const imgList = ref<any>(["基础大模型", "行业大模型", "领域大模型"])
+const modelList = ref<any>(["ChatGPT", "T5-3b", "ChatGLM", "Other", "Other", "Other"])
+const activeName = ref("基础大模型")
 const img2List = ref<any>([
-  "https://img.jsdesign2.com/assets/img/6455ebf47e26e5aacb2ab830.png#2310fb77ad1762404ab25101fd5ce24b",
+  ChatGPT,
+  T5,
   "https://img.jsdesign2.com/assets/img/6475a9536be6533b8a7441f0.png#ebade77ad960ea0306274202cbfdb640",
+  "https://img.jsdesign2.com/assets/img/652ca2e6454393a7d697adb0.png#c349e97700e81fe55284332a6d77cd93",
+  "https://img.jsdesign2.com/assets/img/652ca2e6454393a7d697adb0.png#c349e97700e81fe55284332a6d77cd93",
   "https://img.jsdesign2.com/assets/img/652ca2e6454393a7d697adb0.png#c349e97700e81fe55284332a6d77cd93",
 ])
 </script>
@@ -48,37 +54,18 @@ const img2List = ref<any>([
         <div class="flex-1 ml-10 grid grid-cols-3 gap-6">
           <div
             class="py-2 items-center cursor-pointer"
-            @click="router.push('/modelDetail')"
-            v-for="item in img2List"
+            @click="
+              router.push({
+                path: '/modelDetail',
+                query: {
+                  name: modelList[index],
+                },
+              })
+            "
+            v-for="(item, index) in img2List"
           >
             <div class="rounded-xl overflow-hidden"><img :src="item" /></div>
-            <div class="mt-3 font-bold">智能助手</div>
-            <div class="mt-2 text-sm text-ellipsis whitespace-nowrap overflow-hidden">
-              人工智能助手可以帮助您完成各种任务，提高工作效率
-            </div>
-            <div class="mt-2 text-sm flex">
-              <img
-                class="w-5 h-5 mr-2"
-                src="https://img.jsdesign2.com/assets/element/ai_AheJcMcjCpO/image/c55515821e36c495c64b891645a48b0039c951d6.png"
-              />
-              <img
-                class="w-5 h-5 mr-2"
-                src="https://img.jsdesign2.com/assets/element/ai_AheJcMcjCpO/image/c55515821e36c495c64b891645a48b0039c951d6.png"
-              />
-              <img
-                class="w-5 h-5 mr-2"
-                src="https://img.jsdesign2.com/assets/element/ai_AheJcMcjCpO/image/c55515821e36c495c64b891645a48b0039c951d6.png"
-              />
-              <img
-                class="w-5 h-5 mr-2"
-                src="https://img.jsdesign2.com/assets/element/ai_AheJcMcjCpO/image/c55515821e36c495c64b891645a48b0039c951d6.png"
-              />
-              <div class="ml-4">4星</div>
-            </div>
-          </div>
-          <div class="py-2 items-center cursor-pointer" v-for="item in img2List">
-            <div class="rounded-xl overflow-hidden"><img :src="item" /></div>
-            <div class="mt-3 font-bold">智能助手</div>
+            <div class="mt-3 font-bold">{{ modelList[index] }}</div>
             <div class="mt-2 text-sm text-ellipsis whitespace-nowrap overflow-hidden">
               人工智能助手可以帮助您完成各种任务，提高工作效率
             </div>

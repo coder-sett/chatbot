@@ -1,13 +1,17 @@
 <script setup lang="ts">
 import { ref } from "vue"
 import { ThumbsUp } from "@icon-park/vue-next"
-import { useRouter } from "vue-router"
+import { useRoute, useRouter } from "vue-router"
 import Header from "@/components/Header/index.vue"
 import Footer from "@/components/Footer/index.vue"
 
+const route = useRoute()
 const router = useRouter()
+
 const activeName = ref("first")
 const input = ref("")
+console.log(route.query.name)
+const model = route.query?.name || "ChatGPT"
 </script>
 
 <template>
@@ -17,7 +21,7 @@ const input = ref("")
       <div class="flex">
         <div class="mt-40 flex-1">
           <div class="h-30">
-            <div class="text-4xl font-bold mb-10">AI模型详情</div>
+            <div class="text-4xl font-bold mb-10">{{ model }}</div>
             <div>
               这是一个AI模型点评页面，提供模型介绍、参数、相关产品、用户评价和模型试用等功能模块。
             </div>
@@ -81,9 +85,16 @@ const input = ref("")
           </div>
           <div
             class="bg-[#333] rounded-md w-full mt-10 py-2 text-[#fff] text-center cursor-pointer"
-            @click="router.push('/evaluate')"
+            @click="
+              router.push({
+                path: '/evaluate',
+                query: {
+                  name: model,
+                },
+              })
+            "
           >
-            申请试用
+            立即试用
           </div>
         </div>
       </div>

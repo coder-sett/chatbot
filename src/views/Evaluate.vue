@@ -3,7 +3,10 @@ import { ref } from "vue"
 import type { TabsPaneContext } from "element-plus"
 import Battle from "./Battle.vue"
 import BotBattle from "@/components/Bot/BotBattle.vue"
+import { useRoute } from "vue-router"
 
+const route = useRoute()
+console.log(route.query.name)
 defineProps<{ msg: string }>()
 
 const activeName = ref("first")

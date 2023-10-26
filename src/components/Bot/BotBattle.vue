@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, created, onMounted, computed } from "vue"
 import { Refresh, CircleClose, Delete } from "@element-plus/icons-vue"
-import { ThumbsUp, CloseOne } from "@icon-park/vue-next"
+import { ThumbsUp, CloseOne, CommentOne, Comments } from "@icon-park/vue-next"
 import { fetchBotList, fetchChatAPIProcess } from "@/api"
 import Compare from "@/components/Bot/Compare.vue"
 import MessageBox from "@/components/Bot/MessageBox.vue"
@@ -27,6 +27,7 @@ const prompt = ref<string>("")
 const botList = ref<any>([])
 const showName = ref<boolean>(false)
 const showBtn = ref<boolean>(false)
+const isContext = ref<boolean>(false)
 
 let controllerList = []
 let prePrompt = ""
@@ -292,11 +293,33 @@ onMounted(() => {
       <el-tooltip effect="dark" content="清除历史记录" placement="top">
         <el-button
           size="large"
-          type="danger"
           circle
           :icon="Delete"
           :disabled="loading"
           @click="handleDelete"
+        ></el-button>
+      </el-tooltip>
+      <el-tooltip
+        v-if="isContext"
+        effect="dark"
+        content="当前是多轮对话，点击切换单轮对话"
+        placement="top"
+      >
+        <el-button
+          size="large"
+          circle
+          :icon="Comments"
+          :disabled="loading"
+          @click="isContext = !isContext"
+        ></el-button>
+      </el-tooltip>
+      <el-tooltip v-else effect="dark" content="当前是单轮对话，点击切换多轮对话" placement="top">
+        <el-button
+          size="large"
+          circle
+          :icon="CommentOne"
+          :disabled="loading"
+          @click="isContext = !isContext"
         ></el-button>
       </el-tooltip>
 
@@ -328,5 +351,8 @@ onMounted(() => {
 }
 .el-input__wrapper:hover {
   /* box-shadow: 0 0 2px #dcdfe6, 0 2px 6px #dcdfe6; */
+}
+.el-icon {
+  font-size: 18px;
 }
 </style>
