@@ -368,6 +368,7 @@ onUnmounted(() => {
           <el-cascader
             size="large"
             v-model="inputModel"
+            popper-class="cascader-popper"
             :options="cascaderOptions"
             :props="{
               expandTrigger: 'hover',
@@ -409,5 +410,10 @@ onUnmounted(() => {
 }
 .el-input-group__prepend {
   padding: 0;
+}
+.cascader-popper {
+}
+.el-cascader-menu__wrap.el-scrollbar__wrap {
+  height: 100%;
 }
 </style>
