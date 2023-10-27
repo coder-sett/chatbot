@@ -2,7 +2,6 @@ import { log } from 'console';
 <script setup lang="ts">
 import { ref } from "vue"
 import { CompareItem } from "@/store"
-import BotBattle from "@/components/Bot/BotBattle.vue"
 import { useChatStore } from "@/store"
 
 const { bot } = defineProps<{ bot: CompareItem }>()
@@ -10,12 +9,6 @@ const chatStore = useChatStore()
 chatStore.addChatSources(bot.name)
 const dataSources = chatStore.getChatByName(bot.name)
 console.log(dataSources)
-const modelA = ref<string>("")
-const activeName = ref("first")
-const showName = ref<boolean>(false)
-const handleClick = (tab: TabsPaneContext, event: Event) => {
-  console.log(tab, event)
-}
 </script>
 
 <template>
@@ -26,7 +19,9 @@ const handleClick = (tab: TabsPaneContext, event: Event) => {
     <div class="overflow-auto h-[560px]">
       <Message
         v-for="(item, index) of dataSources.chatList"
+        :botName="bot.name"
         :key="index"
+        :id="item.id"
         :date-time="item.dateTime"
         :text="item.text"
         :inversion="item.inversion"

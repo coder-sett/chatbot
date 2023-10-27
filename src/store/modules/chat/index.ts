@@ -7,6 +7,7 @@ export interface Chat {
   error?: boolean
   loading?: boolean
   conversationOptions?: null
+  id?: string
   requestOptions: { prompt: string; options?: null }
 }
 export interface ChatSources {
@@ -42,11 +43,13 @@ export const useChatStore = defineStore("chat-store", {
     },
     addChatByName(botName: string, chat: Chat) {
       const item = this.chatStoreList.find((item: ChatSources) => item.name === botName)
+      !chat.id && (chat.id = String(item?.chatList.length))
       item?.chatList.push(chat)
     },
     updateChatByName(botName: string, chat: Chat) {
       const item = this.chatStoreList.find((item: ChatSources) => item.name === botName)
       const chatList = item!.chatList
+      !chat.id && (chat.id = String(chatList.length))
       item!.chatList[chatList.length - 1] = chat
     },
     clearChat() {

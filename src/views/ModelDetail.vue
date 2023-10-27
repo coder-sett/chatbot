@@ -89,7 +89,9 @@ const modelInfo = {
           <div>
             <div class="mt-6">模型类型</div>
             <div class="mt-2 flex justify-between">
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">ensorFlow</div>
+              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">
+                tensorFlow
+              </div>
               <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">PyTorch</div>
               <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">Keras</div>
             </div>
