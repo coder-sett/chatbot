@@ -11,6 +11,7 @@ interface Props {
   text?: string
   loading?: boolean
   asRawText?: boolean
+  isComment?: boolean
 }
 
 const props = defineProps<Props>()
@@ -37,10 +38,9 @@ const wrapClass = computed(() => {
   return [
     "text-wrap",
     "min-w-[20px] px-3 py-2",
-    "rounded-xl",
-    props.inversion
-      ? "bg-[#fff7ed] border border-[#fdba74] text-[#24292f] rounded-br-none"
-      : "bg-[#f3f4f6] border border-[#e5e7eb] text-[#24292f] rounded-bl-none",
+    "text-[#24292f] border rounded-xl",
+    props.inversion ? "bg-[#fff7ed]  border-[#fdba74]" : "bg-[#f3f4f6]  border-[#e5e7eb]",
+    props.isComment ? "" : props.inversion ? "rounded-br-none" : "rounded-bl-none",
     // props.inversion ? "message-request" : "message-reply",
     { "text-red-500": props.error },
   ]

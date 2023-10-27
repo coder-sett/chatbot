@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, created, onMounted, computed } from "vue"
+import { ref, created, onMounted, computed, onUnmounted } from "vue"
 import { Refresh, CircleClose, Delete } from "@element-plus/icons-vue"
 import { ThumbsUp, CloseOne, CommentOne, Comments } from "@icon-park/vue-next"
 import { fetchBotList, fetchChatAPIProcess } from "@/api"
@@ -26,7 +26,7 @@ const loading = ref<boolean>(false)
 const prompt = ref<string>("")
 const botList = ref<any>([])
 const showName = ref<boolean>(false)
-const showBtn = ref<boolean>(false)
+// const showBtn = ref<boolean>(false)
 const isContext = ref<boolean>(false)
 
 let controllerList = []
@@ -156,8 +156,6 @@ const handleSubmit = async () => {
         )
       }
     })
-
-    showBtn.value = true
   } catch (error: any) {
     const errorMessage = error?.message ?? "出错了"
     console.log(errorMessage, error)
@@ -175,7 +173,6 @@ const handleEnter = (event: KeyboardEvent) => {
 }
 const handleDelete = () => {
   chatStore.clearChat()
-  showBtn.value = false
   prePrompt = ""
 }
 const handleRegenerate = async () => {
@@ -235,7 +232,6 @@ const handleRegenerate = async () => {
         )
       }
     })
-    showBtn.value = true
   } catch (error: any) {
     const errorMessage = error?.message ?? "出错了"
     console.log(errorMessage, error)
@@ -255,9 +251,53 @@ const handleStop = () => {
 const handleShowName = () => {
   showName.value = true
 }
-
+const qList = {
+  担任歌曲推荐人:
+    "我想让你担任歌曲推荐人。我将为您提供一首歌曲，您将创建一个包含 10 首与给定歌曲相似的歌曲的播放列表。您将为播放列表提供播放列表名称和描述。不要选择同名或同名歌手的歌曲。不要写任何解释或其他文字，只需回复播放列表名称、描述和歌曲。我的第一首歌是“Other Lives - Epic”。",
+  担任产品经理:
+    "我将要求您准备一页纸的设计合作伙伴协议草案，该协议是一家拥有 IP 的技术初创公司与该初创公司技术的潜在客户之间的协议，该客户为该初创公司正在解决的问题空间提供数据和领域专业知识。您将写下大约 1 a4 页的拟议设计合作伙伴协议，涵盖 IP、机密性、商业权利、提供的数据、数据的使用等所有重要方面。",
+}
+const handleInputModelChange = (e) => {
+  console.log(e[1])
+  if (e[1]) {
+    prompt.value = qList[e[1]]
+  } else {
+    prompt.value = ""
+  }
+}
+const inputModel = ref(["1"])
+const cascaderOptions = [
+  {
+    value: "1",
+    label: "手动输入",
+  },
+  {
+    value: "2",
+    label: "问题集",
+    children: [
+      {
+        value: "担任歌曲推荐人",
+        label: "担任歌曲推荐人",
+      },
+      {
+        value: "担任产品经理",
+        label: "担任产品经理",
+      },
+    ],
+  },
+  {
+    value: "3",
+    label: "任务生成",
+  },
+]
+// <el-option label="手动输入" :value="1" />
+//             <el-option label="问题集" :value="2" />
+//             <el-option label="任务生成" :value="3" />
 onMounted(() => {
   // init()
+})
+onUnmounted(() => {
+  chatStore.clearChat()
 })
 </script>
 
@@ -269,13 +309,13 @@ onMounted(() => {
         <MessageBox v-for="item in compareList" :bot="item" />
       </div>
     </div>
-    <div v-if="showBtn" class="w-full grid grid-cols-4 gap-4 mt-4">
+    <!-- <div v-if="showBtn" class="w-full grid grid-cols-4 gap-4 mt-4">
       <el-button class="!ml-0" @click="handleShowName" type="primary">A is better</el-button>
       <el-button class="!ml-0" @click="handleShowName" type="primary">B is better</el-button>
       <el-button class="!ml-0" @click="handleShowName" type="primary">Tie</el-button>
       <el-button class="!ml-0" @click="handleShowName" type="primary">Both are bad</el-button>
-    </div>
-    <div class="mt-8 flex items-center justify-between space-x-4">
+    </div> -->
+    <div class="mt-8 flex items-center justify-between space-x-3">
       <el-tooltip effect="dark" content="停止生成" placement="top">
         <el-button size="large" circle :icon="CloseOne" :disabled="!loading" @click="handleStop">
         </el-button>
@@ -323,13 +363,25 @@ onMounted(() => {
         ></el-button>
       </el-tooltip>
 
-      <el-input
-        class="my-box"
-        size="large"
-        v-model="prompt"
-        placeholder=""
-        @keypress="handleEnter"
-      />
+      <el-input class="my-box" size="large" v-model="prompt" placeholder="" @keypress="handleEnter">
+        <template #prepend>
+          <el-cascader
+            size="large"
+            v-model="inputModel"
+            :options="cascaderOptions"
+            :props="{
+              expandTrigger: 'hover',
+            }"
+            @change="handleInputModelChange"
+          />
+          <!-- <el-select v-model="inputModel" size="large" placeholder="Select" style="width: 115px">
+            <el-option label="手动输入" :value="1" />
+            <el-option label="问题集" :value="2" />
+            <el-option label="任务生成" :value="3" />
+          </el-select> -->
+        </template>
+      </el-input>
+
       <el-button
         size="large"
         class="ml-4"
@@ -354,5 +406,8 @@ onMounted(() => {
 }
 .el-icon {
   font-size: 18px;
+}
+.el-input-group__prepend {
+  padding: 0;
 }
 </style>
