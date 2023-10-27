@@ -4,8 +4,11 @@ import Header from "@/components/Header/index.vue"
 import Footer from "@/components/Footer/index.vue"
 import { useRouter } from "vue-router"
 import ChatGPT from "@/assets/ChatGPT.png"
-import T5 from "@/assets/t5.png"
 import GLM from "@/assets/GLM.png"
+import fka from "@/assets/fka.png"
+import openWeb from "@/assets/openWeb.png"
+import openAi from "@/assets/openAi.png"
+import EAI from "@/assets/EAI.png"
 
 const router = useRouter()
 const input = ref("")
@@ -16,16 +19,18 @@ const modelList = ref<any>([
   "EleutherAI/proof-pile-2",
   "fka/awesome-chatgpt-prompts",
   "open-web-math/open-web-math",
-  "stingning/ultrachat",
+  "openai/summarize_from_feedback",
 ])
 const activeName = ref("多模态")
 const img2List = ref<any>([
-  ChatGPT,
-  T5,
+  openAi,
   GLM,
-  "https://img.jsdesign2.com/assets/img/6475a9536be6533b8a7441f0.png#ebade77ad960ea0306274202cbfdb640",
-  "https://img.jsdesign2.com/assets/img/652ca2e6454393a7d697adb0.png#c349e97700e81fe55284332a6d77cd93",
-  "https://img.jsdesign2.com/assets/img/652ca2e6454393a7d697adb0.png#c349e97700e81fe55284332a6d77cd93",
+  EAI,
+  fka,
+  openWeb,
+  ChatGPT,
+  // "https://img.jsdesign2.com/assets/img/6475a9536be6533b8a7441f0.png#ebade77ad960ea0306274202cbfdb640",
+  // "https://img.jsdesign2.com/assets/img/652ca2e6454393a7d697adb0.png#c349e97700e81fe55284332a6d77cd93",
 ])
 </script>
 
@@ -60,7 +65,18 @@ const img2List = ref<any>([
           </div>
         </div>
         <div class="flex-1 ml-10 grid grid-cols-3 gap-6">
-          <div class="py-2 items-center cursor-pointer" v-for="(item, index) in img2List">
+          <div
+            class="py-2 items-center cursor-pointer"
+            @click="
+              router.push({
+                path: '/dataSetDetail',
+                query: {
+                  name: encodeURIComponent(modelList[index]),
+                },
+              })
+            "
+            v-for="(item, index) in img2List"
+          >
             <div class="rounded-xl overflow-hidden"><img class="w-full h-full" :src="item" /></div>
             <div class="mt-3 font-bold">{{ modelList[index] }}</div>
             <div class="mt-2 text-sm text-ellipsis whitespace-nowrap overflow-hidden">

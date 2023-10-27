@@ -29,7 +29,7 @@ const showName = ref<boolean>(false)
 // const showBtn = ref<boolean>(false)
 const isContext = ref<boolean>(false)
 
-let controllerList = []
+let controllerList: any[] = []
 let prePrompt = ""
 
 function getRandomElements(arr: any[], count: number) {

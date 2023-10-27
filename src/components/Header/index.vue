@@ -14,6 +14,7 @@ const router = useRouter()
           <div class="ml-10 cursor-pointer" @click="router.push('/model')">模型</div>
           <div class="ml-10 cursor-pointer" @click="router.push('/dataSet')">数据集</div>
           <div class="ml-10 cursor-pointer" @click="router.push('/evaluate')">在线评测</div>
+          <div class="ml-10 cursor-pointer" @click="router.push('/dataSetMore')">数据协作</div>
         </div>
       </div>
       <div class="h-10 flex flex-row mr-20 items-center">

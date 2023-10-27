@@ -12,13 +12,12 @@ const router = useRouter()
 
 const activeName = ref("first")
 const input = ref("")
-console.log(route.query.name)
 const model = route.query?.name || "ChatGPT"
 const modelInfo: MyMap = {
-  ChatGPT: {
+  openai_humaneval: {
     info: "GPT-3.5 由openAI开发并通过API提供服务，模型能够理解和生成自然语言或代码。在GPT-3.5系列中，最具能力且成本效益最高的模型是gpt-3.5-turbo，它经过了针对聊天功能进行优化，并通过Chat completions API实现。它同样也适用于传统的对话任务。",
   },
-  "T5-3b": {
+  "THUDM/AgentInstruct": {
     info: "FastChat-T5是一个开源聊天机器人，通过在来自ShareGPT的用户共享对话数据上微调Flan-t5-xl（30亿参数）进行训练而得到。它基于编码-解码变压器架构，并能自动生成回应来响应用户的输入。",
   },
 }
@@ -35,14 +34,14 @@ const modelInfo: MyMap = {
             <div>
               {{
                 modelInfo?.[model as string]["info"] ||
-                "这是一个AI模型点评页面，提供模型介绍、参数、相关产品、用户评价和模型试用等功能模块。"
+                "这是一个AI模型数据集点评页面，提供模型介绍、参数、相关产品、用户评价和模型试用等功能模块。"
               }}
             </div>
           </div>
           <div class="mt-10">
             <el-tabs v-model="activeName" class="demo-tabs">
               <el-tab-pane label="模型参数" name="first"
-                >该页面提供了详细的AI模型介绍和参数，以及相关产品的展示和用户评价功能。用户可以通过模型参数了解模型的性能和特点，通过相关产品了解模型的应用场景和使用案例，通过用户评价了解其他用户对模型的评价和体验。</el-tab-pane
+                >该页面提供了详细的AI模型数据集介绍和参数，以及相关产品的展示和用户评价功能。用户可以通过模型参数了解模型的性能和特点，通过相关产品了解模型的应用场景和使用案例，通过用户评价了解其他用户对模型的评价和体验。</el-tab-pane
               >
               <el-tab-pane label="模型参数" name="second">模型参数</el-tab-pane>
               <el-tab-pane label="相关产品" name="third">相关产品</el-tab-pane>
@@ -51,7 +50,7 @@ const modelInfo: MyMap = {
         </div>
         <div class="mt-40 w-[400px] ml-20">
           <div class="h-30">
-            <div class="text-4xl font-bold">模型评价</div>
+            <div class="text-4xl font-bold">数据集评价</div>
             <div class="mt-6 text-sm flex">
               <img
                 class="w-5 h-5 mr-2"
@@ -73,7 +72,7 @@ const modelInfo: MyMap = {
             </div>
           </div>
           <div>
-            <div class="mt-6">模型类型</div>
+            <div class="mt-6">数据集类型</div>
             <div class="mt-2 flex justify-between">
               <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">图像识别</div>
               <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">语音识别</div>
@@ -81,7 +80,7 @@ const modelInfo: MyMap = {
             </div>
           </div>
           <div>
-            <div class="mt-6">模型类型</div>
+            <div class="mt-6">数据集类型</div>
             <div class="mt-2 flex justify-between">
               <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">CPU</div>
               <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">GPU</div>
@@ -89,7 +88,7 @@ const modelInfo: MyMap = {
             </div>
           </div>
           <div>
-            <div class="mt-6">模型类型</div>
+            <div class="mt-6">数据集类型</div>
             <div class="mt-2 flex justify-between">
               <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">
                 tensorFlow
@@ -102,19 +101,19 @@ const modelInfo: MyMap = {
             class="bg-[#333] rounded-md w-full mt-10 py-2 text-[#fff] text-center cursor-pointer"
             @click="
               router.push({
-                path: '/evaluate',
+                path: '/dataSetMore',
                 query: {
                   name: model,
                 },
               })
             "
           >
-            立即试用
+            查看更多
           </div>
         </div>
       </div>
 
-      <div class="mt-40 w-full flex">
+      <!-- <div class="mt-40 w-full flex">
         <div class="flex-1 mr-16">
           <div class="flex mb-10">
             <div class="h-16 w-16 rounded-full overflow-hidden">
@@ -243,7 +242,7 @@ const modelInfo: MyMap = {
             <el-button class="ml-4" type="" size="large">提交</el-button>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
     <Footer />
   </div>
