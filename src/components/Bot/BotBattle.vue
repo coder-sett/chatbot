@@ -103,7 +103,7 @@ const handleSubmit = async () => {
 
   if (!prePrompt || prePrompt.trim() === "") return
   loading.value = true
-
+  prompt.value = ""
   const promiseList = []
   const botList = []
   controllerList = []
@@ -162,7 +162,6 @@ const handleSubmit = async () => {
   } finally {
     loading.value = false
   }
-  prompt.value = ""
 }
 
 const handleEnter = (event: KeyboardEvent) => {
@@ -256,6 +255,7 @@ const qList = {
     "我想让你担任歌曲推荐人。我将为您提供一首歌曲，您将创建一个包含 10 首与给定歌曲相似的歌曲的播放列表。您将为播放列表提供播放列表名称和描述。不要选择同名或同名歌手的歌曲。不要写任何解释或其他文字，只需回复播放列表名称、描述和歌曲。我的第一首歌是“Other Lives - Epic”。",
   担任产品经理:
     "我将要求您准备一页纸的设计合作伙伴协议草案，该协议是一家拥有 IP 的技术初创公司与该初创公司技术的潜在客户之间的协议，该客户为该初创公司正在解决的问题空间提供数据和领域专业知识。您将写下大约 1 a4 页的拟议设计合作伙伴协议，涵盖 IP、机密性、商业权利、提供的数据、数据的使用等所有重要方面。",
+  JS正则判断手机号: "请提供一个JS正则代码，用于判断是否是真实手机号",
 }
 const handleInputModelChange = (e) => {
   console.log(e[1])
@@ -273,8 +273,12 @@ const cascaderOptions = [
   },
   {
     value: "2",
-    label: "问题集",
+    label: "大家都在问",
     children: [
+      {
+        value: "JS正则判断手机号",
+        label: "JS正则判断手机号",
+      },
       {
         value: "担任歌曲推荐人",
         label: "担任歌曲推荐人",
@@ -287,7 +291,11 @@ const cascaderOptions = [
   },
   {
     value: "3",
-    label: "任务生成",
+    label: "问题集",
+  },
+  {
+    value: "3",
+    label: "根据场景、任务生成",
   },
 ]
 // <el-option label="手动输入" :value="1" />
@@ -375,11 +383,6 @@ onUnmounted(() => {
             }"
             @change="handleInputModelChange"
           />
-          <!-- <el-select v-model="inputModel" size="large" placeholder="Select" style="width: 115px">
-            <el-option label="手动输入" :value="1" />
-            <el-option label="问题集" :value="2" />
-            <el-option label="任务生成" :value="3" />
-          </el-select> -->
         </template>
       </el-input>
 
