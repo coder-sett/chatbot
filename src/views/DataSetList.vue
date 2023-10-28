@@ -181,15 +181,14 @@ const activities = [
           />
         </el-select>
       </div>
-      <div class="flex w-full h-[800px] mt-8">
+      <div class="flex w-full h-[840px] mt-8">
         <div class="bg-white flex-1 h-full px-3 rounded">
           <div
             v-for="(item, index) in resultList"
-            class="border-t h-[100px] pt-4 px-4 cursor-pointer"
+            class="border-b h-[100px] pt-4 px-4 cursor-pointer"
             @click="showSide = true"
-            :class="index === 0 ? '!border-t-0' : ''"
           >
-            <div class="text-xl">{{ item.name }}</div>
+            <div class="">{{ item.name }}</div>
             <div class="mt-2">{{ item.other }}</div>
             <div class="flex justify-end text-[#00000073] text-xs">{{ item.time }}</div>
           </div>

@@ -4,6 +4,7 @@ import { ThumbsUp } from "@icon-park/vue-next"
 import { useRoute, useRouter } from "vue-router"
 import Header from "@/components/Header/index.vue"
 import Footer from "@/components/Footer/index.vue"
+import Dataset from "@/assets/2.png"
 interface MyMap {
   [key: string]: { [key: string]: string }
 }
@@ -34,24 +35,24 @@ const modelInfo: MyMap = {
             <div>
               {{
                 // modelInfo?.[model as string]["info"] ||
-                "这是一个WIKI百科数据集，提供数据集介绍、参数、相关产品、用户评价和模型试用等功能模块。"
+                "这是一个WIKI百科验证集，提供验证集介绍、参数、相关产品、用户评价和模型试用等功能模块。"
               }}
             </div>
           </div>
           <div class="mt-10">
             <el-tabs v-model="activeName" class="demo-tabs">
-              <el-tab-pane label="模型参数" name="first"
-                >该页面提供了详细的AI模型数据集介绍和参数，以及相关产品的展示和用户评价功能。用户可以通过模型参数了解模型的性能和特点，通过相关产品了解模型的应用场景和使用案例，通过用户评价了解其他用户对模型的评价和体验。</el-tab-pane
+              <el-tab-pane label="验证集参数" name="first"
+                >该页面提供了详细的AI模型验证集介绍和参数，以及相关产品的展示和用户评价功能。用户可以通过模型参数了解模型的性能和特点，通过相关产品了解模型的应用场景和使用案例，通过用户评价了解其他用户对模型的评价和体验。</el-tab-pane
               >
-              <el-tab-pane label="模型参数" name="second">模型参数</el-tab-pane>
+              <el-tab-pane label="验证集参数" name="second">验证集参数</el-tab-pane>
               <el-tab-pane label="相关产品" name="third">相关产品</el-tab-pane>
             </el-tabs>
           </div>
         </div>
-        <div class="mt-40 w-[400px] ml-20">
+        <div class="mt-40 w-[300px] ml-20">
           <div class="h-30">
-            <div class="text-4xl font-bold">数据集评价</div>
-            <div class="mt-6 text-sm flex">
+            <div class="text-2xl font-bold">验证集评价</div>
+            <div class="mt-3 text-sm flex">
               <img
                 class="w-5 h-5 mr-2"
                 src="https://img.jsdesign2.com/assets/element/ai_AheJcMcjCpO/image/c55515821e36c495c64b891645a48b0039c951d6.png"
@@ -72,41 +73,41 @@ const modelInfo: MyMap = {
             </div>
           </div>
           <div>
-            <div class="mt-6">数据集类型</div>
+            <div class="mt-3">验证集类型</div>
             <div class="mt-2 flex justify-between">
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">图像识别</div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">语音识别</div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">自然语言</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">图像识别</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">语音识别</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">自然语言</div>
             </div>
           </div>
           <div>
-            <div class="mt-6">数据集语言</div>
+            <div class="mt-3">验证集语言</div>
             <div class="mt-2 flex justify-between">
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">English</div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">Chinese</div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">Other</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">English</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">Chinese</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">Other</div>
             </div>
           </div>
           <div>
-            <div class="mt-6">数据集License</div>
+            <div class="mt-3">验证集License</div>
             <div class="mt-2 flex justify-between">
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">MIT 2.0</div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">可修改</div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">可商用</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">MIT 2.0</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">可修改</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">可商用</div>
             </div>
           </div>
           <div>
-            <div class="mt-6">子数据集</div>
+            <div class="mt-3">子验证集</div>
             <div class="mt-2 flex justify-between">
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">训练集</div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">验证集</div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">测试集</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">训练集</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">验证集</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">测试集</div>
             </div>
           </div>
           <div class="flex mt-10">
             <el-button
               type="primary"
-              class="w-[198px]"
+              class="w-full"
               @click="
                 router.push({
                   path: '/dataSetList',
@@ -116,27 +117,28 @@ const modelInfo: MyMap = {
                 })
               "
             >
-              Review
+              数据Review
             </el-button>
-            <el-button class="w-[198px]" type="primary">修改 </el-button>
           </div>
           <!-- <div
-            class="bg-[#333] rounded-md w-full mt-10 py-2 text-[#fff] text-center cursor-pointer"
+            class="bg-[#333] rounded-md w-full mt-10 py-1 text-[#fff] text-center cursor-pointer"
             @click="
               router.push({
-                path: '/dataSetMore',
+                path: '/dataSetList',
                 query: {
-                  name: model,
+                  name: encodeURIComponent(model),
                 },
               })
             "
           >
-            查看更多
+            Review
           </div> -->
         </div>
       </div>
-
-      <div class="mt-40 w-full flex">
+      <div class="w-full mt-8">
+        <img class="w-full" :src="Dataset" />
+      </div>
+      <div class="mt-10 w-full flex">
         <div class="flex-1 mr-16">
           <div class="flex mb-10">
             <div class="h-16 w-16 rounded-full overflow-hidden">
@@ -147,7 +149,7 @@ const modelInfo: MyMap = {
             </div>
             <div class="flex-1 ml-4">
               <div>Daniel Anderson · 2023-04-01</div>
-              <div class="font-semibold mt-2">这个数据集非常好用，准确率非常高</div>
+              <div class="font-semibold mt-2">这个验证集非常好用，准确率非常高</div>
             </div>
             <div class="flex cursor-pointer mt-2">
               <thumbs-up theme="outline" size="24" fill="#333" />
@@ -163,7 +165,7 @@ const modelInfo: MyMap = {
             </div>
             <div class="flex-1 ml-4">
               <div>Daniel Anderson · 2023-04-01</div>
-              <div class="font-semibold mt-2">这个数据集非常好用，准确率非常高</div>
+              <div class="font-semibold mt-2">这个验证集非常好用，准确率非常高</div>
             </div>
             <div class="flex cursor-pointer mt-2">
               <thumbs-up theme="outline" size="24" fill="#333" />

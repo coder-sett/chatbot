@@ -74,19 +74,19 @@ const dataList = [
     <Header />
     <section class="flex-1 max-w-[1240px] w-full mx-auto my-5 px-5">
       <div class="flex justify-between h-60 items-center">
-        <div class="text-4xl font-bold">AI模型数据集</div>
+        <div class="text-4xl font-bold">AI模型验证集</div>
         <div class="max-w-[620px]">
           <div>
-            这里提供全面的AI模型数据集的分类和数据集列表展示，让你更好地了解和选择AI模型数据集。
+            这里提供全面的AI模型验证集的分类和验证集列表展示，让你更好地了解和选择AI模型验证集。
           </div>
           <div class="flex mt-8">
-            <el-input class="rounded" v-model="input" size="large" placeholder="输入数据集名称" />
+            <el-input class="rounded" v-model="input" size="large" placeholder="输入验证集名称" />
             <el-button class="ml-4 !h-[42px] rounded" size="large">搜索</el-button>
           </div>
         </div>
       </div>
       <div class="flex justify-between h-30 items-center mt-40">
-        <div class="text-4xl font-bold">AI模型数据集列表</div>
+        <div class="text-4xl font-bold">AI模型验证集列表</div>
       </div>
       <div class="flex justify-between items-start mt-10 mb-40">
         <div class="w-60">
