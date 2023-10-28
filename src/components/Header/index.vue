@@ -12,8 +12,8 @@ const router = useRouter()
         <div class="ml-20 text-base flex items-center">
           <div class="cursor-pointer" @click="router.push('/')">总览</div>
           <div class="ml-10 cursor-pointer" @click="router.push('/model')">模型</div>
-          <div class="ml-10 cursor-pointer" @click="router.push('/dataSet')">验证集</div>
           <div class="ml-10 cursor-pointer" @click="router.push('/evaluate')">在线评测</div>
+          <div class="ml-10 cursor-pointer" @click="router.push('/dataSet')">验证集</div>
           <div class="ml-10 cursor-pointer" @click="router.push('/dataSetList')">数据review</div>
           <div class="ml-10 cursor-pointer" @click="router.push('/dataRoom')">数据车间</div>
         </div>

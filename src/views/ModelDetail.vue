@@ -49,10 +49,10 @@ const modelInfo: MyMap = {
             </el-tabs>
           </div>
         </div>
-        <div class="mt-40 w-[400px] ml-20">
+        <div class="mt-40 w-[300px] ml-20">
           <div class="h-30">
-            <div class="text-4xl font-bold">模型评价</div>
-            <div class="mt-6 text-sm flex">
+            <div class="text-2xl font-bold">模型评价</div>
+            <div class="mt-3 text-sm flex">
               <img
                 class="w-5 h-5 mr-2"
                 src="https://img.jsdesign2.com/assets/element/ai_AheJcMcjCpO/image/c55515821e36c495c64b891645a48b0039c951d6.png"
@@ -73,43 +73,46 @@ const modelInfo: MyMap = {
             </div>
           </div>
           <div>
-            <div class="mt-6">模型类型</div>
+            <div class="mt-3">模型类型</div>
             <div class="mt-2 flex justify-between">
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">图像识别</div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">语音识别</div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">自然语言</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">图像识别</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">语音识别</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">自然语言</div>
             </div>
           </div>
           <div>
-            <div class="mt-6">模型类型</div>
+            <div class="mt-3">模型类型</div>
             <div class="mt-2 flex justify-between">
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">CPU</div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">GPU</div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">TPU</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">CPU</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">GPU</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">TPU</div>
             </div>
           </div>
           <div>
-            <div class="mt-6">模型类型</div>
+            <div class="mt-3">模型类型</div>
             <div class="mt-2 flex justify-between">
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">
                 tensorFlow
               </div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">PyTorch</div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">Keras</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">PyTorch</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">Keras</div>
             </div>
           </div>
-          <div
-            class="bg-[#333] rounded-md w-full mt-10 py-2 text-[#fff] text-center cursor-pointer"
-            @click="
-              router.push({
-                path: '/evaluate',
-                query: {
-                  name: model,
-                },
-              })
-            "
-          >
-            立即试用
+          <div class="flex mt-10">
+            <el-button
+              type="primary"
+              class="w-full"
+              @click="
+                router.push({
+                  path: '/evaluate',
+                  query: {
+                    name: model,
+                  },
+                })
+              "
+            >
+              立即试用
+            </el-button>
           </div>
         </div>
       </div>
@@ -126,7 +129,7 @@ const modelInfo: MyMap = {
                 <div class="flex items-center">
                   <div class="mr-2">Q:</div>
                   <div
-                    class="text-wrap min-w-[20px] px-3 py-2 text-[#24292f] border rounded-xl bg-[#fff7ed] border-[#fdba74]"
+                    class="text-wrap min-w-[20px] px-3 py-1 text-[#24292f] border rounded-xl bg-[#fff7ed] border-[#fdba74]"
                   >
                     <div class="leading-relaxed break-words">
                       <div class="whitespace-pre-wrap">
@@ -138,7 +141,7 @@ const modelInfo: MyMap = {
                 <div class="flex items-center mt-4">
                   <div class="mr-2">A:</div>
                   <div
-                    class="text-wrap min-w-[20px] px-3 py-2 text-[#24292f] border rounded-xl bg-[#f3f4f6] border-[#e5e7eb]"
+                    class="text-wrap min-w-[20px] px-3 py-1 text-[#24292f] border rounded-xl bg-[#f3f4f6] border-[#e5e7eb]"
                   >
                     <div class="leading-relaxed break-words">
                       <div>
@@ -170,7 +173,7 @@ const modelInfo: MyMap = {
                 <div class="flex items-center">
                   <div class="mr-2">Q:</div>
                   <div
-                    class="text-wrap min-w-[20px] px-3 py-2 text-[#24292f] border rounded-xl bg-[#fff7ed] border-[#fdba74]"
+                    class="text-wrap min-w-[20px] px-3 py-1 text-[#24292f] border rounded-xl bg-[#fff7ed] border-[#fdba74]"
                   >
                     <div class="leading-relaxed break-words">
                       <div class="whitespace-pre-wrap">歇后语：小刀剌屁股</div>
@@ -180,7 +183,7 @@ const modelInfo: MyMap = {
                 <div class="flex items-center mt-4">
                   <div class="mr-2">A:</div>
                   <div
-                    class="text-wrap min-w-[20px] px-3 py-2 text-[#24292f] border rounded-xl bg-[#f3f4f6] border-[#e5e7eb]"
+                    class="text-wrap min-w-[20px] px-3 py-1 text-[#24292f] border rounded-xl bg-[#f3f4f6] border-[#e5e7eb]"
                   >
                     <div class="leading-relaxed break-words">
                       <div>

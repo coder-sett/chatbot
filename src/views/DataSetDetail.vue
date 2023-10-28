@@ -96,14 +96,6 @@ const modelInfo: MyMap = {
               <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">可商用</div>
             </div>
           </div>
-          <div>
-            <div class="mt-3">子验证集</div>
-            <div class="mt-2 flex justify-between">
-              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">训练集</div>
-              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">验证集</div>
-              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">测试集</div>
-            </div>
-          </div>
           <div class="flex mt-10">
             <el-button
               type="primary"
