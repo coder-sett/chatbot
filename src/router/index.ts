@@ -43,7 +43,11 @@ const routes: RouteRecordRaw[] = [
     name: "dataSetMore",
     component: () => import("@/views/DataSetMore.vue"),
   },
-
+  {
+    path: "/dataSetList",
+    name: "dataSetList",
+    component: () => import("@/views/DataSetList.vue"),
+  },
   // {
   //   path: '/500',
   //   name: '500',

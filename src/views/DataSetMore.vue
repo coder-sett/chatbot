@@ -2,6 +2,8 @@
 import { ref } from "vue"
 import { useRoute, useRouter } from "vue-router"
 import { UserFilled } from "@element-plus/icons-vue"
+import { ThumbsUp } from "@icon-park/vue-next"
+
 import Header from "@/components/Header/index.vue"
 import Footer from "@/components/Footer/index.vue"
 interface MyMap {

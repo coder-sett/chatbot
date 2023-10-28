@@ -14,7 +14,7 @@ const activeName = ref("first")
 const input = ref("")
 const model = route.query?.name || "ChatGPT"
 const modelInfo: MyMap = {
-  openai_humaneval: {
+  ChatGPT: {
     info: "GPT-3.5 由openAI开发并通过API提供服务，模型能够理解和生成自然语言或代码。在GPT-3.5系列中，最具能力且成本效益最高的模型是gpt-3.5-turbo，它经过了针对聊天功能进行优化，并通过Chat completions API实现。它同样也适用于传统的对话任务。",
   },
   "THUDM/AgentInstruct": {
@@ -30,11 +30,11 @@ const modelInfo: MyMap = {
       <div class="flex">
         <div class="mt-40 flex-1">
           <div class="h-30">
-            <div class="text-4xl font-bold mb-10">{{ model }}</div>
+            <div class="text-4xl font-bold mb-10">WIKI百科</div>
             <div>
               {{
-                modelInfo?.[model as string]["info"] ||
-                "这是一个AI模型数据集点评页面，提供模型介绍、参数、相关产品、用户评价和模型试用等功能模块。"
+                // modelInfo?.[model as string]["info"] ||
+                "这是一个WIKI百科数据集，提供数据集介绍、参数、相关产品、用户评价和模型试用等功能模块。"
               }}
             </div>
           </div>
@@ -80,24 +80,47 @@ const modelInfo: MyMap = {
             </div>
           </div>
           <div>
-            <div class="mt-6">数据集类型</div>
+            <div class="mt-6">数据集语言</div>
             <div class="mt-2 flex justify-between">
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">CPU</div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">GPU</div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">TPU</div>
+              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">English</div>
+              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">Chinese</div>
+              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">Other</div>
             </div>
           </div>
           <div>
-            <div class="mt-6">数据集类型</div>
+            <div class="mt-6">数据集License</div>
             <div class="mt-2 flex justify-between">
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">
-                tensorFlow
-              </div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">PyTorch</div>
-              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">Keras</div>
+              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">MIT 2.0</div>
+              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">可修改</div>
+              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">可商用</div>
             </div>
           </div>
-          <div
+          <div>
+            <div class="mt-6">子数据集</div>
+            <div class="mt-2 flex justify-between">
+              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">训练集</div>
+              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">验证集</div>
+              <div class="bg-[#252525] rounded-md text-center py-2 w-32 text-[#fff]">测试集</div>
+            </div>
+          </div>
+          <div class="flex mt-10">
+            <el-button
+              type="primary"
+              class="w-[198px]"
+              @click="
+                router.push({
+                  path: '/dataSetList',
+                  query: {
+                    name: encodeURIComponent(model),
+                  },
+                })
+              "
+            >
+              Review
+            </el-button>
+            <el-button class="w-[198px]" type="primary">修改 </el-button>
+          </div>
+          <!-- <div
             class="bg-[#333] rounded-md w-full mt-10 py-2 text-[#fff] text-center cursor-pointer"
             @click="
               router.push({
@@ -109,91 +132,22 @@ const modelInfo: MyMap = {
             "
           >
             查看更多
-          </div>
+          </div> -->
         </div>
       </div>
 
-      <!-- <div class="mt-40 w-full flex">
+      <div class="mt-40 w-full flex">
         <div class="flex-1 mr-16">
           <div class="flex mb-10">
             <div class="h-16 w-16 rounded-full overflow-hidden">
-              <img src="https://img.jsdesign2.com/assets/img/64ba19ddcd74b19bb489e278.png" alt="" />
-            </div>
-            <div class="flex-1 mx-4">
-              <div>Daniel J · 2023-04-01</div>
-              <div class="my-2 overflow-auto max-h-[400px] border text-xs rounded p-3">
-                <div class="flex items-center">
-                  <div class="mr-2">Q:</div>
-                  <div
-                    class="text-wrap min-w-[20px] px-3 py-2 text-[#24292f] border rounded-xl bg-[#fff7ed] border-[#fdba74]"
-                  >
-                    <div class="leading-relaxed break-words">
-                      <div class="whitespace-pre-wrap">
-                        在锅里煮一个鸡蛋需要5分钟，如果煮两个鸡蛋需要几分钟?
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="flex items-center mt-4">
-                  <div class="mr-2">A:</div>
-                  <div
-                    class="text-wrap min-w-[20px] px-3 py-2 text-[#24292f] border rounded-xl bg-[#f3f4f6] border-[#e5e7eb]"
-                  >
-                    <div class="leading-relaxed break-words">
-                      <div>
-                        <div class="markdown-body">
-                          <p>在锅里煮两个鸡蛋所需要的时间仍然是5分钟。</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="font-semibold mt-2">准确率还不错</div>
-            </div>
-            <div class="flex cursor-pointer mt-2">
-              <thumbs-up theme="outline" size="24" fill="#333" />
-              <div class="mx-4">289</div>
-            </div>
-          </div>
-          <div class="flex mb-10">
-            <div class="h-16 w-16 rounded-full overflow-hidden">
               <img
                 src="https://img.jsdesign2.com/assets/element/ai_AheJcMcjCpO/image/2184303fa24312bc9b749c25c9187c99a09cf309.png"
                 alt=""
               />
             </div>
-            <div class="flex-1 mx-4">
+            <div class="flex-1 ml-4">
               <div>Daniel Anderson · 2023-04-01</div>
-              <div class="my-2 overflow-auto max-h-[400px] border text-xs rounded p-3">
-                <div class="flex items-center">
-                  <div class="mr-2">Q:</div>
-                  <div
-                    class="text-wrap min-w-[20px] px-3 py-2 text-[#24292f] border rounded-xl bg-[#fff7ed] border-[#fdba74]"
-                  >
-                    <div class="leading-relaxed break-words">
-                      <div class="whitespace-pre-wrap">歇后语：小刀剌屁股</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="flex items-center mt-4">
-                  <div class="mr-2">A:</div>
-                  <div
-                    class="text-wrap min-w-[20px] px-3 py-2 text-[#24292f] border rounded-xl bg-[#f3f4f6] border-[#e5e7eb]"
-                  >
-                    <div class="leading-relaxed break-words">
-                      <div>
-                        <div class="markdown-body">
-                          <p>一刀两断</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="font-semibold mt-2">
-                小刀剌屁股，开‌‌‌‌‌‌‌‌‌了眼了，这个歇后语是形容开了眼界的意思。
-              </div>
+              <div class="font-semibold mt-2">这个数据集非常好用，准确率非常高</div>
             </div>
             <div class="flex cursor-pointer mt-2">
               <thumbs-up theme="outline" size="24" fill="#333" />
@@ -209,23 +163,7 @@ const modelInfo: MyMap = {
             </div>
             <div class="flex-1 ml-4">
               <div>Daniel Anderson · 2023-04-01</div>
-              <div class="font-semibold mt-2">这个模型非常好用，准确率非常高</div>
-            </div>
-            <div class="flex cursor-pointer mt-2">
-              <thumbs-up theme="outline" size="24" fill="#333" />
-              <div class="mx-4">89</div>
-            </div>
-          </div>
-          <div class="flex mb-10">
-            <div class="h-16 w-16 rounded-full overflow-hidden">
-              <img
-                src="https://img.jsdesign2.com/assets/element/ai_AheJcMcjCpO/image/2184303fa24312bc9b749c25c9187c99a09cf309.png"
-                alt=""
-              />
-            </div>
-            <div class="flex-1 ml-4">
-              <div>Daniel Anderson · 2023-04-01</div>
-              <div class="font-semibold mt-2">这个模型非常好用，准确率非常高</div>
+              <div class="font-semibold mt-2">这个数据集非常好用，准确率非常高</div>
             </div>
             <div class="flex cursor-pointer mt-2">
               <thumbs-up theme="outline" size="24" fill="#333" />
@@ -242,7 +180,7 @@ const modelInfo: MyMap = {
             <el-button class="ml-4" type="" size="large">提交</el-button>
           </div>
         </div>
-      </div> -->
+      </div>
     </section>
     <Footer />
   </div>
