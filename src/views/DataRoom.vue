@@ -220,7 +220,7 @@ const editValue1 = ref("12314")
           </div>
         </div>
 
-        <div class="ml-10 w-[400px] bg-[#fafafa] pb-10">
+        <div class="ml-10 w-[400px] h-[640px] bg-[#fafafa] pb-10">
           <div class="flex h-24 bg-[#f4f4f4] p-4">
             <div class="h-16 w-16 bg-[#f6f6f6] p-2">
               <img
@@ -231,7 +231,7 @@ const editValue1 = ref("12314")
             </div>
             <div class="w-[280px] pt-2 pl-4 text-xl font-medium">在5分钟内创建一个您自己的模型</div>
           </div>
-          <div class="h-[340px] pt-4 pl-10">
+          <div class="h-[460px] pt-4 pl-10">
             <div class="relative flex pt-6">
               <div class="absolute -top-[16px] left-[8px] h-full w-0.5 bg-[#e5e5e5]"></div>
               <div
@@ -253,7 +253,7 @@ const editValue1 = ref("12314")
               </div>
               <div class="ml-4 w-[300px]">
                 <div class="-mt-1 text-base font-medium">设置切片策略</div>
-                <span class="text-xs">来源于CHAOSS的 100+ 度量指标</span>
+                <span class="text-xs">自定义切片策略</span>
               </div>
             </div>
             <div class="relative flex pt-6">
@@ -265,7 +265,31 @@ const editValue1 = ref("12314")
               </div>
               <div class="ml-4">
                 <div class="-mt-1 text-base font-medium">embedding model choose</div>
-                <span class="text-xs">支持 AHP 和其他自定义的多种算法</span>
+                <span class="text-xs">支持 AHP 和其他自定义的多种embedding</span>
+              </div>
+            </div>
+            <div class="relative flex pt-6">
+              <div class="absolute -top-[16px] left-[8px] h-full w-0.5 bg-[#e5e5e5]"></div>
+              <div
+                class="relative flex h-[18px] w-[18px] items-center justify-center rounded-full bg-[#4E4E4E] text-xs text-white"
+              >
+                4
+              </div>
+              <div class="ml-4">
+                <div class="-mt-1 text-base font-medium">Retriever Setting</div>
+                <span class="text-xs">支持Retriever Setting</span>
+              </div>
+            </div>
+            <div class="relative flex pt-6">
+              <div class="absolute -top-[16px] left-[8px] h-full w-0.5 bg-[#e5e5e5]"></div>
+              <div
+                class="relative flex h-[18px] w-[18px] items-center justify-center rounded-full bg-[#4E4E4E] text-xs text-white"
+              >
+                5
+              </div>
+              <div class="ml-4">
+                <div class="-mt-1 text-base font-medium">question generation</div>
+                <span class="text-xs">支持question generation</span>
               </div>
             </div>
             <div class="relative flex pt-6">
@@ -273,11 +297,11 @@ const editValue1 = ref("12314")
               <div
                 class="relative flex h-[18px] w-[18px] items-center justify-center rounded-full bg-[#4E4E4E] text-xs text-white"
               >
-                4
+                6
               </div>
               <div class="ml-4">
-                <div class="-mt-1 text-base font-medium">发布模型</div>
-                <span class="text-xs">公开模型，还可以邀请伙伴们一起完善它</span>
+                <div class="-mt-1 text-base font-medium">Answer generation</div>
+                <span class="text-xs">最后，完成Answer generation</span>
               </div>
             </div>
           </div>

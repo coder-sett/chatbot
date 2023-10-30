@@ -26,7 +26,7 @@ const loading = ref<boolean>(false)
 const prompt = ref<string>("")
 const botList = ref<any>([])
 const showName = ref<boolean>(false)
-// const showBtn = ref<boolean>(false)
+const showBtn = ref<boolean>(false)
 const isContext = ref<boolean>(false)
 
 let controllerList: any[] = []
@@ -172,6 +172,7 @@ const handleEnter = (event: KeyboardEvent) => {
 }
 const handleDelete = () => {
   chatStore.clearChat()
+  showBtn.value = false
   prePrompt = ""
 }
 const handleRegenerate = async () => {
@@ -231,6 +232,7 @@ const handleRegenerate = async () => {
         )
       }
     })
+    showBtn.value = true
   } catch (error: any) {
     const errorMessage = error?.message ?? "出错了"
     console.log(errorMessage, error)
@@ -317,12 +319,12 @@ onUnmounted(() => {
         <MessageBox v-for="item in compareList" :bot="item" />
       </div>
     </div>
-    <!-- <div v-if="showBtn" class="w-full grid grid-cols-4 gap-4 mt-4">
+    <div v-if="showBtn" class="w-full grid grid-cols-4 gap-4 mt-4">
       <el-button class="!ml-0" @click="handleShowName" type="primary">A is better</el-button>
       <el-button class="!ml-0" @click="handleShowName" type="primary">B is better</el-button>
       <el-button class="!ml-0" @click="handleShowName" type="primary">Tie</el-button>
       <el-button class="!ml-0" @click="handleShowName" type="primary">Both are bad</el-button>
-    </div> -->
+    </div>
     <div class="mt-8 flex items-center justify-between space-x-3">
       <el-tooltip effect="dark" content="停止生成" placement="top">
         <el-button size="large" circle :icon="CloseOne" :disabled="!loading" @click="handleStop">

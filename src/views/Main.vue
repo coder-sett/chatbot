@@ -17,11 +17,25 @@ const handleClick = (tab: TabsPaneContext, event: Event) => {
 }
 
 const imgList = ref<any>([
-  "",
-  "https://img.jsdesign2.com/assets/img/652cb2002b09ab958d49fa0d.jpg",
-  "https://img.js.design/assets/img/64ec601883c447c7d84b119f.png",
-  "https://img.jsdesign2.com/assets/img/64a8e46657a545dde1879ce7.png#225fd61cf571879ed27fbc6f08cb912a",
+  "https://cdn1.scalablepath.com/_next/image?url=https%3A%2F%2Fcdn-blog.scalablepath.com%2Fuploads%2F2022%2F09%2Fgithub-copilot-pair-programmer-copy.png&w=1200&q=75",
+  "https://www.hp.com/us-en/shop/app/assets/images/uploads/prod/what-is-a-chatbot-hero1567113994866165.jpg",
+  "https://cdn.nulab.com/learn-wp/app/uploads/2018/01/14210108/How-to-create-a-Typetalk-bot-for-Google-translate.png",
 ])
+const desc = [
+  { name: "文本分类模型", desc: "基于深度学习技术，通过对文本语义进行分析，实现高精度文本分类" },
+  {
+    name: "智能问答模型",
+    desc: "基于在预训练阶段所见的模式和统计规律，来生成回答，还能根据聊天的上下文进行互动",
+  },
+  {
+    name: "文本翻译模型",
+    desc: "翻译大模型可执行语音到文本、语音到语音、文本到语音和文本到文本的多模式翻译任务",
+  },
+]
+const current = ref<any>(desc[0])
+const carouselChange = (a: any) => {
+  current.value = desc[a]
+}
 </script>
 
 <template>
@@ -33,16 +47,14 @@ const imgList = ref<any>([
         <div class="text-[#86909c] mt-4">这里提供各种AI模型的点评和使用体验</div>
       </div>
       <div class="items-center flex-col">
-        <div class="text-4xl font-bold">文本分类模型</div>
-        <div class="text-[#86909c] mt-4">
-          基于深度学习技术，通过对文本语义进行分析，实现高精度文本分类
-        </div>
+        <div class="text-4xl font-bold">{{ current["name"] }}</div>
+        <div class="text-[#86909c] mt-4">{{ current["desc"] }}</div>
       </div>
       <div class="flex justify-center mt-10">
         <div class="h-60 w-[1000px]">
-          <el-carousel :interval="4000000" type="card" height="240px">
+          <el-carousel :interval="4000000" type="card" height="240px" @change="carouselChange">
             <el-carousel-item v-for="item in 3" :key="item">
-              <img :src="imgList[item]" />
+              <img :src="imgList[item - 1]" />
             </el-carousel-item>
           </el-carousel>
         </div>

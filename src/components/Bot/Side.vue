@@ -3,7 +3,9 @@ import { ref, onMounted, computed } from "vue"
 import { Refresh, CircleClose } from "@element-plus/icons-vue"
 import { fetchBotList, fetchChatAPIProcess } from "@/api"
 import Message from "@/components/Message/index.vue"
+import { useRoute, useRouter } from "vue-router"
 
+const router = useRouter()
 onMounted(() => {})
 
 const tableData = ref<any>([
@@ -122,7 +124,7 @@ const tableData = ref<any>([
 ])
 </script>
 <template>
-  <div class="w-full mb-4">
+  <div class="w-full mb-4 cursor-pointer">
     <el-table
       :data="tableData"
       size="large"
@@ -131,7 +133,11 @@ const tableData = ref<any>([
       :border="true"
       style="width: 100%"
     >
-      <el-table-column label="模型名称" prop="a" width="180" align="center"> </el-table-column>
+      <el-table-column label="模型名称" prop="a" width="180" align="center">
+        <template #default="scope">
+          <a class="cursor-pointer" @click="router.push('evaluate')">{{ scope.row.a }} </a>
+        </template>
+      </el-table-column>
 
       <el-table-column label="发布日期" prop="b" width="" align="center"> </el-table-column>
       <el-table-column label="类型" prop="c" width="" align="center"> </el-table-column>
