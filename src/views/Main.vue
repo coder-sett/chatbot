@@ -5,10 +5,12 @@ import type { TabsPaneContext } from "element-plus"
 import Side from "./Side.vue"
 import Header from "@/components/Header/index.vue"
 import Footer from "@/components/Footer/index.vue"
+import { useRouter } from "vue-router"
 
 defineProps<{ msg: string }>()
 
 const activeName = ref("first")
+const router = useRouter()
 
 const handleClick = (tab: TabsPaneContext, event: Event) => {
   console.log(tab, event)
@@ -53,7 +55,16 @@ const imgList = ref<any>([
         <div class="bg-[#f7f8fa] rounded-xl p-6">
           <div class="flex justify-between items-center">
             <div class="text-2xl font-bold">榜单一</div>
-            <div>查看更多</div>
+            <div
+              @click="
+                router.push({
+                  path: '/ranking',
+                })
+              "
+              class="cursor-pointer"
+            >
+              查看详情
+            </div>
           </div>
           <div
             class="mt-4 flex justify-between cursor-pointer py-3 last:border-0"
@@ -88,7 +99,16 @@ const imgList = ref<any>([
         <div class="bg-[#f7f8fa] rounded-xl p-6">
           <div class="flex justify-between items-center">
             <div class="text-2xl font-bold">榜单二</div>
-            <div>查看更多</div>
+            <div
+              @click="
+                router.push({
+                  path: '/ranking',
+                })
+              "
+              class="cursor-pointer"
+            >
+              查看详情
+            </div>
           </div>
           <div
             class="mt-4 flex justify-between cursor-pointer py-3 last:border-0"

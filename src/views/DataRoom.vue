@@ -65,7 +65,7 @@ const dialogVisible = ref(false)
 const finish = ref(true)
 const finish1 = ref(false)
 
-const tableData = ref([])
+const tableData = ref<any>([])
 const tableData1 = ref([{ a: "split", b: "http" }])
 
 const addList = () => {

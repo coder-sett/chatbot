@@ -53,6 +53,12 @@ const routes: RouteRecordRaw[] = [
     name: "dataRoom",
     component: () => import("@/views/DataRoom.vue"),
   },
+  {
+    path: "/ranking",
+    name: "ranking",
+    component: () => import("@/views/Ranking.vue"),
+  },
+
   // {
   //   path: '/500',
   //   name: '500',

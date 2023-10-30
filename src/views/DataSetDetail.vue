@@ -27,10 +27,10 @@ const modelInfo: MyMap = {
 <template>
   <div class="w-full overflow-auto h-full flex flex-col justify-between">
     <Header />
-    <section class="flex-1 max-w-[1240px] w-full mx-auto my-5 px-5">
+    <section class="flex-1 max-w-[1240px] w-full mx-auto my-3 px-5">
       <div class="flex">
-        <div class="mt-40 flex-1">
-          <div class="h-30">
+        <div class="mt-8 flex-1">
+          <div class="h-20">
             <div class="text-4xl font-bold mb-10">WIKI百科</div>
             <div>
               {{
@@ -49,10 +49,10 @@ const modelInfo: MyMap = {
             </el-tabs>
           </div>
         </div>
-        <div class="mt-40 w-[300px] ml-20">
+        <div class="mt-8 w-[300px] ml-20">
           <div class="h-30">
-            <div class="text-2xl font-bold">验证集评价</div>
-            <div class="mt-3 text-sm flex">
+            <div class="text-xl font-bold">验证集评价</div>
+            <div class="mt-3 text-xs flex">
               <img
                 class="w-5 h-5 mr-2"
                 src="https://img.jsdesign2.com/assets/element/ai_AheJcMcjCpO/image/c55515821e36c495c64b891645a48b0039c951d6.png"
@@ -72,7 +72,7 @@ const modelInfo: MyMap = {
               <div class="ml-4">4星</div>
             </div>
           </div>
-          <div>
+          <div class="text-xs">
             <div class="mt-3">验证集类型</div>
             <div class="mt-2 flex justify-between">
               <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">图像识别</div>
@@ -80,7 +80,7 @@ const modelInfo: MyMap = {
               <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">自然语言</div>
             </div>
           </div>
-          <div>
+          <div class="text-xs">
             <div class="mt-3">验证集语言</div>
             <div class="mt-2 flex justify-between">
               <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">English</div>
@@ -88,7 +88,7 @@ const modelInfo: MyMap = {
               <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">Other</div>
             </div>
           </div>
-          <div>
+          <div class="text-xs">
             <div class="mt-3">验证集License</div>
             <div class="mt-2 flex justify-between">
               <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">MIT 2.0</div>
@@ -96,10 +96,10 @@ const modelInfo: MyMap = {
               <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">可商用</div>
             </div>
           </div>
-          <div class="flex mt-10">
+          <!-- <div class="flex text-xs mt-4">
             <el-button
               type="primary"
-              class="w-full"
+              class="w-full !text-xs"
               @click="
                 router.push({
                   path: '/dataSetList',
@@ -111,9 +111,9 @@ const modelInfo: MyMap = {
             >
               数据Review
             </el-button>
-          </div>
-          <!-- <div
-            class="bg-[#333] rounded-md w-full mt-10 py-1 text-[#fff] text-center cursor-pointer"
+          </div> -->
+          <div
+            class="bg-[#409eff] rounded-md w-full text-xs mt-6 py-1 text-[#fff] text-center cursor-pointer"
             @click="
               router.push({
                 path: '/dataSetList',
@@ -123,12 +123,14 @@ const modelInfo: MyMap = {
               })
             "
           >
-            Review
-          </div> -->
+            数据Review
+          </div>
         </div>
       </div>
       <div class="w-full mt-8">
-        <img class="w-full" :src="Dataset" />
+        <a target="_blank" href="https://huggingface.co/datasets/THUDM/AgentInstruct/tree/main">
+          <img class="w-full" :src="Dataset"
+        /></a>
       </div>
       <div class="mt-10 w-full flex">
         <div class="flex-1 mr-16">
