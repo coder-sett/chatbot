@@ -156,6 +156,7 @@ const handleSubmit = async () => {
         )
       }
     })
+    showBtn.value = true
   } catch (error: any) {
     const errorMessage = error?.message ?? "出错了"
     console.log(errorMessage, error)
