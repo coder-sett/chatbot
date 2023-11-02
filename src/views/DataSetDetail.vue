@@ -134,7 +134,7 @@ const modelInfo: MyMap = {
           <img class="w-full" :src="Dataset"
         /></a> -->
         <!-- <Editor /> -->
-        <iframe class="w-full h-full" src="http://119.12.172.232/:8885/" />
+        <iframe class="w-full h-full" src="http://119.12.172.232:8885/" />
       </div>
       <div class="mt-32 w-full flex">
         <div class="flex-1 mr-16">
