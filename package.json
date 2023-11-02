@@ -16,6 +16,7 @@
     "highlight.js": "^11.7.0",
     "katex": "^0.16.4",
     "markdown-it": "^13.0.1",
+    "monaco-editor": "^0.44.0",
     "pinia": "^2.0.33",
     "v-code-diff": "^1.7.1",
     "vue": "^3.3.4",

@@ -10,6 +10,7 @@ declare module 'vue' {
     BotBattle: typeof import('./src/components/Bot/BotBattle.vue')['default']
     Compare: typeof import('./src/components/Bot/Compare.vue')['default']
     copy: typeof import('./src/components/Header copy/index.vue')['default']
+    Editor: typeof import('./src/components/Editor/Editor.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElCard: typeof import('element-plus/es')['ElCard']
     ElCarousel: typeof import('element-plus/es')['ElCarousel']

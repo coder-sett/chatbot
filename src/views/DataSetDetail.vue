@@ -5,6 +5,8 @@ import { useRoute, useRouter } from "vue-router"
 import Header from "@/components/Header/index.vue"
 import Footer from "@/components/Footer/index.vue"
 import Dataset from "@/assets/2.png"
+import Editor from "@/components/Editor/Editor.vue"
+
 interface MyMap {
   [key: string]: { [key: string]: string }
 }
@@ -127,12 +129,14 @@ const modelInfo: MyMap = {
           </div>
         </div>
       </div>
-      <div class="w-full mt-8">
-        <a target="_blank" href="https://huggingface.co/datasets/THUDM/AgentInstruct/tree/main">
+      <div class="w-full mt-20 h-[400px]">
+        <!-- <a target="_blank" href="https://huggingface.co/datasets/THUDM/AgentInstruct/tree/main">
           <img class="w-full" :src="Dataset"
-        /></a>
+        /></a> -->
+        <!-- <Editor /> -->
+        <iframe class="w-full h-full" src="http://localhost:8885/" />
       </div>
-      <div class="mt-10 w-full flex">
+      <div class="mt-32 w-full flex">
         <div class="flex-1 mr-16">
           <div class="flex mb-10">
             <div class="h-16 w-16 rounded-full overflow-hidden">
