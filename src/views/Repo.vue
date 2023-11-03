@@ -10,7 +10,7 @@ import Header from "@/components/Header/index.vue"
       allowfullscreen
       frameborder="0"
       class="w-full"
-      src="http://159.138.5.80:5609/guoqiangqi/EventPlatform"
+      src="http://159.138.5.80:5609/Compass/openEuler-XiaoZhi-Eval"
     />
   </div>
 </template>
