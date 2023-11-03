@@ -212,22 +212,22 @@ const tableData = ref<any>([
       <el-table-column label="发布日期" prop="b" width="" align="center"> </el-table-column>
       <el-table-column label="参数量" prop="d" width="" align="center"> </el-table-column>
 
-      <el-table-column label="平均" prop="e" width="150" align="center"
+      <el-table-column label="ROUGE" prop="f" width="" align="center"
         >{{ Math.floor(Math.random() * (90 - 40 + 1)) + 40 }}
       </el-table-column>
-      <el-table-column label="平均(困难)" prop="f" width="" align="center"
+      <el-table-column label="BLEU" prop="f" width="" align="center"
         >{{ Math.floor(Math.random() * (90 - 40 + 1)) + 40 }}
       </el-table-column>
-      <el-table-column label="STEM" prop="g" width="" align="center"
+      <el-table-column label="Acc" prop="g" width="" align="center"
         >{{ Math.floor(Math.random() * (90 - 40 + 1)) + 40 }}
       </el-table-column>
-      <el-table-column label="社会科学" prop="h" width="" align="center">
+      <el-table-column label="AUC" prop="h" width="" align="center">
         {{ Math.floor(Math.random() * (90 - 40 + 1)) + 40 }}</el-table-column
       >
-      <el-table-column label="人文科学" prop="i" width="" align="center"
+      <el-table-column label="F1" prop="i" width="" align="center"
         >{{ Math.floor(Math.random() * (90 - 40 + 1)) + 40 }}
       </el-table-column>
-      <el-table-column label="其他" prop="j" width="150" align="center">
+      <el-table-column label="ChrF++" prop="j" width="150" align="center">
         {{ Math.floor(Math.random() * (90 - 40 + 1)) + 40 }}</el-table-column
       >
     </el-table>

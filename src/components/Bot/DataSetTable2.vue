@@ -10,7 +10,7 @@ onMounted(() => {})
 
 const tableData = ref<any>([
   {
-    a: "ROUGE",
+    a: "Qwen-14B-Chat",
     b: "2023/9/25",
     c: "基座",
     d: "14B",
@@ -24,7 +24,7 @@ const tableData = ref<any>([
     l: 93.6,
   },
   {
-    a: "BLEU",
+    a: "Qwen-14B",
     b: "2023/6/7",
     c: "基座",
     d: "7B",
@@ -38,7 +38,7 @@ const tableData = ref<any>([
     l: 93.6,
   },
   {
-    a: "Acc",
+    a: "XuanYuan-70B",
     b: "2023/6/7",
     c: "基座",
     d: "7B",
@@ -52,7 +52,7 @@ const tableData = ref<any>([
     l: 93.6,
   },
   {
-    a: "AUC",
+    a: "Chinese-LLaMA-2-7B",
     b: "2023/6/7",
     c: "基座",
     d: "7B",
@@ -66,7 +66,7 @@ const tableData = ref<any>([
     l: 93.6,
   },
   {
-    a: "F1",
+    a: "GPT-4",
     b: "2023/3/15",
     c: "对话",
     d: "7B",
@@ -81,7 +81,7 @@ const tableData = ref<any>([
   },
 
   {
-    a: "ChrF++",
+    a: "ChatGLM3-6B-Base",
     b: "2023/6/7",
     c: "基座",
     d: "7B",
@@ -95,7 +95,7 @@ const tableData = ref<any>([
     l: 93.6,
   },
   {
-    a: "JGA",
+    a: "WeMix-LLaMA2-70B",
     b: "2023/6/7",
     c: "基座",
     d: "7B",
@@ -109,7 +109,7 @@ const tableData = ref<any>([
     l: 93.6,
   },
   {
-    a: "Inform Rate",
+    a: "Qwen-7B",
     b: "2023/6/7",
     c: "基座",
     d: "7B",
@@ -123,11 +123,109 @@ const tableData = ref<any>([
     l: 93.6,
   },
   {
-    a: "FeQA",
+    a: "TigerBot-7B-Base-V1",
     b: "2023/6/7",
     c: "基座",
     d: "7B",
     e: "78",
+    f: "77.2",
+    g: 69.9,
+    h: 55.1,
+    i: 83,
+    j: 71,
+    k: 72.3,
+    l: 93.6,
+  },
+  {
+    a: "ChatGPT",
+    b: "2023/6/7",
+    c: "基座",
+    d: "7B",
+    e: "75",
+    f: "77.2",
+    g: 69.9,
+    h: 55.1,
+    i: 83,
+    j: 71,
+    k: 72.3,
+    l: 93.6,
+  },
+  {
+    a: "InternLM-20B",
+    b: "2023/6/7",
+    c: "基座",
+    d: "7B",
+    e: "71",
+    f: "77.2",
+    g: 69.9,
+    h: 55.1,
+    i: 83,
+    j: 71,
+    k: 72.3,
+    l: 93.6,
+  },
+  {
+    a: "Qwen-7B-Chat",
+    b: "2023/6/7",
+    c: "基座",
+    d: "7B",
+    e: "70",
+    f: "77.2",
+    g: 69.9,
+    h: 55.1,
+    i: 83,
+    j: 71,
+    k: 72.3,
+    l: 93.6,
+  },
+  {
+    a: "StableBeluga2",
+    b: "2023/6/7",
+    c: "基座",
+    d: "7B",
+    e: "78",
+    f: "77.2",
+    g: 69.9,
+    h: 55.1,
+    i: 83,
+    j: 71,
+    k: 72.3,
+    l: 93.6,
+  },
+  {
+    a: "XVERSE-7B",
+    b: "2023/6/7",
+    c: "基座",
+    d: "7B",
+    e: "75",
+    f: "77.2",
+    g: 69.9,
+    h: 55.1,
+    i: 83,
+    j: 71,
+    k: 72.3,
+    l: 93.6,
+  },
+  {
+    a: "AndesGPT-7B",
+    b: "2023/6/7",
+    c: "基座",
+    d: "7B",
+    e: "71",
+    f: "77.2",
+    g: 69.9,
+    h: 55.1,
+    i: 83,
+    j: 71,
+    k: 72.3,
+    l: 93.6,
+  },
+  {
+    a: "ChatGLM3-6B",
+    b: "2023/6/7",
+    c: "基座",
+    d: "7B",
+    e: "70",
     f: "77.2",
     g: 69.9,
     h: 55.1,
@@ -155,23 +253,22 @@ const tableData = ref<any>([
       </el-table-column>
       <el-table-column label="发布日期" prop="b" width="" align="center"> </el-table-column>
       <el-table-column label="参数量" prop="d" width="" align="center"> </el-table-column>
-
-      <el-table-column label="平均" prop="e" width="150" align="center"
+      <el-table-column label="ROUGE" prop="f" width="" align="center"
         >{{ Math.floor(Math.random() * (90 - 40 + 1)) + 40 }}
       </el-table-column>
-      <el-table-column label="平均(困难)" prop="f" width="" align="center"
+      <el-table-column label="BLEU" prop="f" width="" align="center"
         >{{ Math.floor(Math.random() * (90 - 40 + 1)) + 40 }}
       </el-table-column>
-      <el-table-column label="STEM" prop="g" width="" align="center"
+      <el-table-column label="Acc" prop="g" width="" align="center"
         >{{ Math.floor(Math.random() * (90 - 40 + 1)) + 40 }}
       </el-table-column>
-      <el-table-column label="社会科学" prop="h" width="" align="center">
+      <el-table-column label="AUC" prop="h" width="" align="center">
         {{ Math.floor(Math.random() * (90 - 40 + 1)) + 40 }}</el-table-column
       >
-      <el-table-column label="人文科学" prop="i" width="" align="center"
+      <el-table-column label="F1" prop="i" width="" align="center"
         >{{ Math.floor(Math.random() * (90 - 40 + 1)) + 40 }}
       </el-table-column>
-      <el-table-column label="其他" prop="j" width="150" align="center">
+      <el-table-column label="ChrF++" prop="j" width="150" align="center">
         {{ Math.floor(Math.random() * (90 - 40 + 1)) + 40 }}</el-table-column
       >
     </el-table>

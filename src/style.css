@@ -110,3 +110,10 @@ button:focus-visible {
 ::-webkit-scrollbar-track:horizontal {
   margin-bottom: 5px !important;
 }
+.el-table__header .el-table__cell {
+  background-color: #f5f6fd !important;
+  color: black;
+}
+.el-tabs__item {
+  font-size: 16px;
+}
