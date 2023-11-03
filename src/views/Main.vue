@@ -17,7 +17,7 @@ const handleClick = (tab: TabsPaneContext, event: Event) => {
 }
 
 const imgList = ref<any>([
-  "https://cdn1.scalablepath.com/_next/image?url=https%3A%2F%2Fcdn-blog.scalablepath.com%2Fuploads%2F2022%2F09%2Fgithub-copilot-pair-programmer-copy.png&w=1200&q=75",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwnOJhxoPttApjx-SWGpPkglV44ureg_DKng&usqp=CAU",
   "https://www.hp.com/us-en/shop/app/assets/images/uploads/prod/what-is-a-chatbot-hero1567113994866165.jpg",
   "https://cdn.nulab.com/learn-wp/app/uploads/2018/01/14210108/How-to-create-a-Typetalk-bot-for-Google-translate.png",
 ])
@@ -54,7 +54,7 @@ const carouselChange = (a: any) => {
         <div class="h-60 w-[1000px]">
           <el-carousel :interval="4000000" type="card" height="240px" @change="carouselChange">
             <el-carousel-item v-for="item in 3" :key="item">
-              <img :src="imgList[item - 1]" />
+              <img :src="imgList[item - 1]" class="w-full" />
             </el-carousel-item>
           </el-carousel>
         </div>
