@@ -35,10 +35,10 @@ const img2List = ref<any>([
 ])
 const dataList = [
   {
-    name: "社区口碑标注-南大144",
+    name: "openEuler-XiaoZhi-Eval",
     time: "2023/7/12",
     num: "144 / 3465",
-    detail: "社区口碑标注",
+    detail: "openEuler小智智能问答机器人验证集",
   },
   {
     name: "ABSA LLM",
