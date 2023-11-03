@@ -276,6 +276,14 @@ const cascaderOptions = [
   },
   {
     value: "2",
+    label: "验证集导入",
+  },
+  {
+    value: "3",
+    label: "根据场景、任务生成",
+  },
+  {
+    value: "4",
     label: "大家都在问",
     children: [
       {
@@ -291,14 +299,6 @@ const cascaderOptions = [
         label: "担任产品经理",
       },
     ],
-  },
-  {
-    value: "3",
-    label: "问题集",
-  },
-  {
-    value: "3",
-    label: "根据场景、任务生成",
   },
 ]
 // <el-option label="手动输入" :value="1" />

@@ -162,18 +162,7 @@ const editValue1 = ref("12314")
             </div>
           </div>
           <div class="mb-4">
-            <h2 class="flex-1 my-4">Setp 4 Retriever Setting:</h2>
-            <div class="border p-4 rounded">
-              <el-radio-group v-model="radio1">
-                <el-radio :label="3">stuff</el-radio>
-                <el-radio :label="6">refine</el-radio>
-                <el-radio :label="9">map-reduce</el-radio>
-                <el-radio :label="10">map-rerank</el-radio>
-              </el-radio-group>
-            </div>
-          </div>
-          <div class="mb-4">
-            <h2 class="flex-1 my-4">Setp 5 question generation:</h2>
+            <h2 class="flex-1 my-4">Setp 4 question generation:</h2>
             <div class="border p-4 rounded">
               <el-button class="mb-4" type="primary" plain>RUN</el-button>
               <el-button class="mb-4" type="primary" @click="edit = true" plain>edit</el-button>
@@ -196,7 +185,28 @@ const editValue1 = ref("12314")
             </div>
           </div>
           <div class="mb-4">
-            <h2 class="flex-1 my-4">Setp 6 Answer generation:</h2>
+            <h2 class="flex-1 my-4">Setp 5 Retriever Setting:</h2>
+            <div class="border p-4 rounded">
+              <el-radio-group v-model="radio1">
+                <el-radio :label="3">stuff</el-radio>
+                <el-radio :label="6">refine</el-radio>
+                <el-radio :label="9">map-reduce</el-radio>
+                <el-radio :label="10">map-rerank</el-radio>
+              </el-radio-group>
+            </div>
+          </div>
+          <div class="mb-4">
+            <h2 class="flex-1 my-4">Setp 6 chat model choose:</h2>
+            <div class="border p-4 rounded">
+              <el-radio-group v-model="radio">
+                <el-radio :label="3">Model A</el-radio>
+                <el-radio :label="6">Model B</el-radio>
+                <el-radio :label="9">Model C</el-radio>
+              </el-radio-group>
+            </div>
+          </div>
+          <div class="mb-4">
+            <h2 class="flex-1 my-4">Setp 7 Answer generation:</h2>
             <div class="border p-4 rounded">
               <el-button class="mb-4" type="primary" plain>RUN</el-button>
               <el-button class="mb-4" type="primary" @click="edit1 = true" plain>edit</el-button>
@@ -220,7 +230,7 @@ const editValue1 = ref("12314")
           </div>
         </div>
 
-        <div class="ml-10 w-[400px] h-[640px] bg-[#fafafa] pb-10">
+        <div class="ml-10 w-[400px] h-[680px] bg-[#fafafa] pb-10">
           <div class="flex h-24 bg-[#f4f4f4] p-4">
             <div class="h-16 w-16 bg-[#f6f6f6] p-2">
               <img
@@ -231,7 +241,7 @@ const editValue1 = ref("12314")
             </div>
             <div class="w-[280px] pt-2 pl-4 text-xl font-medium">在5分钟内创建一个您自己的模型</div>
           </div>
-          <div class="h-[460px] pt-4 pl-10">
+          <div class="h-[520px] pt-4 pl-10">
             <div class="relative flex pt-6">
               <div class="absolute -top-[16px] left-[8px] h-full w-0.5 bg-[#e5e5e5]"></div>
               <div
@@ -276,8 +286,8 @@ const editValue1 = ref("12314")
                 4
               </div>
               <div class="ml-4">
-                <div class="-mt-1 text-base font-medium">Retriever Setting</div>
-                <span class="text-xs">支持Retriever Setting</span>
+                <div class="-mt-1 text-base font-medium">question generation</div>
+                <span class="text-xs">支持question generation</span>
               </div>
             </div>
             <div class="relative flex pt-6">
@@ -288,8 +298,20 @@ const editValue1 = ref("12314")
                 5
               </div>
               <div class="ml-4">
-                <div class="-mt-1 text-base font-medium">question generation</div>
-                <span class="text-xs">支持question generation</span>
+                <div class="-mt-1 text-base font-medium">Retriever Setting</div>
+                <span class="text-xs">支持Retriever Setting</span>
+              </div>
+            </div>
+            <div class="relative flex pt-6">
+              <div class="absolute -top-[16px] left-[8px] h-full w-0.5 bg-[#e5e5e5]"></div>
+              <div
+                class="relative flex h-[18px] w-[18px] items-center justify-center rounded-full bg-[#4E4E4E] text-xs text-white"
+              >
+                6
+              </div>
+              <div class="ml-4">
+                <div class="-mt-1 text-base font-medium">chat model choose</div>
+                <span class="text-xs">支持chat model choose</span>
               </div>
             </div>
             <div class="relative flex pt-6">
@@ -297,7 +319,7 @@ const editValue1 = ref("12314")
               <div
                 class="relative flex h-[18px] w-[18px] items-center justify-center rounded-full bg-[#4E4E4E] text-xs text-white"
               >
-                6
+                7
               </div>
               <div class="ml-4">
                 <div class="-mt-1 text-base font-medium">Answer generation</div>
