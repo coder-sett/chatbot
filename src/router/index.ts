@@ -58,18 +58,16 @@ const routes: RouteRecordRaw[] = [
     name: "ranking",
     component: () => import("@/views/Ranking.vue"),
   },
-
-  // {
-  //   path: '/500',
-  //   name: '500',
-  //   component: () => import('@/views/exception/500/index.vue'),
-  // },
-
-  // {
-  //   path: '/:pathMatch(.*)*',
-  //   name: 'notFound',
-  //   redirect: '/404',
-  // },
+  {
+    path: "/repo",
+    name: "repo",
+    component: () => import("@/views/Repo.vue"),
+  },
+  {
+    path: "/evaluateSubmit",
+    name: "evaluateSubmit",
+    component: () => import("@/views/EvaluateSubmit.vue"),
+  },
 ]
 
 export const router = createRouter({

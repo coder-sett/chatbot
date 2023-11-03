@@ -19,8 +19,10 @@ const router = useRouter()
         </div>
       </div>
       <div class="h-10 flex flex-row mr-20 items-center">
-        <el-button class="ml-4" type="primary">登录</el-button>
-        <el-button class="ml-4">注册</el-button>
+        <el-button class="ml-4" type="primary" @click="router.push('/evaluateSubmit')"
+          >评测申请</el-button
+        >
+        <el-button class="ml-4">登录</el-button>
       </div>
     </div>
   </header>

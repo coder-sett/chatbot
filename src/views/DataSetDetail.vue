@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from "vue"
+import { ref, onMounted } from "vue"
 import { ThumbsUp } from "@icon-park/vue-next"
 import { useRoute, useRouter } from "vue-router"
 import Header from "@/components/Header/index.vue"
@@ -24,6 +24,17 @@ const modelInfo: MyMap = {
     info: "FastChat-T5是一个开源聊天机器人，通过在来自ShareGPT的用户共享对话数据上微调Flan-t5-xl（30亿参数）进行训练而得到。它基于编码-解码变压器架构，并能自动生成回应来响应用户的输入。",
   },
 }
+const iframeHeight = ref("")
+onMounted(() => {
+  // var iframe = document.getElementById("myFrame")
+  // iframe.onload = function () {
+  //   // 获取iframe内容的高度
+  //   iframeHeight.value = iframe.contentWindow.document.body.scrollHeight
+  //   // 将高度应用到iframe的style属性中
+  //   iframe.style.height = iframeHeight.value + "px"
+  //   console.log(iframeHeight.value)
+  // }
+})
 </script>
 
 <template>
@@ -116,26 +127,18 @@ const modelInfo: MyMap = {
           </div> -->
           <div
             class="bg-[#409eff] rounded-md w-full text-xs mt-6 py-1 text-[#fff] text-center cursor-pointer"
-            @click="
-              router.push({
-                path: '/dataSetList',
-                query: {
-                  name: encodeURIComponent(model),
-                },
-              })
-            "
+            @click="router.push({ path: '/repo' })"
           >
-            数据Review
+            仓库
           </div>
         </div>
       </div>
-      <div class="w-full mt-20 h-[400px]">
-        <!-- <a target="_blank" href="https://huggingface.co/datasets/THUDM/AgentInstruct/tree/main">
+      <!-- <div class="w-full mt-20 h-[400px]"> -->
+      <!-- <a target="_blank" href="https://huggingface.co/datasets/THUDM/AgentInstruct/tree/main">
           <img class="w-full" :src="Dataset"
         /></a> -->
-        <!-- <Editor /> -->
-        <iframe class="w-full h-full" src="http://159.138.5.80:5609/" />
-      </div>
+      <!-- <Editor /> -->
+      <!-- </div> -->
       <div class="mt-32 w-full flex">
         <div class="flex-1 mr-16">
           <div class="flex mb-10">

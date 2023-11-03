@@ -140,7 +140,7 @@ const dataList = [
                   >
                     Review
                   </el-button>
-                  <el-button>修改 </el-button>
+                  <el-button @click="router.push({ path: '/repo' })">仓库 </el-button>
                   <el-button
                     @click="
                       router.push({
