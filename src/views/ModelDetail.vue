@@ -4,6 +4,8 @@ import { ThumbsUp } from "@icon-park/vue-next"
 import { useRoute, useRouter } from "vue-router"
 import Header from "@/components/Header/index.vue"
 import Footer from "@/components/Footer/index.vue"
+import DataSetTable from "@/components/Bot/DataSetTable3.vue"
+
 interface MyMap {
   [key: string]: { [key: string]: string }
 }
@@ -115,6 +117,12 @@ const modelInfo: MyMap = {
             </el-button>
           </div>
         </div>
+      </div>
+
+      <div class="mt-28">
+        <div class="text-2xl font-bold mb-2">评测结果</div>
+        <div class="mb-8">下表为模型在验证集上评测的平均得分以及各个子能力维度的得分</div>
+        <DataSetTable />
       </div>
 
       <div class="mt-40 w-full flex">

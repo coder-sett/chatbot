@@ -9,9 +9,10 @@ declare module 'vue' {
   export interface GlobalComponents {
     BotBattle: typeof import('./src/components/Bot/BotBattle.vue')['default']
     Compare: typeof import('./src/components/Bot/Compare.vue')['default']
-    copy: typeof import('./src/components/Bot/Side copy.vue')['default']
+    copy: typeof import('./src/components/Bot/DataSetTable2 copy.vue')['default']
     DataSetTable: typeof import('./src/components/Bot/DataSetTable.vue')['default']
     DataSetTable2: typeof import('./src/components/Bot/DataSetTable2.vue')['default']
+    DataSetTable3: typeof import('./src/components/Bot/DataSetTable3.vue')['default']
     Editor: typeof import('./src/components/Editor/Editor.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElCard: typeof import('element-plus/es')['ElCard']

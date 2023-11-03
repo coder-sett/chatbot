@@ -45,11 +45,11 @@ onMounted(() => {
       <div class="flex">
         <div class="mt-8 flex-1">
           <div class="h-20">
-            <div class="text-4xl font-bold mb-10">WIKI百科</div>
+            <div class="text-4xl font-bold mb-10">openEuler-XiaoZhi-Eval</div>
             <div>
               {{
                 // modelInfo?.[model as string]["info"] ||
-                "这是一个WIKI百科验证集，提供验证集介绍、参数、相关产品、用户评价和模型试用等功能模块。"
+                "这是openEuler小智智能问答机器人验证集，提供验证集介绍、参数、相关产品、用户评价和模型试用等功能模块。"
               }}
             </div>
           </div>

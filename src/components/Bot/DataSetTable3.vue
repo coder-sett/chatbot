@@ -10,7 +10,7 @@ onMounted(() => {})
 
 const tableData = ref<any>([
   {
-    a: "ROUGE",
+    a: "C-Eval",
     b: "2023/9/25",
     c: "基座",
     d: "14B",
@@ -24,7 +24,7 @@ const tableData = ref<any>([
     l: 93.6,
   },
   {
-    a: "BLEU",
+    a: "AGIEval",
     b: "2023/6/7",
     c: "基座",
     d: "7B",
@@ -38,7 +38,7 @@ const tableData = ref<any>([
     l: 93.6,
   },
   {
-    a: "Acc",
+    a: "MMLU",
     b: "2023/6/7",
     c: "基座",
     d: "7B",
@@ -52,7 +52,7 @@ const tableData = ref<any>([
     l: 93.6,
   },
   {
-    a: "AUC",
+    a: "GAOKAO-Bench",
     b: "2023/6/7",
     c: "基座",
     d: "7B",
@@ -66,7 +66,7 @@ const tableData = ref<any>([
     l: 93.6,
   },
   {
-    a: "F1",
+    a: "ARC",
     b: "2023/3/15",
     c: "对话",
     d: "7B",
@@ -81,7 +81,7 @@ const tableData = ref<any>([
   },
 
   {
-    a: "ChrF++",
+    a: "WiC",
     b: "2023/6/7",
     c: "基座",
     d: "7B",
@@ -95,7 +95,7 @@ const tableData = ref<any>([
     l: 93.6,
   },
   {
-    a: "JGA",
+    a: "SummEdits",
     b: "2023/6/7",
     c: "基座",
     d: "7B",
@@ -109,7 +109,7 @@ const tableData = ref<any>([
     l: 93.6,
   },
   {
-    a: "Inform Rate",
+    a: "WSC",
     b: "2023/6/7",
     c: "基座",
     d: "7B",
@@ -123,7 +123,63 @@ const tableData = ref<any>([
     l: 93.6,
   },
   {
-    a: "FeQA",
+    a: "Flores",
+    b: "2023/6/7",
+    c: "基座",
+    d: "7B",
+    e: "78",
+    f: "77.2",
+    g: 69.9,
+    h: 55.1,
+    i: 83,
+    j: 71,
+    k: 72.3,
+    l: 93.6,
+  },
+  {
+    a: "CommonSenseQA",
+    b: "2023/6/7",
+    c: "基座",
+    d: "7B",
+    e: "78",
+    f: "77.2",
+    g: 69.9,
+    h: 55.1,
+    i: 83,
+    j: 71,
+    k: 72.3,
+    l: 93.6,
+  },
+  {
+    a: "TriviaQA",
+    b: "2023/6/7",
+    c: "基座",
+    d: "7B",
+    e: "78",
+    f: "77.2",
+    g: 69.9,
+    h: 55.1,
+    i: 83,
+    j: 71,
+    k: 72.3,
+    l: 93.6,
+  },
+  {
+    a: "OpenbookQA",
+    b: "2023/6/7",
+    c: "基座",
+    d: "7B",
+    e: "78",
+    f: "77.2",
+    g: 69.9,
+    h: 55.1,
+    i: 83,
+    j: 71,
+    k: 72.3,
+    l: 93.6,
+  },
+  {
+    a: "OCNLI",
     b: "2023/6/7",
     c: "基座",
     d: "7B",
@@ -148,7 +204,7 @@ const tableData = ref<any>([
       :border="true"
       style="width: 100%"
     >
-      <el-table-column label="模型名称" prop="a" width="180" align="center">
+      <el-table-column label="验证集名称" prop="a" width="180" align="center">
         <template #default="scope">
           <a class="cursor-pointer" @click="router.push('evaluate')">{{ scope.row.a }} </a>
         </template>
