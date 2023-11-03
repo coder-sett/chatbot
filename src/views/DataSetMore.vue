@@ -79,7 +79,7 @@ const dataList = [
               <!-- <div class="text-sm text-[#a8abb9]">{{ item.time }}</div> -->
               <div class="text-sm text-[#a8abb9] flex justify-end w-full">
                 <el-button> Review </el-button>
-                <el-button>仓库 </el-button>
+                <el-button>修改 </el-button>
                 <el-button> 评论</el-button>
                 <!-- <el-icon style="width: 20px; height: 20px"
                   ><UserFilled style="width: 20px; height: 20px"
