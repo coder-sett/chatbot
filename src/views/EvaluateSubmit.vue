@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref, reactive } from "vue"
 import type { TabsPaneContext } from "element-plus"
-import Side from "@/components/Bot/Side.vue"
 import { useRoute } from "vue-router"
 
 const route = useRoute()

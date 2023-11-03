@@ -27,9 +27,6 @@ const handleClick = (tab: TabsPaneContext, event: Event) => {
         <el-tab-pane :lazy="true" label="Chatbot Compass (battle)" name="first1">
           <Battle />
         </el-tab-pane>
-        <!-- <el-tab-pane :lazy="true" label="Chatbot Compass (side-by-side)" name="second">
-          <Side
-        /></el-tab-pane> -->
       </el-tabs>
     </section>
     <Footer />

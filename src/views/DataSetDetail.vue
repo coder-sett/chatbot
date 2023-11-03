@@ -6,6 +6,7 @@ import Header from "@/components/Header/index.vue"
 import Footer from "@/components/Footer/index.vue"
 import Dataset from "@/assets/2.png"
 import Editor from "@/components/Editor/Editor.vue"
+import DataSetTable from "@/components/Bot/DataSetTable2.vue"
 
 interface MyMap {
   [key: string]: { [key: string]: string }
@@ -133,12 +134,13 @@ onMounted(() => {
           </div>
         </div>
       </div>
-      <!-- <div class="w-full mt-20 h-[400px]"> -->
-      <!-- <a target="_blank" href="https://huggingface.co/datasets/THUDM/AgentInstruct/tree/main">
-          <img class="w-full" :src="Dataset"
-        /></a> -->
-      <!-- <Editor /> -->
-      <!-- </div> -->
+
+      <div class="mt-28">
+        <div class="text-2xl font-bold mb-2">验证集评测结果</div>
+        <div class="mb-8">下表为模型在验证集上评测的平均得分以及各个子能力维度的得分</div>
+        <DataSetTable />
+      </div>
+
       <div class="mt-32 w-full flex">
         <div class="flex-1 mr-16">
           <div class="flex mb-10">
