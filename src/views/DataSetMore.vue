@@ -182,19 +182,20 @@ const check = ref(false)
               >
                 <div class="w-12 text-center mr-6 flex-shrink-0">{{ index + 1 }}</div>
                 <div class="flex-1">
-                  <div class="border border-[#b7eb8f] rounded-md bg-[#f6ffed] px-4 py-3">
-                    prompt: {{ i.prompt }}
+                  <div class="border border-[#b7eb8f] rounded-md bg-[#f6ffed] px-4 py-3 flex">
+                    <div><span class="rounded-md bg-white font-semibold p-2">prompt:</span></div>
+                    {{ i.prompt }}
                   </div>
 
                   <div class="border border-[#fdba74] rounded-md bg-[#fff7ed] px-4 py-3 mt-4 flex">
-                    answer:
+                    <div><span class="rounded-md bg-white font-semibold p-2">answer:</span></div>
                     <div class="ml-2">{{ i.answer }}</div>
                   </div>
                 </div>
               </li>
             </ul>
           </div>
-          <div v-else>
+          <div class="p-4" v-else>
             <div v-html="res"></div>
             <div class="mt-6 text-base">openEuler 小智智能问答机器人验证集</div>
           </div>
