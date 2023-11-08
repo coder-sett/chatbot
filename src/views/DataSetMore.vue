@@ -183,17 +183,23 @@ const submit = async (formEl: FormInstance | undefined) => {
         ...form.value,
       }
       let body = encodeURIComponent(issueTemplate(issue))
+      let url = ""
+      if ((typeFitler.value = "md")) {
+        url = "main/data.json/openeuler.json"
+      } else {
+        url = "main/README.md"
+      }
       console.log(body)
       try {
         if (form.value.type === "issue") {
           // 此处为提交issue打开的地址，该地址应为用到的捉虫功能的网站的代码仓的地址，此处使用openEuler的文档代码仓地址作为演示
           window.open(
-            `http://159.138.5.80:5609/Compass/openEuler-XiaoZhi-Eval/issues/new?issue%5Bassignee_id%5D=0&issue%5Bmilestone_id%5D=0&title=有奖捉虫&body=${body}`
+            `http://159.138.5.80:5609/Compass/openEuler-XiaoZhi-Eval/issues/new?issue%5Bassignee_id%5D=0&issue%5Bmilestone_id%5D=0&title=问题反馈&body=${body}`
           )
         } else {
           // 此处为提交PR打开的地址，该地址应为用到的捉虫功能的网站的代码仓的地址，此处使用openEuler的文档代码仓地址作为演示
           window.open(
-            `https://gitee.com/-/ide/project/openeuler/docs/edit/stable2-22.03_LTS/-/docs/zh/docs/Releasenotes/法律声明.md?search=${form.value.name}&title=文档捉虫-openEuler 22.03_LTS-法律声明&description=${form.value.desc}&message=${form.value.desc}&label_names=文档捉虫`
+            `http://159.138.5.80:5609/Compass/openEuler-XiaoZhi-Eval/_edit/${url}?search=${form.value.name}&title=修改提交&body=${form.value.desc}&message=${form.value.desc}`
           )
         }
       } catch (error) {
