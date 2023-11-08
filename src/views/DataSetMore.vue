@@ -185,7 +185,7 @@ const submit = async (formEl: FormInstance | undefined) => {
       let body = encodeURIComponent(issueTemplate(issue))
       let url = ""
       if ((typeFitler.value = "md")) {
-        url = "main/data.json/openeuler.json"
+        url = "main/data/json/openeuler.json"
       } else {
         url = "main/README.md"
       }
