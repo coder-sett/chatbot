@@ -184,7 +184,7 @@ const check = ref(false)
                 <div class="flex-1">
                   <div class="border border-[#b7eb8f] rounded-md bg-[#f6ffed] px-4 py-3 flex">
                     <div><span class="rounded-md bg-white font-semibold p-2">prompt:</span></div>
-                    {{ i.prompt }}
+                    <div class="ml-2">{{ i.prompt }}</div>
                   </div>
 
                   <div class="border border-[#fdba74] rounded-md bg-[#fff7ed] px-4 py-3 mt-4 flex">
