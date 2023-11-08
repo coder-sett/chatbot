@@ -5,7 +5,7 @@ export interface CompareStore {
   CompareList: CompareList
 }
 export const useCompareStore = defineStore("compare-store", {
-  state: () => {
+  state: (): CompareStore => {
     return {
       CompareList: [],
     }

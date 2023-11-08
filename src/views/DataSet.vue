@@ -144,14 +144,14 @@ const dataList = [
                   <el-button
                     @click="
                       router.push({
-                        path: '/dataSetDetail',
+                        path: '/dataSetMore',
                         // query: {
                         //   name: encodeURIComponent(item.name),
                         // },
                       })
                     "
                   >
-                    详情</el-button
+                    View</el-button
                   >
                 </div>
               </div>

@@ -23,6 +23,9 @@ const modelInfo: MyMap = {
   "T5-3b": {
     info: "FastChat-T5是一个开源聊天机器人，通过在来自ShareGPT的用户共享对话数据上微调Flan-t5-xl（30亿参数）进行训练而得到。它基于编码-解码变压器架构，并能自动生成回应来响应用户的输入。",
   },
+  ChatGLM: {
+    info: "ChatGLM是一个开源聊天机器人，通过在来自ShareGPT的用户共享对话数据上微调Flan-t5-xl（30亿参数）进行训练而得到。它基于编码-解码变压器架构，并能自动生成回应来响应用户的输入。",
+  },
 }
 </script>
 
@@ -36,7 +39,7 @@ const modelInfo: MyMap = {
             <div class="text-4xl font-bold mb-10">{{ model }}</div>
             <div>
               {{
-                modelInfo?.[model as string]["info"] ||
+                modelInfo?.[model as string]?.["info"] ||
                 "这是一个AI模型点评页面，提供模型介绍、参数、相关产品、用户评价和模型试用等功能模块。"
               }}
             </div>

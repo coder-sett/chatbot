@@ -48,6 +48,9 @@ devDependencies:
   '@antfu/eslint-config':
     specifier: ^0.35.3
     version: 0.35.3(eslint@8.35.0)(typescript@5.2.2)
+  '@tailwindcss/line-clamp':
+    specifier: ^0.4.0
+    version: 0.4.0(tailwindcss@3.2.7)
   '@types/katex':
     specifier: ^0.16.0
     version: 0.16.0
@@ -579,6 +582,14 @@ packages:
   /@sxzz/popperjs-es@2.11.7:
     resolution: {integrity: sha512-Ccy0NlLkzr0Ex2FKvh2X+OyERHXJ88XJ1MXtsI9y9fGexlaXaVTPzBCRBwIxFkORuOb+uBqeu+RqnpgYTEZRUQ==}
     dev: false
+
+  /@tailwindcss/line-clamp@0.4.0(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-HQZo6gfx1D0+DU3nWlNLD5iA6Ef4JAXh0LeD8lOGrJwEDBwwJNKQza6WoXhhY1uQrxOuU8ROxV7CqiQV4CoiLw==}
+    peerDependencies:
+      tailwindcss: '>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1'
+    dependencies:
+      tailwindcss: 3.2.7(postcss@8.4.31)
+    dev: true
 
   /@traptitech/markdown-it-katex@3.6.0:
     resolution: {integrity: sha512-CnJzTWxsgLGXFdSrWRaGz7GZ1kUUi8g3E9HzJmeveX1YwVJavrKYqysktfHZQsujdnRqV5O7g8FPKEA/aeTkOQ==}

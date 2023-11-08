@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, created, onMounted, computed, onUnmounted } from "vue"
+import { ref, onMounted, computed, onUnmounted } from "vue"
 import { Refresh, CircleClose, Delete } from "@element-plus/icons-vue"
 import { ThumbsUp, CloseOne, CommentOne, Comments } from "@icon-park/vue-next"
 import { fetchBotList, fetchChatAPIProcess } from "@/api"
@@ -62,7 +62,7 @@ const updateChat = (obj: Chat, name: string) => {
 
 const fetchChatAPIOnce = async (
   model: string,
-  message,
+  message: string,
   controller: { signal: any } | undefined
 ) => {
   return await fetchChatAPIProcess({
@@ -104,8 +104,8 @@ const handleSubmit = async () => {
   if (!prePrompt || prePrompt.trim() === "") return
   loading.value = true
   prompt.value = ""
-  const promiseList = []
-  const botList = []
+  const promiseList: any[] = []
+  const botList: any[] = []
   controllerList = []
 
   compareList.value.forEach((element) => {

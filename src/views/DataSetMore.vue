@@ -1,11 +1,14 @@
 <script setup lang="ts">
 import { ref } from "vue"
 import { useRoute, useRouter } from "vue-router"
-import { UserFilled } from "@element-plus/icons-vue"
-import { ThumbsUp } from "@icon-park/vue-next"
-
+import { Search, Close } from "@element-plus/icons-vue"
+import { FileAdditionOne } from "@icon-park/vue-next"
 import Header from "@/components/Header/index.vue"
 import Footer from "@/components/Footer/index.vue"
+import openeuler from "@/assets/json/openeuler.json"
+import axios from "axios"
+import MarkdownIt from "markdown-it"
+
 interface MyMap {
   [key: string]: { [key: string]: string }
 }
@@ -13,84 +16,218 @@ interface MyMap {
 const route = useRoute()
 const router = useRouter()
 
-const activeName = ref("first")
-const input = ref("")
-const model = route.query?.name || "ChatGPT"
-const modelInfo: MyMap = {
-  openai_humaneval: {
-    info: "GPT-3.5 由openAI开发并通过API提供服务，模型能够理解和生成自然语言或代码。在GPT-3.5系列中，最具能力且成本效益最高的模型是gpt-3.5-turbo，它经过了针对聊天功能进行优化，并通过Chat completions API实现。它同样也适用于传统的对话任务。",
-  },
-  "THUDM/AgentInstruct": {
-    info: "FastChat-T5是一个开源聊天机器人，通过在来自ShareGPT的用户共享对话数据上微调Flan-t5-xl（30亿参数）进行训练而得到。它基于编码-解码变压器架构，并能自动生成回应来响应用户的输入。",
-  },
+const getAndPushElements = (start, count) => {
+  // 使用 slice 方法获取指定位置的元素子数组
+  const elements = openeuler.slice(start, start + count)
+  // targetArr.push(...elements)
+  return elements
 }
-const dataList = [
+
+let count = 10
+const countList = ref(getAndPushElements(0, 20))
+const select = ref(-1)
+const selectItem = ref<any>(null)
+
+const load = () => {
+  console.log(123)
+  countList.value.push(...getAndPushElements(count, 5))
+  count += 5
+}
+const handleSelectItem = (index) => {
+  if (select === index) {
+    select.value = -1
+  } else {
+    select.value = index
+    selectItem.value = openeuler[index]
+  }
+}
+
+interface Tree {
+  label: string
+  type?: string
+  children?: Tree[]
+}
+const typeFitler = ref("md")
+
+const handleNodeClick = (data: Tree) => {
+  if (data.label == "README.md") {
+    typeFitler.value = "md"
+  } else if (data.label == "openeuler.json") {
+    typeFitler.value = "json"
+  }
+  console.log(data)
+}
+
+const data: Tree[] = [
   {
-    name: "社区口碑标注-南大144",
-    time: "2023/7/12",
-    num: "144 / 3465",
-    detail: "",
+    label: "data",
+    type: "folder",
+    children: [
+      {
+        label: " json",
+        type: "folder",
+        children: [
+          {
+            label: "openeuler.json",
+          },
+        ],
+      },
+    ],
   },
   {
-    name: "ABSA LLM",
-    time: "2023/7/12",
-    num: "144 / 3465",
-    detail: "社区问答开发者情感状态标注",
+    label: "README.md",
   },
-  {
-    name: "ABSA_aoe",
-    time: "2023/7/12",
-    num: "144 / 3465",
-    detail: "情感分析三元组数据标注",
-  },
-  // / 3465
-  // 10 Jul'23 18:40
-  // ..
-  // 144
-  // -0.0
-  // ABSA LLM
-  // 1 / 22
-  // ...
-  // <1-00
-  // 社区问答开发者情感状态标注
-  // 16 Jun 23, 14:25
-  // ABSA_aoe
-  // 2/3
-  // 情感分析三元组数据标注
 ]
+
+const defaultProps = {
+  children: "children",
+  label: "label",
+}
+const md = new MarkdownIt()
+const res = md.render("# openEuler-XiaoZhi-Eval")
+const feedback = ref(false)
+const bug = ref<any>(null)
+// axios.get("./assets/md/README.md").then((res) => {
+//   console.log(res)
+// })
+const mouseSelectHandle = (event) => {
+  console.log(bug.value)
+  let select = window.getSelection()?.toString().trim()
+  console.log(select)
+  let ev = event || window.event
+  let left = ev.clientX
+  let top = ev.clientY
+  // let select = selectText().trim()
+  setTimeout(function () {
+    if (select!.length > 0 && window.getSelection() && window.getSelection()?.type === "Range") {
+      feedback.value = true
+      bug.value.style.left = left + "px"
+      bug.value.style.top = top + 10 + "px"
+      select && (form.value.name = select)
+    } else {
+      feedback.value = false
+    }
+  }, 100)
+}
+const dialogFormVisible = ref(false)
+const form = ref({
+  name: "",
+  region: "",
+  date1: "",
+  date2: "",
+  delivery: false,
+  type: [],
+  resource: "",
+  desc: "",
+  email: "",
+})
+document.onclick = function () {
+  feedback.value = false
+}
+const check = ref(false)
 </script>
 
 <template>
-  <div class="w-full overflow-auto h-full flex flex-col justify-between bg-[#fafafa]">
+  <div class="w-full h-full relative overflow-hidden flex flex-col justify-between bg-[#fafafa]">
+    <div
+      v-show="feedback"
+      ref="bug"
+      class="fixed cursor-pointer w-8"
+      @click="dialogFormVisible = true"
+    >
+      <img src="https://docs.openeuler.org/img/detail/bug.svg" />
+    </div>
     <Header />
-    <section class="flex-1 bg-[#fafafa] max-w-[1240px] w-full mx-auto my-8 px-5">
-      <div class="flex space-x-4">
-        <div class="bg-[#ffffff] w-[320px] rounded-md shadow-md" v-for="item in dataList">
-          <div class="border-b p-3">
-            <div>{{ item.name }}</div>
-            <div class="mt-3 flex justify-between text-sm text-[#a8abb9]">
-              <div>{{ item.num }}</div>
-              <!-- <div class="">{{ item.num }}</div> -->
-            </div>
-          </div>
-          <div class="p-3">
-            <div class="text-[#a8abb9] h-12">{{ item.detail }}</div>
-            <div class="mt-3 flex justify-between text-sm text-[#a8abb9]">
-              <!-- <div class="text-sm text-[#a8abb9]">{{ item.time }}</div> -->
-              <div class="text-sm text-[#a8abb9] flex justify-end w-full">
-                <el-button> Review </el-button>
-                <el-button>修改 </el-button>
-                <el-button> 评论</el-button>
-                <!-- <el-icon style="width: 20px; height: 20px"
-                  ><UserFilled style="width: 20px; height: 20px"
-                /></el-icon> -->
+    <section
+      style="height: calc(100vh - 64px)"
+      class="flex-1 flex overflow-hidden flex-col bg-[#fafafa] w-full"
+    >
+      <div class="flex flex-1 w-full overflow-hidden">
+        <div class="bg-white h-full p-4 w-[300px] rounded overflow-hidden">
+          <el-tree
+            :highlight-current="true"
+            size="large"
+            :data="data"
+            :props="defaultProps"
+            :default-expand-all="true"
+            @node-click="handleNodeClick"
+          >
+            <template #default="{ node, data }">
+              <div class="custom-tree-node flex items-center">
+                <el-icon class="mr-2">
+                  <Folder v-if="data.type == 'folder'" />
+                  <DocumentRemove v-else />
+                </el-icon>
+                <!-- <el-icon><DocumentRemove /></el-icon> -->
+                <span>{{ node.label }}</span>
               </div>
-            </div>
+            </template>
+          </el-tree>
+        </div>
+        <div class="bg-white ml-2 flex-1 p-3 h-full" @mouseup="mouseSelectHandle">
+          <!-- <div class="flex justify-end">
+           <el-icon class="cursor-pointer" @click="showSide = false"><Close /></el-icon> 
+          </div> -->
+          <div v-if="typeFitler === 'json'" class="h-full">
+            <ul
+              v-infinite-scroll="load"
+              :infinite-scroll-immediate="false"
+              class="infinite-list h-full"
+            >
+              <li
+                v-for="(i, index) in countList"
+                :key="index"
+                class="infinite-list-item cursor-pointer flex items-center w-full p-2"
+                :class="select === index && '!bg-[#e3f1ff]'"
+                @click="handleSelectItem(index)"
+              >
+                <div class="w-12 text-center mr-8 flex-shrink-0">{{ index + 1 }}</div>
+                <div class="flex-1">
+                  <div>prompt: {{ i.prompt }}</div>
+
+                  <div class="overflow-hidden flex">
+                    answer:
+                    <div class="ml-2">{{ i.answer }}</div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div v-else>
+            <div v-html="res"></div>
+            <div class="mt-6 text-base">openEuler 小智智能问答机器人验证集</div>
           </div>
         </div>
       </div>
     </section>
-    <Footer />
+    <el-dialog v-model="dialogFormVisible" :center="true" title="提交修改">
+      <el-form :model="form" label-position="top">
+        <el-form-item label="修改片段">
+          <el-input v-model="form.name" autocomplete="off" type="textarea" />
+        </el-form-item>
+        <el-form-item label="提交类型">
+          <el-select v-model="form.region" placeholder="">
+            <el-option label="issue" value="shanghai" />
+            <el-option label="PR" value="beijing" />
+          </el-select>
+        </el-form-item>
+        <el-form-item label="问题描述">
+          <el-input v-model="form.desc" autocomplete="off" type="textarea" />
+        </el-form-item>
+        <el-form-item label="您的邮箱">
+          <el-input v-model="form.email" autocomplete="off" />
+        </el-form-item>
+      </el-form>
+      <template #footer>
+        <span class="dialog-footer items-center flex flex-col">
+          <el-radio v-model="check"
+            >您理解并同意，您填写并提交的内容，即视为您已充分阅读并同意compass的隐私声明</el-radio
+          >
+          <el-button type="primary" @click="dialogFormVisible = false"> 提交 </el-button>
+        </span>
+      </template>
+    </el-dialog>
+    <!-- <Footer /> -->
   </div>
 </template>
 
@@ -100,5 +237,30 @@ const dataList = [
 }
 .el-textarea__inner {
   padding: 8px;
+}
+.el-card__body {
+  padding: 8px 16px;
+}
+.infinite-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: auto;
+}
+/* .infinite-list-item:nth-of-type(even) {
+  background: #fafafa;
+} */
+.infinite-list-item:hover {
+  background: #f3f9ff;
+}
+.infinite-list .infinite-list-item {
+  border-bottom: 1px solid #ebeef5;
+  /* height: 80px; */
+}
+.infinite-list .infinite-list-item + .list-item {
+  margin-top: 15px;
+}
+.el-tree--highlight-current .el-tree-node.is-current > .el-tree-node__content {
+  color: #3a5bef;
 }
 </style>

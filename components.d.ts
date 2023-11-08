@@ -39,6 +39,7 @@ declare module 'vue' {
     ElTimeline: typeof import('element-plus/es')['ElTimeline']
     ElTimelineItem: typeof import('element-plus/es')['ElTimelineItem']
     ElTooltip: typeof import('element-plus/es')['ElTooltip']
+    ElTree: typeof import('element-plus/es')['ElTree']
     Footer: typeof import('./src/components/Footer/index.vue')['default']
     Header: typeof import('./src/components/Header/index.vue')['default']
     Message: typeof import('./src/components/Message/index.vue')['default']
@@ -48,5 +49,8 @@ declare module 'vue' {
     Side: typeof import('./src/components/Bot/Side.vue')['default']
     Star: typeof import('./src/components/Common/Star.vue')['default']
     Text: typeof import('./src/components/Message/Text.vue')['default']
+  }
+  export interface ComponentCustomProperties {
+    vInfiniteScroll: typeof import('element-plus/es')['ElInfiniteScroll']
   }
 }

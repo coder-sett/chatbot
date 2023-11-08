@@ -10,14 +10,14 @@ import GLM from "@/assets/GLM.png"
 const router = useRouter()
 const input = ref("")
 const imgList = ref<any>(["基础大模型", "行业大模型", "领域大模型"])
-const modelList = ref<any>(["ChatGPT", "T5-3b", "ChatGLM", "Other", "Other", "Other"])
+const modelList = ref<any>(["ChatGPT", "T5-3b", "ChatGLM", "Llama 2", "Other", "Other"])
 const activeName = ref("基础大模型")
 const img2List = ref<any>([
   ChatGPT,
   T5,
   GLM,
+  "https://aeiljuispo.cloudimg.io/v7/https://cdn-uploads.huggingface.co/production/uploads/646cf8084eefb026fb8fd8bc/oCTqufkdTkjyGodsx1vo1.png?w=200&h=200&f=face",
   "https://img.jsdesign2.com/assets/img/6475a9536be6533b8a7441f0.png#ebade77ad960ea0306274202cbfdb640",
-  "https://img.jsdesign2.com/assets/img/652ca2e6454393a7d697adb0.png#c349e97700e81fe55284332a6d77cd93",
   "https://img.jsdesign2.com/assets/img/652ca2e6454393a7d697adb0.png#c349e97700e81fe55284332a6d77cd93",
 ])
 </script>

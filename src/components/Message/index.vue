@@ -36,7 +36,6 @@ const innerVisible = ref(false)
 const buttonDisabled = computed(() => {
   return !comments.value || comments.value.trim() === ""
 })
-console.log(props.botName)
 const handleShowDialog = () => {
   const { chatList } = chatStore.getChatByName(props.botName)
   chatItem.value = chatList.find((item: any) => item.id === props.id)
