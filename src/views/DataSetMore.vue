@@ -1,20 +1,19 @@
 <script setup lang="ts">
-import { ref } from "vue"
+import { ref, reactive, onMounted } from "vue"
 import { useRoute, useRouter } from "vue-router"
-import { Search, Close } from "@element-plus/icons-vue"
-import { FileAdditionOne } from "@icon-park/vue-next"
 import Header from "@/components/Header/index.vue"
 import Footer from "@/components/Footer/index.vue"
 import openeuler from "@/assets/json/openeuler.json"
-import axios from "axios"
 import MarkdownIt from "markdown-it"
-
+import type { FormInstance, FormRules } from "element-plus"
 interface MyMap {
   [key: string]: { [key: string]: string }
 }
+// import { ElTree } from "element-plus"
 
 const route = useRoute()
 const router = useRouter()
+const tree = ref()
 
 const getAndPushElements = (start, count) => {
   // 使用 slice 方法获取指定位置的元素子数组
@@ -33,12 +32,14 @@ const load = () => {
   countList.value.push(...getAndPushElements(count, 5))
   count += 5
 }
-const handleSelectItem = (index) => {
-  if (select === index) {
-    select.value = -1
+const addURL = (anchorName) => {
+  // 检查当前URL是否已经包含锚点
+  if (route.hash) {
+    // 如果存在锚点，则替换它
+    router.replace({ hash: "#" + anchorName })
   } else {
-    select.value = index
-    selectItem.value = openeuler[index]
+    // 如果不存在锚点，则添加它
+    router.push({ hash: "#" + anchorName })
   }
 }
 
@@ -52,8 +53,10 @@ const typeFitler = ref("md")
 const handleNodeClick = (data: Tree) => {
   if (data.label == "README.md") {
     typeFitler.value = "md"
+    addURL(data.label)
   } else if (data.label == "openeuler.json") {
     typeFitler.value = "json"
+    addURL(data.label)
   }
   console.log(data)
 }
@@ -110,21 +113,111 @@ const mouseSelectHandle = (event) => {
   }, 100)
 }
 const dialogFormVisible = ref(false)
+interface RuleForm {
+  name: string
+  type: string
+  check: boolean
+  email: string
+  desc: string
+}
 const form = ref({
   name: "",
-  region: "",
-  date1: "",
-  date2: "",
-  delivery: false,
-  type: [],
-  resource: "",
+  type: "",
+  check: [],
   desc: "",
   email: "",
 })
+const rules = reactive<FormRules<RuleForm>>({
+  name: [{ required: true, message: "请输入修改片段", trigger: "blur" }],
+  desc: [{ required: true, message: "请输入问题描述", trigger: "blur" }],
+  type: [
+    {
+      required: true,
+      message: "请选择提交类型",
+      trigger: "change",
+    },
+  ],
+  check: [
+    {
+      type: "array",
+      required: true,
+      message: "请勾选同意协议",
+      trigger: "change",
+    },
+  ],
+  email: [
+    {
+      required: true,
+      message: "请输入email",
+      trigger: "change",
+    },
+  ],
+})
+const ruleFormRef = ref<FormInstance>()
 document.onclick = function () {
   feedback.value = false
 }
-const check = ref(false)
+function issueTemplate(data) {
+  // let Problem = ""
+  // data.existProblem.length ? (Problem = `- ${data.existProblem.join("、")}`) : ""
+  return `1. 【文档链接】
+
+> ${data.link}
+
+2. 【修改片段】
+
+> ${data.name.replace(/(\r\n|\r|\n)+/g, "$1")}
+
+3. 【问题描述】
+
+> ${data.desc.replace(/(\r\n|\r|\n)+/g, "$1")}
+`
+}
+const submit = async (formEl: FormInstance | undefined) => {
+  if (!formEl) return
+  await formEl.validate((valid, fields) => {
+    if (valid) {
+      console.log(1)
+      const issue = {
+        link: window.location.href,
+        ...form.value,
+      }
+      let body = encodeURIComponent(issueTemplate(issue))
+      console.log(body)
+      try {
+        if (form.value.type === "issue") {
+          // 此处为提交issue打开的地址，该地址应为用到的捉虫功能的网站的代码仓的地址，此处使用openEuler的文档代码仓地址作为演示
+          window.open(
+            `http://159.138.5.80:5609/Compass/openEuler-XiaoZhi-Eval/issues/new?issue%5Bassignee_id%5D=0&issue%5Bmilestone_id%5D=0&title=有奖捉虫&body=${body}`
+          )
+        } else {
+          // 此处为提交PR打开的地址，该地址应为用到的捉虫功能的网站的代码仓的地址，此处使用openEuler的文档代码仓地址作为演示
+          window.open(
+            `https://gitee.com/-/ide/project/openeuler/docs/edit/stable2-22.03_LTS/-/docs/zh/docs/Releasenotes/法律声明.md?search=${form.value.name}&title=文档捉虫-openEuler 22.03_LTS-法律声明&description=${form.value.desc}&message=${form.value.desc}&label_names=文档捉虫`
+          )
+        }
+      } catch (error) {
+        console.error(error)
+      }
+      dialogFormVisible.value = false
+    } else {
+      console.log("error submit!", fields)
+    }
+  })
+}
+
+onMounted(() => {
+  if (route.hash) {
+    console.log(route.hash)
+    let curLabel = route.hash.substring(1)
+    tree.value!.setCurrentKey(curLabel)
+    if (curLabel == "README.md") {
+      typeFitler.value = "md"
+    } else if (curLabel == "openeuler.json") {
+      typeFitler.value = "json"
+    }
+  }
+})
 </script>
 
 <template>
@@ -148,9 +241,12 @@ const check = ref(false)
             :highlight-current="true"
             size="large"
             :data="data"
+            :rules="rules"
             :props="defaultProps"
             :default-expand-all="true"
             @node-click="handleNodeClick"
+            node-key="label"
+            ref="tree"
           >
             <template #default="{ node, data }">
               <div class="custom-tree-node flex items-center">
@@ -203,29 +299,33 @@ const check = ref(false)
       </div>
     </section>
     <el-dialog v-model="dialogFormVisible" :center="true" title="提交修改">
-      <el-form :model="form" label-position="top">
-        <el-form-item label="修改片段">
+      <el-form :model="form" ref="ruleFormRef" :rules="rules" status-icon label-position="top">
+        <el-form-item label="修改片段" prop="name">
           <el-input v-model="form.name" autocomplete="off" type="textarea" />
         </el-form-item>
-        <el-form-item label="提交类型">
-          <el-select v-model="form.region" placeholder="">
-            <el-option label="issue" value="shanghai" />
-            <el-option label="PR" value="beijing" />
+        <el-form-item label="提交类型" prop="type">
+          <el-select v-model="form.type" placeholder="">
+            <el-option label="issue" value="issue" />
+            <el-option label="PR" value="PR" />
           </el-select>
         </el-form-item>
-        <el-form-item label="问题描述">
+        <el-form-item label="问题描述" prop="desc">
           <el-input v-model="form.desc" autocomplete="off" type="textarea" />
         </el-form-item>
-        <el-form-item label="您的邮箱">
+        <el-form-item label="您的邮箱" prop="email">
           <el-input v-model="form.email" autocomplete="off" />
+        </el-form-item>
+        <el-form-item label="您的邮箱" prop="check">
+          <el-checkbox-group v-model="form.check">
+            <el-checkbox
+              >您理解并同意，您填写并提交的内容，即视为您已充分阅读并同意compass的隐私声明</el-checkbox
+            >
+          </el-checkbox-group>
         </el-form-item>
       </el-form>
       <template #footer>
         <span class="dialog-footer items-center flex flex-col">
-          <el-radio v-model="check"
-            >您理解并同意，您填写并提交的内容，即视为您已充分阅读并同意compass的隐私声明</el-radio
-          >
-          <el-button type="primary" @click="dialogFormVisible = false"> 提交 </el-button>
+          <el-button type="primary" @click="submit(ruleFormRef)"> 提交 </el-button>
         </span>
       </template>
     </el-dialog>
