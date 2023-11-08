@@ -315,7 +315,7 @@ onMounted(() => {
         <el-form-item label="您的邮箱" prop="email">
           <el-input v-model="form.email" autocomplete="off" />
         </el-form-item>
-        <el-form-item label="您的邮箱" prop="check">
+        <el-form-item label="" prop="check">
           <el-checkbox-group v-model="form.check">
             <el-checkbox
               >您理解并同意，您填写并提交的内容，即视为您已充分阅读并同意compass的隐私声明</el-checkbox
