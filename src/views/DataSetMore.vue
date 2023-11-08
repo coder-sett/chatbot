@@ -177,15 +177,16 @@ const check = ref(false)
               <li
                 v-for="(i, index) in countList"
                 :key="index"
-                class="infinite-list-item cursor-pointer flex items-center w-full p-2"
+                class="infinite-list-item cursor-pointer flex items-center w-full px-2 py-6"
                 :class="select === index && '!bg-[#e3f1ff]'"
-                @click="handleSelectItem(index)"
               >
-                <div class="w-12 text-center mr-8 flex-shrink-0">{{ index + 1 }}</div>
+                <div class="w-12 text-center mr-6 flex-shrink-0">{{ index + 1 }}</div>
                 <div class="flex-1">
-                  <div>prompt: {{ i.prompt }}</div>
+                  <div class="border border-[#b7eb8f] rounded-md bg-[#f6ffed] px-4 py-3">
+                    prompt: {{ i.prompt }}
+                  </div>
 
-                  <div class="overflow-hidden flex">
+                  <div class="border border-[#fdba74] rounded-md bg-[#fff7ed] px-4 py-3 mt-4 flex">
                     answer:
                     <div class="ml-2">{{ i.answer }}</div>
                   </div>
@@ -258,7 +259,7 @@ const check = ref(false)
   /* height: 80px; */
 }
 .infinite-list .infinite-list-item + .list-item {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .el-tree--highlight-current .el-tree-node.is-current > .el-tree-node__content {
   color: #3a5bef;
