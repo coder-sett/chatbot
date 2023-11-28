@@ -211,7 +211,13 @@ const submit = async (formEl: FormInstance | undefined) => {
     }
   })
 }
-
+const openNew = () => {
+  if (typeFitler.value === "md") {
+    window.open("http://159.138.5.80:5609/Compass/openEuler-XiaoZhi-Eval")
+  } else {
+    window.open("http://159.138.5.80:5609/Compass/openEuler-XiaoZhi-Eval")
+  }
+}
 onMounted(() => {
   if (route.hash) {
     console.log(route.hash)
@@ -266,7 +272,7 @@ onMounted(() => {
             </template>
           </el-tree>
         </div>
-        <div class="bg-white ml-2 flex-1 p-3 h-full" @mouseup="mouseSelectHandle">
+        <div class="bg-white ml-2 flex-1 p-3 h-full" @mouseup="mouseSelectHandle" @click="openNew">
           <!-- <div class="flex justify-end">
            <el-icon class="cursor-pointer" @click="showSide = false"><Close /></el-icon> 
           </div> -->

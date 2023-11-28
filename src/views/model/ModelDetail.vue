@@ -5,6 +5,8 @@ import { useRoute, useRouter } from "vue-router"
 import Header from "@/components/Header/index.vue"
 import Footer from "@/components/Footer/index.vue"
 import DataSetTable from "@/components/Bot/DataSetTable3.vue"
+import modelList from "@/assets/json/model.json"
+import { User, Message } from "@element-plus/icons-vue"
 
 interface MyMap {
   [key: string]: { [key: string]: string }
@@ -15,18 +17,9 @@ const router = useRouter()
 const activeName = ref("first")
 const input = ref("")
 console.log(route.query.name)
-const model = route.query?.name || "ChatGPT"
-const modelInfo: MyMap = {
-  ChatGPT: {
-    info: "GPT-3.5 由openAI开发并通过API提供服务，模型能够理解和生成自然语言或代码。在GPT-3.5系列中，最具能力且成本效益最高的模型是gpt-3.5-turbo，它经过了针对聊天功能进行优化，并通过Chat completions API实现。它同样也适用于传统的对话任务。",
-  },
-  "T5-3b": {
-    info: "FastChat-T5是一个开源聊天机器人，通过在来自ShareGPT的用户共享对话数据上微调Flan-t5-xl（30亿参数）进行训练而得到。它基于编码-解码变压器架构，并能自动生成回应来响应用户的输入。",
-  },
-  ChatGLM: {
-    info: "ChatGLM是一个开源聊天机器人，通过在来自ShareGPT的用户共享对话数据上微调Flan-t5-xl（30亿参数）进行训练而得到。它基于编码-解码变压器架构，并能自动生成回应来响应用户的输入。",
-  },
-}
+const model = route.query?.name || "Meta/Llama2-13B-chat"
+const modelInfo = modelList.find((item) => item["模型名称"] === model)
+console.log(modelInfo)
 </script>
 
 <template>
@@ -36,25 +29,40 @@ const modelInfo: MyMap = {
       <div class="flex">
         <div class="mt-40 flex-1">
           <div class="h-30">
-            <div class="text-4xl font-bold mb-10">{{ model }}</div>
+            <div class="text-4xl font-bold mb-2">
+              {{ model
+              }}<spna class="text-base ml-4 font-normal">{{ modelInfo?.["模型类型"] }}</spna>
+            </div>
+            <div class="mb-2 flex text-sm items-center">
+              <el-icon class="mr-2"><User /> </el-icon>
+              <a :href="modelInfo?.['创建者信息']['链接']" class="mr-2 cursor-pointer">{{
+                modelInfo?.["创建者信息"]["名称"]
+              }}</a>
+              <el-icon class="ml-4 mr-2"><Message /> </el-icon>
+              <div class="mr-2 cursor-pointer">{{ modelInfo?.["创建者信息"]["邮件"] }}</div>
+            </div>
+            <div class="mb-6 flex text-sm items-center">
+              <div class="mr-2">License:</div>
+              <div class="mr-2 cursor-pointer">{{ modelInfo?.["许可证信息"] }}</div>
+            </div>
             <div>
               {{
-                modelInfo?.[model as string]?.["info"] ||
+                modelInfo?.["模型描述"] ||
                 "这是一个AI模型点评页面，提供模型介绍、参数、相关产品、用户评价和模型试用等功能模块。"
               }}
             </div>
           </div>
           <div class="mt-10">
             <el-tabs v-model="activeName" class="demo-tabs">
-              <el-tab-pane label="模型参数" name="first"
-                >该页面提供了详细的AI模型介绍和参数，以及相关产品的展示和用户评价功能。用户可以通过模型参数了解模型的性能和特点，通过相关产品了解模型的应用场景和使用案例，通过用户评价了解其他用户对模型的评价和体验。</el-tab-pane
-              >
-              <el-tab-pane label="模型参数" name="second">模型参数</el-tab-pane>
-              <el-tab-pane label="相关产品" name="third">相关产品</el-tab-pane>
+              <el-tab-pane label="性能指标" name="first">{{ modelInfo?.["性能指标"] }}</el-tab-pane>
+              <el-tab-pane label="使用示例" name="second">{{
+                modelInfo?.["使用示例"]
+              }}</el-tab-pane>
+              <el-tab-pane label="其他说明" name="third">{{ modelInfo?.["其他说明"] }}</el-tab-pane>
             </el-tabs>
           </div>
         </div>
-        <div class="mt-40 w-[300px] ml-20">
+        <div class="mt-40 w-[350px] ml-20">
           <div class="h-30">
             <div class="text-2xl font-bold">模型评价</div>
             <div class="mt-3 text-sm flex">
@@ -78,30 +86,46 @@ const modelInfo: MyMap = {
             </div>
           </div>
           <div>
-            <div class="mt-3">模型类型</div>
-            <div class="mt-2 flex justify-between">
+            <div class="mt-3">模型信息</div>
+            <div class="mt-4 flex flex-wrap gap-2">
+              <div class="rounded-full border text-center text-xs px-2 py-1">
+                <span class="text-[#9ca3af]">训练数据: </span>{{ modelInfo?.["训练数据"] }}
+              </div>
+              <div class="rounded-full border text-center text-xs px-2 py-1">
+                <span class="text-[#9ca3af]">Data Before: </span>{{ modelInfo?.["Data Before"] }}
+              </div>
+              <div class="rounded-full border text-center text-xs px-2 py-1">
+                <span class="text-[#9ca3af]">训练任务: </span>{{ modelInfo?.["训练任务"] }}
+              </div>
+              <div class="rounded-full border text-center text-xs px-2 py-1">
+                <span class="text-[#9ca3af]">语言: </span>{{ modelInfo?.["语言"] }}
+              </div>
+              <div class="rounded-full border text-center text-xs px-2 py-1">
+                <span class="text-[#9ca3af]">版本号: </span>{{ modelInfo?.["版本号"] }}
+              </div>
+              <div class="rounded-full border text-center text-xs px-2 py-1">
+                <span class="text-[#9ca3af]">多轮对话: </span>{{ modelInfo?.["多轮对话"] }}
+              </div>
+              <!-- <div class="rounded-full border text-center text-xs px-2 py-1">
+                <span class="text-[#9ca3af]">License: </span>{{ modelInfo?.["许可证信息"] }}
+              </div> -->
+              <div class="rounded-full border text-center text-xs px-2 py-1">
+                <span class="text-[#9ca3af]">依赖库和环境: </span>{{ modelInfo?.["依赖库和环境"] }}
+              </div>
+              <div class="rounded-full border text-center text-xs px-2 py-1">
+                <span class="text-[#9ca3af]">模型大小: </span>{{ modelInfo?.["模型大小"] }}
+              </div>
+              <div class="rounded-full border text-center text-xs px-2 py-1">
+                <span class="text-[#9ca3af]">量化级别: </span>{{ modelInfo?.["量化级别"] }}
+              </div>
+              <!-- <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">语音识别</div>
+              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">自然语言</div> -->
+            </div>
+            <!-- <div class="mt-2 flex justify-between">
               <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">图像识别</div>
               <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">语音识别</div>
               <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">自然语言</div>
-            </div>
-          </div>
-          <div>
-            <div class="mt-3">模型类型</div>
-            <div class="mt-2 flex justify-between">
-              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">CPU</div>
-              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">GPU</div>
-              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">TPU</div>
-            </div>
-          </div>
-          <div>
-            <div class="mt-3">模型类型</div>
-            <div class="mt-2 flex justify-between">
-              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">
-                tensorFlow
-              </div>
-              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">PyTorch</div>
-              <div class="bg-[#252525] rounded-md text-center py-1 w-24 text-[#fff]">Keras</div>
-            </div>
+            </div> -->
           </div>
           <div class="flex mt-10">
             <el-button

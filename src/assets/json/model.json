@@ -1,0 +1,97 @@
+[
+  {
+    "模型名称": "Meta/Llama2-13B-chat",
+    "模型类型": "基础模型",
+    "模型描述": "Llama 2 是一种使用优化的 Transformer 架构的自回归语言模型。调整后的版本使用监督微调（SFT）和带有人类反馈的强化学习（RLHF）来符合人类对有用性和安全性的偏好,系列大小参数范围从 7B 到 70B, chat模型为针对对话微调版本",
+    "创建者信息": {
+      "名称": "Meta",
+      "链接": "https://ai.meta.com/llama/",
+      "邮件": "xx"
+    },
+    "训练数据": "2T tokens",
+    "Data Before": "2022.09",
+    "训练任务": "SFT、RLHF",
+    "语言": "英文",
+    "版本号": "待定",
+    "输入输出规范": "[{'role': 'system/ 'user' / 'assistant', content}] 上下文 4 K",
+    "多轮对话": "支持",
+    "许可证信息": "custom commercial license",
+    "依赖库和环境": "transformers、pytorch",
+    "模型大小": "130B",
+    "量化级别": "8bit 4bit",
+    "性能指标": "https://ai.meta.com/resources/models-and-libraries/llama/见官网界面（报告模型的性能指标，如准确率、召回率、F1 分数、推理速度等）",
+    "使用示例": "参考xx",
+    "其他说明": "包括任何其他与模型相关的重要信息或注意事项"
+  },
+  {
+    "模型名称": "baichuan-inc/Baichuan2-13B-Chat",
+    "模型类型": "基础模型",
+    "模型描述": "Baichuan-13B-Chat为Baichuan-13B系列模型中对齐后的版本，预训练模型可见Baichuan-13B-Base",
+    "创建者信息": {
+      "名称": "百川智能",
+      "链接": "www.baichuan-ai.com",
+      "邮件": "opensource@baichuan-inc.com"
+    },
+    "训练数据": "1.4 T Tokens ",
+    "Data Before": "无",
+    "训练任务": "SFT、RLHF",
+    "语言": "中文、英文",
+    "版本号": "待定",
+    "输入输出规范": "[{'role': 'system/ 'user' / 'assistant', content:''}] 上下文 4 K",
+    "多轮对话": "支持",
+    "许可证信息": "受限商用 Apache 2.0 和《Baichuan 2 模型社区许可协议》",
+    "依赖库和环境": "transformers、pytorch",
+    "模型大小": "130亿参数， 26.5GB",
+    "量化级别": "8bit、4bit",
+    "性能指标": "https://huggingface.co/baichuan-inc/Baichuan2-13B-Chat见huggingface界面（报告模型的性能指标，如准确率、召回率、F1 分数、推理速度等）",
+    "使用示例": "参考https://huggingface.co/baichuan-inc/Baichuan-13B-Chat",
+    "其他说明": "包括任何其他与模型相关的重要信息或注意事项"
+  },
+  {
+    "模型名称": "THUDM/chatglm3-6b",
+    "模型类型": "基础模型",
+    "模型描述": "ChatGLM3-6B是ChatGLM系列最新一代的开源模型，保留了前两代模型对话流畅、部署门槛低等优秀特性的基础上，引入了更强大的基础模型、更完整的功能支持和更全面的开源序列。",
+    "创建者信息": {
+      "名称": "清华大学知识工程组 (KEG) & 数据挖掘团队",
+      "邮件": "keg.cs.tsinghua@gmail.com"
+    },
+    "训练数据": "数据量未公开",
+    "Data Before": "无",
+    "训练任务": "SFT",
+    "语言": "中文、英文",
+    "版本号": "待定",
+    "输入输出规范": "[<|system / user / assistant / observation |>{metadata}] 上下文 8 K",
+    "多轮对话": "支持",
+    "许可证信息": "受限商用 Apache 2.0 和《ChatGLM3-6B License》",
+    "依赖库和环境": "transformers、pytorch",
+    "模型大小": "62亿参数，12.5 GB",
+    "量化级别": "8bit、4bit",
+    "性能指标": "官方未公布（报告模型的性能指标，如准确率、召回率、F1 分数、推理速度等）",
+    "使用示例": "参考https://huggingface.co/THUDM/chatglm3-6b",
+    "其他说明": "包括任何其他与模型相关的重要信息或注意事项"
+  },
+  {
+    "模型名称": "OpenAI/GPT-3.5-Turbo",
+    "模型类型": "基础模型",
+    "模型描述": "GPT-3.5-turbo是OpenAI推出的一种自然语言处理模型，基于GPT（Generative Pre-trained Transformer）架构。它是GPT-3的一个更精简和高性能的变体。GPT-3.5-turbo模型采用了类似的架构和训练方式，具有强大的语言生成和理解能力。它通过大规模的预训练数据和自监督学习来学习语言的模式和结构，并可以应用于多种自然语言处理任务，如文本生成、文本摘要、翻译、问题回答等。",
+    "创建者信息": {
+      "名称": "OpenAI",
+      "网址": "www.openai.com",
+      "邮件": "xx"
+    },
+    "训练数据": "数据集未公开",
+    "Data Before": "2021.09",
+    "训练任务": "SFT、RLHF",
+    "语言": "中文、英文",
+    "版本号": "2021.12",
+    "输入输出规范": "[{'role': 'system/ 'user' / 'assistant', content:''}] 上下文 4 K",
+    "多轮对话": "支持",
+    "许可证信息": "非开源",
+    "依赖库和环境": "API调用",
+    "模型大小": "175B 亿参数",
+    "量化级别": "不涉及",
+    "性能指标": "见官网界面（报告模型的性能指标，如准确率、召回率、F1 分数、推理速度等）",
+    "使用示例": "参考xx",
+    "其他说明": "包括任何其他与模型相关的重要信息或注意事项"
+  }
+]
