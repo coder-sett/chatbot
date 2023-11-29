@@ -213,9 +213,9 @@ const submit = async (formEl: FormInstance | undefined) => {
 }
 const openNew = () => {
   if (typeFitler.value === "md") {
-    window.open("http://159.138.5.80:5609/Compass/openEuler-XiaoZhi-Eval")
+    window.open("http://159.138.5.80:5609/Compass/openEuler-XiaoZhi-Eval/src/branch/main/README.md")
   } else {
-    window.open("http://159.138.5.80:5609/Compass/openEuler-XiaoZhi-Eval")
+    window.open("http://159.138.5.80:5609/Compass/openEuler-XiaoZhi-Eval/src/branch/main/data/json")
   }
 }
 onMounted(() => {

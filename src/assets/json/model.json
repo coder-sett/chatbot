@@ -21,7 +21,8 @@
     "量化级别": "8bit 4bit",
     "性能指标": "https://ai.meta.com/resources/models-and-libraries/llama/见官网界面（报告模型的性能指标，如准确率、召回率、F1 分数、推理速度等）",
     "使用示例": "参考xx",
-    "其他说明": "包括任何其他与模型相关的重要信息或注意事项"
+    "其他说明": "包括任何其他与模型相关的重要信息或注意事项",
+    "indicator": "https://scontent-hkt1-2.xx.fbcdn.net/v/t39.8562-6/361265668_276217774995411_4529778090866658620_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=f537c7&_nc_ohc=KJsVZS2lS04AX9FzARW&_nc_ht=scontent-hkt1-2.xx&oh=00_AfC1wfiBz7Tg9C-glQApsIBIHzzq4PzoItbaj3iTGUjPQQ&oe=656C6866"
   },
   {
     "模型名称": "baichuan-inc/Baichuan2-13B-Chat",
@@ -45,7 +46,8 @@
     "量化级别": "8bit、4bit",
     "性能指标": "https://huggingface.co/baichuan-inc/Baichuan2-13B-Chat见huggingface界面（报告模型的性能指标，如准确率、召回率、F1 分数、推理速度等）",
     "使用示例": "参考https://huggingface.co/baichuan-inc/Baichuan-13B-Chat",
-    "其他说明": "包括任何其他与模型相关的重要信息或注意事项"
+    "其他说明": "包括任何其他与模型相关的重要信息或注意事项",
+    "indicator": "./public/bai.png"
   },
   {
     "模型名称": "THUDM/chatglm3-6b",

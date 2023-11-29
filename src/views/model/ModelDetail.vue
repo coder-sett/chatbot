@@ -15,7 +15,7 @@ const route = useRoute()
 const router = useRouter()
 
 const activeName = ref("first")
-const input = ref("")
+const activeType = ref("first")
 console.log(route.query.name)
 const model = route.query?.name || "Meta/Llama2-13B-chat"
 const modelInfo = modelList.find((item) => item["模型名称"] === model)
@@ -148,8 +148,16 @@ console.log(modelInfo)
 
       <div class="mt-28">
         <div class="text-2xl font-bold mb-2">评测结果</div>
-        <div class="mb-8">下表为模型在验证集上评测的平均得分以及各个子能力维度的得分</div>
-        <DataSetTable />
+        <el-tabs v-model="activeType" class="demo-tabs">
+          <el-tab-pane label="社区评测" name="first">
+            <div class="mb-8">下表为模型在验证集上评测的平均得分以及各个子能力维度的得分</div>
+            <DataSetTable />
+          </el-tab-pane>
+          <el-tab-pane label="官方指标" name="second">
+            <img v-if="modelInfo?.['indicator']" :src="modelInfo?.['indicator']" />
+            <div v-else>{{ modelInfo?.["性能指标"] }}</div>
+          </el-tab-pane>
+        </el-tabs>
       </div>
 
       <div class="mt-40 w-full flex">
