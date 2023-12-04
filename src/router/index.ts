@@ -6,7 +6,7 @@ import { createRouter, createWebHashHistory } from "vue-router"
 const routes: RouteRecordRaw[] = [
   {
     path: "/",
-    redirect: "/index",
+    redirect: "/evaluate",
   },
   {
     path: "/index",

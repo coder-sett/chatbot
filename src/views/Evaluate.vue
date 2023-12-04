@@ -18,7 +18,7 @@ const handleClick = (tab: TabsPaneContext, event: Event) => {
 
 <template>
   <div class="w-full overflow-auto h-full flex flex-col justify-between">
-    <Header />
+    <!-- <Header /> -->
     <section class="flex-1 max-w-[1240px] w-full mx-auto my-8 px-5">
       <el-tabs class="mb-0" v-model="activeName" @tab-click="handleClick">
         <el-tab-pane label="Chatbot Compass (compare)" name="first">
