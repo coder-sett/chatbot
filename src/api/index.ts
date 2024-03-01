@@ -46,15 +46,6 @@ export function fetchChatAPIProcess<T = any>(params: {
     ],
   }
 
-  // if (authStore.isChatGPTAPI) {
-  //   data = {
-  //     ...data,
-  //     systemMessage: settingStore.systemMessage,
-  //     temperature: settingStore.temperature,
-  //     top_p: settingStore.top_p,
-  //   }
-  // }
-
   return post<T>({
     url: "/v1/chat/completions",
     data,
