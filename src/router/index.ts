@@ -1,12 +1,21 @@
-import type { App } from "vue"
-import type { RouteRecordRaw } from "vue-router"
-import { createRouter, createWebHashHistory } from "vue-router"
+import type { App } from "vue";
+import type { RouteRecordRaw } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 // import { setupPageGuard } from './permission'
-
 const routes: RouteRecordRaw[] = [
   {
     path: "/",
-    redirect: "/evaluate",
+    redirect: "/landscape",
+  },
+  {
+    path: "/landscape",
+    name: "landscape",
+    component: () => import("@/views/Landscape/index.vue"),
+  },
+  {
+    path: "/tpc",
+    name: "Tpc",
+    component: () => import("@/views/Tpc/index.vue"),
   },
   {
     path: "/index",
@@ -68,17 +77,17 @@ const routes: RouteRecordRaw[] = [
     name: "evaluateSubmit",
     component: () => import("@/views/EvaluateSubmit.vue"),
   },
-]
+];
 
 export const router = createRouter({
   history: createWebHashHistory(),
   routes,
   scrollBehavior: () => ({ left: 0, top: 0 }),
-})
+});
 
 // setupPageGuard(router)
 
 export async function setupRouter(app: App) {
-  app.use(router)
-  await router.isReady()
+  app.use(router);
+  await router.isReady();
 }

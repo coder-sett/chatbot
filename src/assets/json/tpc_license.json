@@ -1,0 +1,5413 @@
+[
+  {
+    "三方库名称": "PullToRefresh",
+    "TPC_URL": "https://gitee.com/openharmony-sig/PullToRefresh",
+    "三方库详情": "支持设置内置动画的各种属性，支持设置自定义动画的下拉刷新、上拉加载组件",
+    "raw_URL": "无",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "TextLayoutBuilder",
+    "TPC_URL": "https://gitee.com/openharmony-sig/TextLayoutBuilder",
+    "三方库详情": "可定制任意样式的文本构建工具，包括字体间距、大小、颜色、布局方式、富文本高亮显示等",
+    "raw_URL": "https://github.com/facebook/TextLayoutBuilder",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "overscroll-decor",
+    "TPC_URL": "https://gitee.com/openharmony-sig/overscroll-decor",
+    "三方库详情": "UI 滚动组件",
+    "raw_URL": "https://github.com/EverythingMe/overscroll-decor",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "bsd-2-clause"
+  },
+  {
+    "三方库名称": "ohos-MPChart",
+    "TPC_URL": "https://gitee.com/openharmony-sig/ohos-MPChart",
+    "三方库详情": "一个包含各种类型图表的图表库，主要用于业务数据汇总，例如销售数据走势图，股价走势图等场景中使用，方便开发者快速实现图表 UI，mpchart 主要包括曲线图、柱形图、饼状图、蜡烛图、气泡图、雷达图等自定义图表库",
+    "raw_URL": "https://github.com/PhilJay/MPAndroidChart",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "material-dialogs",
+    "TPC_URL": "https://gitee.com/openharmony-sig/material-dialogs",
+    "三方库详情": "自定义对话框库",
+    "raw_URL": "https://github.com/afollestad/material-dialogs",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "MaterialProgressBar",
+    "TPC_URL": "https://gitee.com/openharmony-sig/MaterialProgressBar",
+    "三方库详情": "自定义 ProgressBar 效果的库",
+    "raw_URL": "https://github.com/zhanghai/MaterialProgressBar",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "RoundedImageView",
+    "TPC_URL": "https://gitee.com/openharmony-sig/RoundedImageView",
+    "三方库详情": "支持圆角（和椭圆或圆形）的快速 ImageView，它支持许多附加功能，包括椭圆、圆角矩形、ScaleTypes 和 TileModes",
+    "raw_URL": "https://github.com/vinc3m1/RoundedImageView",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "ohos_banner",
+    "TPC_URL": "https://gitee.com/openharmony-sig/ohos_banner",
+    "三方库详情": "适配 OpenHarmony 环境的一款 banner 库，常用于广告图片轮播场景",
+    "raw_URL": "https://github.com/youth5201314/banner",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "ohos_highlightguide",
+    "TPC_URL": "https://gitee.com/openharmony-sig/ohos_highlightguide",
+    "三方库详情": "基于 OpenHarmony 的高亮型新手引导组件，通过高亮区域与蒙版背景的明暗度对比，使用户快速锁定重点功能",
+    "raw_URL": "https://github.com/huburt-Hu/NewbieGuide",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "CircleIndicator",
+    "TPC_URL": "https://gitee.com/openharmony-sig/CircleIndicator",
+    "三方库详情": "一款 UI 组件库，为 Tabs/Swiper 容器提供了多种自定义风格的指示器",
+    "raw_URL": "https://github.com/ongakuer/CircleIndicator",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "ohos-autofittextview",
+    "TPC_URL": "https://gitee.com/openharmony-sig/ohos-autofittextview",
+    "三方库详情": "自动调整文本大小以完全适合其边界的 TextView",
+    "raw_URL": "https://github.com/grantland/android-autofittextview",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "RecyclerViewPager",
+    "TPC_URL": "https://gitee.com/openharmony-sig/RecyclerViewPager",
+    "三方库详情": "一个支持自定义左右翻页切换效果、上下翻页切换效果、类似 Material 风格的容器组件",
+    "raw_URL": "https://github.com/lsjwzh/RecyclerViewPager",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "DanmakuFlameMaster",
+    "TPC_URL": "https://gitee.com/openharmony-sig/DanmakuFlameMaster",
+    "三方库详情": "一款弹幕框架，支持发送纯文本弹幕、设置弹幕在屏幕的显示区域、控制弹幕播放状态等功能",
+    "raw_URL": "https://github.com/bilibili/DanmakuFlameMaster",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "ohos-SwipeLayout",
+    "TPC_URL": "https://gitee.com/openharmony-sig/ohos-SwipeLayout",
+    "三方库详情": "支持顶部、底部、左侧、右侧四个方向的滑动布局",
+    "raw_URL": "https://github.com/daimajia/AndroidSwipeLayout",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "shimmer-ohos",
+    "TPC_URL": "https://gitee.com/openharmony-sig/shimmer-ohos",
+    "三方库详情": "一个简单灵活的为应用视图添加闪烁效果的库，主要有由左到右倾斜，由左到右竖直，由左到右圆形，由上到下水平等闪光效果",
+    "raw_URL": "https://github.com/facebookarchive/shimmer-android",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "MultiType",
+    "TPC_URL": "https://gitee.com/openharmony-sig/MultiType",
+    "三方库详情": "更轻松、更灵活地为 List 创建多种类型布局",
+    "raw_URL": "https://github.com/drakeet/MultiType",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "WheelPicker",
+    "TPC_URL": " https://gitee.com/openharmony-sig/WheelPicker_bak",
+    "三方库详情": "  WheelPicker 可以实现滚轮选择，通过设置可以实现多种效果，也可以设置属性，改变 UI 效果，如时间选择器，地区选择器的三级联动，实现需求效果。",
+    "raw_URL": "https://github.com/AigeStudio/WheelPicker",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "vlayout",
+    "TPC_URL": " https://gitee.com/openharmony-sig/vlayout_bak",
+    "三方库详情": "  vlayout 能够处理列表、网格和其他布局在同一个视图的复杂情况，使用者可以使用已设定好的容器布局组件，也可以在此基础上自定义容器布局组件。",
+    "raw_URL": "https://github.com/alibaba/vlayout",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "ohos-PickerView",
+    "TPC_URL": " https://gitee.com/openharmony-sig/ohos-PickerView",
+    "三方库详情": "  选择器，包括时间选择、地区选择、分割线设置、文字大小颜色设置。",
+    "raw_URL": "https://github.com/Bigkoo/Android-PickerView",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "SmartRefreshLayout",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/SmartRefreshLayout",
+    "三方库详情": "  smartrefreshlayout 以打造一个强大，稳定，成熟的下拉刷新框架为目标，并集成各种的炫酷、多样、实用、美观的 Header。集成了各种炫酷的 Header。smartrefreshlayout 可包含的信息有：BezierRadar 样式、BezierCircle 样式、FlyRefresh 样式、Classics 样式，Phoenix 样式，Taurus 样式，Taurus 样式，HitBlock 样式，WaveSwipe 等众多样式。",
+    "raw_URL": "https://github.com/scwang90/SmartRefreshLayout",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "lottieArkTS",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/lottieETS",
+    "三方库详情": "  适用于 OpenHarmony 的动画库，功能类似于 Java 组件 lottie、AndroidViewAnimations、Leonids 等库",
+    "raw_URL": "https://github.com/airbnb/lottie-android",
+    "组件分类": "动画",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "ohos-svg",
+    "TPC_URL": " https://gitee.com/openharmony-sig/ohos-svg",
+    "三方库详情": "  svg 是一个 SVG 图片的解析器和渲染器，可以解析 SVG 图片并渲染到页面上，还可以动态改变 SVG 的样式",
+    "raw_URL": "https://github.com/BigBadaboom/androidsvg",
+    "组件分类": "动画",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "recyclerview-animators",
+    "TPC_URL": " https://gitee.com/openharmony-sig/recyclerview-animators",
+    "三方库详情": "  recyclerview_animators 是带有添加删除动画效果以及整体动画效果的 list 组件库。",
+    "raw_URL": "https://github.com/wasabeef/recyclerview-animators",
+    "组件分类": "动画",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "rebound",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/rebound",
+    "三方库详情": "  rebound 是一个模拟弹簧动力学，用于驱动物理动画的库。",
+    "raw_URL": "http://facebook.github.io/rebound/",
+    "组件分类": "动画",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "box2d",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/box2d",
+    "三方库详情": "  用于游戏开发，使物体的运动更加真实，让游戏场景看起来更具交互性，比如愤怒的小鸟。",
+    "raw_URL": "https://github.com/jbox2d/jbox2d",
+    "组件分类": "动画",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "bsd-2-clause"
+  },
+  {
+    "三方库名称": "ohos_axios",
+    "TPC_URL": " https://gitee.com/openharmony-sig/ohos_axios",
+    "三方库详情": "  一个基于 promise 的网络请求库，可以运行 node.js 和浏览器中。本库基于 Axios 原库进行适配，使其可以运行在 OpenHarmony，并沿用其现有用法和特性",
+    "raw_URL": "https://github.com/axios/axios",
+    "组件分类": "网络",
+    "语言": "JS/ArkTs",
+    "备注": "参考原实现改写",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "socketio",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/socketio",
+    "三方库详情": "  socket.io 是一个在客户端和服务器之间实现低延迟、双向和基于事件的通信的库。建立在 WebSocket 协议之上，并提供额外的保证，例如回退到 HTTP 长轮询或自动重新连接。",
+    "raw_URL": "https://github.com/socketio/socket.io-client-java",
+    "组件分类": "网络",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "mars",
+    "TPC_URL": " https://gitee.com/openharmony-sig/mars",
+    "三方库详情": "  Mars 是一个跨平台的网络组件，包括主要用于网络请求中的长连接，短连接，是基于 socket 层的解决方案，在网络调优方面有更好的可控性，暂不支持 HTTP 协议。Mars 极大的方便了开发者的开发效率。",
+    "raw_URL": "https://github.com/Tencent/mars",
+    "组件分类": "网络",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "httpclient",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/httpclient",
+    "三方库详情": "  HTTP 是现代应用程序通过网络交换数据和媒体的的主要方式。httpclient 是 OpenHarmony 里一个高效执行的 HTTP 客户端，使用它可使您的内容加载更快，并节省您的流量。httpclient 以人们耳熟能详的 OKHTTP 为基础，整合 android-async-http，AutobahnAndroid，OkGo 等库的功能特性，致力于在 OpenHarmony 打造一款高效易用，功能全面的网络请求库。",
+    "raw_URL": "https://github.com/square/okhttp",
+    "组件分类": "网络",
+    "语言": "JS/ArkTs",
+    "备注": "参考原实现改写",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "ImageKnife",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/ImageKnife",
+    "三方库详情": "  更高效、更轻便、更简单的图像加载缓存库，能力类似 java 组件 glide、disklrucache、glide-transformations、fresco、picasso、uCrop、Luban、pngj、Android-Image-Cropper、android-crop 等库",
+    "raw_URL": "无",
+    "组件分类": "图片",
+    "语言": "JS/ArkTs",
+    "备注": "自主开发",
+    "license": ""
+  },
+  {
+    "三方库名称": "XmlGraphicsBatik",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/XmlGraphicsBatik",
+    "三方库详情": "  用于处理可缩放矢量图形（SVG）格式的图像，例如显示、生成、解析或者操作图像",
+    "raw_URL": "https://github.com/apache/xmlgraphics-batik",
+    "组件分类": "图片",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "ohos_gif-drawable",
+    "TPC_URL": " https://gitee.com/openharmony-sig/ohos_gif-drawable",
+    "三方库详情": "  基于 Canvas 进行绘制，支持 gif 图片相关功能",
+    "raw_URL": "https://github.com/koral--/android-gif-drawable",
+    "组件分类": "图片",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "subsampling-scale-image-view_bak",
+    "TPC_URL": " https://gitee.com/openharmony-sig/subsampling-scale-image-view",
+    "三方库详情": "  视图缩放组件",
+    "raw_URL": "https://github.com/davemorrissey/subsampling-scale-image-view",
+    "组件分类": "图片",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "ImageViewZoom",
+    "TPC_URL": " https://gitee.com/openharmony-sig/ImageViewZoom",
+    "三方库详情": "  ImageViewZoom 支持加载 Resource 或 PixelMap 图片，支持设置图像显示类型功能，支持缩放功能，支持平移功能，双击放大功能，可以监听图片大小，资源变化事件，支持清除显示图片功能",
+    "raw_URL": "https://github.com/sephiroth74/ImageViewZoom",
+    "组件分类": "图片",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "ThreeJs360Demo",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/ThreeJs360Demo",
+    "三方库详情": "  ThreeJs360Demo，使用系统提供的 Web 组件，加载 threeJs，实现 360 度的全景渲染功能",
+    "raw_URL": "https://threejs.org/",
+    "组件分类": "图片",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "CircleImageView",
+    "TPC_URL": " https://gitee.com/openharmony-sig/CircleImageView",
+    "三方库详情": "  CircleImageView 是一个图片处理的库，可以将图片裁剪为圆形或者给图片设置边框。",
+    "raw_URL": "https://github.com/hdodenhof/CircleImageView",
+    "组件分类": "图片",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "PhotoView",
+    "TPC_URL": " https://gitee.com/openharmony-sig/PhotoView",
+    "三方库详情": "  PhotoView 是一个图片缩放浏览组件，图片可缩放，平移，旋转。",
+    "raw_URL": "https://github.com/Baseflow/PhotoView",
+    "组件分类": "图片",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "LargeImage",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/LargeImage",
+    "三方库详情": "  加载可以执行缩放（放大和缩小）和滚动操作的图像，图像放大之后可以拖动查看。详细功能：1.加载图像。2.支持缩放。3.支持拖动查看大图。",
+    "raw_URL": "https://github.com/LuckyJayce/LargeImage",
+    "组件分类": "图片",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "ohos_ijkplayer",
+    "TPC_URL": " https://gitee.com/openharmony-sig/ohos_ijkplayer",
+    "三方库详情": "  一款基于 FFmpeg 的视频播放器",
+    "raw_URL": "https://github.com/bilibili/ijkplayer",
+    "组件分类": "多媒体",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "gpl-2.0"
+  },
+  {
+    "三方库名称": "ohos_videocompressor",
+    "TPC_URL": " https://gitee.com/openharmony-sig/ohos_videocompressor",
+    "三方库详情": "  videoCompressor 是一款 ohos 高性能视频压缩器",
+    "raw_URL": "https://github.com/fishwjy/VideoCompressor",
+    "组件分类": "多媒体",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "ohos_video_trimmer",
+    "TPC_URL": " https://gitee.com/openharmony-sig/ohos_video_trimmer",
+    "三方库详情": "  videotrimmer 是在 OpenHarmony 环境下，提供视频剪辑能力的三方库",
+    "raw_URL": "https://github.com/iknow4/Android-Video-Trimmer",
+    "组件分类": "多媒体",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "GSYVideoPlayer",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/GSYVideoPlayer",
+    "三方库详情": "  GSYVideoPlayer 是一个视频播放器库，支持切换内核播放器（IJKPlayer、avplayer），并且支持了多种能力。",
+    "raw_URL": "https://github.com/CarGuo/GSYVideoPlayer",
+    "组件分类": "多媒体",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "OhosVideoCache",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/OhosVideoCache",
+    "三方库详情": "  OhosVideoCache 是一个支持播放器边播放边缓存的库，播放器只需要使用 OhosVideoCache 处理过的 url 就可以实现音视频的缓存功能。",
+    "raw_URL": "https://github.com/danikula/AndroidVideoCache",
+    "组件分类": "多媒体",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "mp4parser",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/mp4parser",
+    "三方库详情": "  一个读取、写入操作音视频文件编辑的工具。",
+    "raw_URL": "https://github.com/sannies/mp4parser",
+    "组件分类": "多媒体",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "mp3agic",
+    "TPC_URL": " https://gitee.com/openharmony-sig/mp3agic",
+    "三方库详情": "  mp3agic 用于读取 mp3 文件和读取/操作 ID3 标签（ID3v1 和 ID3v2.2 到 ID3v2.4），协助开发者处理繁琐的文件操作相关，多用于操作文件场景的业务应用。",
+    "raw_URL": "https://github.com/mpatric/mp3agic",
+    "组件分类": "多媒体",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "metadata-extractor",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/metadata-extractor",
+    "三方库详情": "  metadata-extractor 是用于从图像、视频和音频文件中提取 Exif、IPTC、XMP、ICC 和其他元数据的组件。",
+    "raw_URL": "http://www.drewnoakes.com/code/exif/ ",
+    "组件分类": "多媒体",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "ohos_disklrucache",
+    "TPC_URL": " https://gitee.com/openharmony-sig/ohos_disklrucache",
+    "三方库详情": "  专门为 OpenHarmony 打造的一款磁盘缓存库，通过 LRU 算法进行磁盘数据存取",
+    "raw_URL": "https://github.com/JakeWharton/DiskLruCache",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "ohos_fileio-extra",
+    "TPC_URL": " https://gitee.com/openharmony-sig/ohos_fileio-extra",
+    "三方库详情": "  提供了更丰富全面的文件操作功能",
+    "raw_URL": "https://github.com/apache/commons-io",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "MMKV",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/MMKV",
+    "三方库详情": "  一款小型键值对存储框架",
+    "raw_URL": "https://github.com/Tencent/MMKV",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "dataORM",
+    "TPC_URL": " https://gitee.com/openharmony-sig/dataORM",
+    "三方库详情": "  dataORM 是一个具有一行代码操作数据库或链式调用，备份、升级、缓存等特性的关系映射数据库",
+    "raw_URL": "https://github.com/greenrobot/greenDAO",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "msgpack-javascript",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/msgpack-javascript",
+    "三方库详情": "  MessagePack 是一个非常高效的对象序列化库",
+    "raw_URL": "https://github.com/msgpack/msgpack",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "arangojs",
+    "TPC_URL": " https://gitee.com/openharmony-sig/arangojs",
+    "三方库详情": "  是一款适用于 OpenHarmony 环境的 ArangoDB 数据库 javascript 版驱动",
+    "raw_URL": "https://github.com/arangodb/arangojs",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "node-cache",
+    "TPC_URL": " https://github.com/ptarjan/node-cache",
+    "三方库详情": "  内存缓存",
+    "raw_URL": "https://github.com/ptarjan/node-cache",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "bsd-2-clause"
+  },
+  {
+    "三方库名称": "protobuf_format",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/protobuf_format",
+    "三方库详情": "  基于@ohos/protobufjs 1.0.1 版本的 Message，提供格式转换能力，允许将 Message 输出重写为基本文本格式，如 xml，json，html",
+    "raw_URL": "https://gitee.com/openharmony-tpc/protobuf/tree/1.x",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "涉及多组件业务整合",
+    "license": null
+  },
+  {
+    "三方库名称": "protobuf-js",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/protobuf",
+    "三方库详情": "  ProtoBuf(protocol buffers) 是一种语言无关、平台无关、可扩展的序列化结构数据的方法，它可用于（数据）通信协议、数据存储等。本项目主要是 OpenHarmony 系统下以 protobuf.js 7.2.4 为主要依赖开发，主要接口针对 OpenHarmony 系统进行合理的适配研发。",
+    "raw_URL": "https://github.com/protobufjs/protobuf.js",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "avro-js",
+    "TPC_URL": " https://gitee.com/openharmony-sig/avro",
+    "三方库详情": "  实现的数据序列化系统，支持丰富的数据结构，将其转化成便于存储或传输的二进制数据格式。它同时也是一个容器文件，用于存储持久数据。",
+    "raw_URL": "https://github.com/apache/avro",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "ohos_mqtt",
+    "TPC_URL": " https://gitee.com/openharmony-sig/ohos_mqtt",
+    "三方库详情": "  使应用程序能够连接到 MQTT 代理以发布消息、订阅主题和接收发布的消息。",
+    "raw_URL": "https://github.com/mqtt/mqtt.org",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "LiveEventBus",
+    "TPC_URL": " https://gitee.com/openharmony-sig/LiveEventBus",
+    "三方库详情": "  消息总线，支持 Sticky，支持跨进程，支持跨应用广播",
+    "raw_URL": "https://github.com/JeremyLiao/LiveEventBus",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "ohos_mbassador",
+    "TPC_URL": " https://gitee.com/openharmony-sig/ohos_mbassador",
+    "三方库详情": "  一个发布订阅模式的三方组件",
+    "raw_URL": "https://github.com/bennidi/mbassador",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "EventBus",
+    "TPC_URL": " http://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/EventBus",
+    "三方库详情": "  eventbusjs 主要功能是消息订阅发送",
+    "raw_URL": "https://github.com/greenrobot/EventBus",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "js-sha256",
+    "TPC_URL": " http://github.com/emn178/js-sha256",
+    "三方库详情": "  sha-256/sha-224 hash 算法",
+    "raw_URL": " http://github.com/emn178/js-sha256",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "hi-base32",
+    "TPC_URL": " http://github.com/emn178/hi-base32",
+    "三方库详情": "  base32 encode/decode",
+    "raw_URL": " http://github.com/emn178/hi-base32",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "js-md5",
+    "TPC_URL": " http://github.com/emn178/js-md5",
+    "三方库详情": "  A simple MD5 hash function for JavaScript supports UTF-8 encoding.",
+    "raw_URL": " http://github.com/emn178/js-md5",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "js-sha1",
+    "TPC_URL": " http://github.com/emn178/js-sha1",
+    "三方库详情": "  A simple SHA1 hash function for JavaScript supports UTF-8 encoding.",
+    "raw_URL": " http://github.com/emn178/js-sha1",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "js-md2",
+    "TPC_URL": " http://github.com/emn178/js-md2",
+    "三方库详情": "  A simple MD2 hash function for JavaScript supports UTF-8 encoding.",
+    "raw_URL": " http://github.com/emn178/js-md2",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "brotli-js",
+    "TPC_URL": " http://gitee.com/openharmony-sig/brotli",
+    "三方库详情": "  一种通用无损压缩算法",
+    "raw_URL": "https://github.com/google/brotli",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "cborjsDemo",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/cborjsDemo",
+    "三方库详情": "  是 OpenHarmony 系统下使用 cbor-js 的示例，cbor-js 是以简明二进制对象表示 (CBOR) 数据格式 ( RFC8949 ) 编码和解析数据的 Javascript 开源库",
+    "raw_URL": "https://github.com/fxamacker/cbor",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "commons-codec",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/commons-codec",
+    "三方库详情": "  是一个 OpenHarmony 系统下使用各种编解码的示例，包含各种格式的简单编码器和解码器，例如 Base64 Base32 等除了这些广泛使用的编码器和解码器之外，编解码器包还维护了一组语音编码实用程序",
+    "raw_URL": "https://github.com/apache/commons-codec",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "pako",
+    "TPC_URL": " https://github.com/nodeca/pako",
+    "三方库详情": "  pako 是一个 JavaScript 库，支持 deflate 和 gzip 压缩解压功能",
+    "raw_URL": " https://github.com/nodeca/pako",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "lz4js",
+    "TPC_URL": " https://github.com/Benzinga/lz4js",
+    "三方库详情": "  Lz4js 是一个 JavaScript 库，实现 Lz4 压缩/解压库",
+    "raw_URL": " https://github.com/Benzinga/lz4js",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "snappyjs",
+    "TPC_URL": " https://github.com/zhipeng-jia/snappyjs",
+    "三方库详情": "  SnappyJS 是一个 JavaScript 库，实现 Snappy 压缩/解压库",
+    "raw_URL": " https://github.com/zhipeng-jia/snappyjs",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "okio",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/okio",
+    "三方库详情": "  okio 是一个通过数据流、序列化和文件系统来优化系统输入输出流的能力的库",
+    "raw_URL": "https://github.com/square/okio",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "ohos_jsonwebtoken",
+    "TPC_URL": " https://gitee.com/openharmony-sig/ohos_jsonwebtoken",
+    "三方库详情": "  JSON Web Token（JWT）是一个开放的行业标准（RFC 7519），它定义了一种简洁的、自包含的协议格式，用于在通信双方传递 json 对象，传递的信息经过数字签名可以被验证和信任。是一款适用于 openharmony 环境的 Json Web Token 实现",
+    "raw_URL": "https://github.com/auth0/node-jsonwebtoken",
+    "组件分类": "数据存储",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "crypto-js",
+    "TPC_URL": " https://gitee.com/openharmony-sig/crypto-js",
+    "三方库详情": "  加密算法类库，目前支持 MD5、SHA-1、SHA-256、HMAC、HMAC-MD5、HMAC-SHA1、HMAC-SHA256、PBKDF2 等",
+    "raw_URL": "https://github.com/weidai11/cryptopp",
+    "组件分类": "安全",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "zxing",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/zxing",
+    "三方库详情": "  一个解析/生成二维码的组件，能力类似 java 组件 zxing，Zbar、zxing-android-embedded、BGAQRCode-Android 等",
+    "raw_URL": "https://github.com/zxing/zxing",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "js-tokens",
+    "TPC_URL": " http://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/js-tokens",
+    "三方库详情": "  js-tokens 是一个微型 JavaScript 的分词器。小巧的、正则表达式驱动的、宽松的、几乎符合规范的 JavaScript 标记器",
+    "raw_URL": "https://github.com/lydell/js-tokens",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "Easyrelpace",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/Easyrelpace",
+    "三方库详情": "  使用 Levenshtein 距离算法测量两个字符串之间的差异。Compare Text 替换字符串",
+    "raw_URL": "https://github.com/codsen/codsen/tree/main/packages/easy-replace",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "hex-encode-decode",
+    "TPC_URL": " https://github.com/tiaanduplessis/hex-encode-decode",
+    "三方库详情": "  Hex encode & decode string",
+    "raw_URL": " https://github.com/tiaanduplessis/hex-encode-decode",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "qr-code-generator",
+    "TPC_URL": " https://gitee.com/openharmony-sig/qr-code-generator",
+    "三方库详情": "  二维码生成器",
+    "raw_URL": "https://github.com/nayuki/QR-Code-generator",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "juniversalchardet",
+    "TPC_URL": " https://gitee.com/openharmony-sig/juniversalchardet",
+    "三方库详情": "  字符编码识别组件",
+    "raw_URL": "https://github.com/albfernandez/juniversalchardet",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "dayjs",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/dayjs",
+    "三方库详情": "  dayjs 是一个轻量的处理时间和日期的 JavaScript 库",
+    "raw_URL": "https://github.com/iamkun/dayjs",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "json-schema",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/json-schema",
+    "三方库详情": "  jsonschema 是一个轻便易用的 JSON 模式验证器",
+    "raw_URL": "https://github.com/tdegrunt/jsonschema",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "validator",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/validator",
+    "三方库详情": "  validator.js 是字符串验证器和清理器的库",
+    "raw_URL": "https://github.com/validatorjs/validator.js",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "percentage-regex",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/percentage-regex",
+    "三方库详情": "  percentage-regex 是百分比验证的库",
+    "raw_URL": "https://github.com/arthurvr/percentage-regex",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "leap-year",
+    "TPC_URL": " https://github.com/sindresorhus/leap-year",
+    "三方库详情": "  判断闰年的库",
+    "raw_URL": " https://github.com/sindresorhus/leap-year",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "time-ampm",
+    "TPC_URL": " https://github.com/ipostol/time-ampm",
+    "三方库详情": "  获取 24 小时时间库",
+    "raw_URL": " https://github.com/ipostol/time-ampm",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "node-imgtype",
+    "TPC_URL": " https://github.com/Ackar/node-imgtype",
+    "三方库详情": "  获取图片类型库",
+    "raw_URL": " https://github.com/Ackar/node-imgtype",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "randomColor",
+    "TPC_URL": " https://github.com/davidmerfield/randomColor",
+    "三方库详情": "  生成随机颜色的库",
+    "raw_URL": " https://github.com/davidmerfield/randomColor",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "cc0-1.0"
+  },
+  {
+    "三方库名称": "utilCode",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/utilCode",
+    "三方库详情": "  utilCode 是一个通用工具的示例，包含温度转换、正则校验、图片处理、坐标转换、和颜色获取等常用功能",
+    "raw_URL": "https://github.com/Blankj/AndroidUtilCode",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "xslt-processor",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/xslt-processor",
+    "三方库详情": "  支持使用与 XML 文档配对的 XSLT 样式表将 XML 文档转换成多中文本格式（HTML、Text 等）的库",
+    "raw_URL": "https://github.com/DesignLiquido/xslt-processor",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "lgpl-3.0"
+  },
+  {
+    "三方库名称": "pinyin4js",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/pinyin4js",
+    "三方库详情": "  一款汉字转拼音的 JavaScript 开源库",
+    "raw_URL": "https://github.com/Kaifuny/pinyin4js",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "EventEMITter3",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/EventEMITter3Demo",
+    "三方库详情": "  EventEMITter3 是一款高性能 EventEMITter，支持添加监听事件，监听一次性事件，发送事件，移除事件，统计监听事件的个数，统计监听事件的名称",
+    "raw_URL": "https://github.com/primus/eventeMITter3",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "he",
+    "TPC_URL": " https://github.com/mathiasbynens/he",
+    "三方库详情": "  支持对字符串进行编解码",
+    "raw_URL": " https://github.com/mathiasbynens/he",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "pcx-js",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/pcx-js",
+    "三方库详情": "  提供了 PCX 图像格式解码的能力",
+    "raw_URL": "https://github.com/warpdesign/pcx-js",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "isrc_fuse.js",
+    "TPC_URL": " https://gitee.com/pommejason/isrc_fuse.js",
+    "三方库详情": "  Fuse.js 是一款轻量级的 JavaScript 模糊搜索库，提供了模糊搜索和搜索排序功能",
+    "raw_URL": "https://github.com/bcle/fuse4js",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "amf",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/amf",
+    "三方库详情": "  amf-convert 在 javascript 环境中可以实现 AMF 格式的 serialization/deserialization",
+    "raw_URL": "https://github.com/1nVitr0/amf-js",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "compare-versions",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/compare-versions",
+    "三方库详情": "  比较两个版本字符串，找出哪个更大、相等或更小。",
+    "raw_URL": "https://github.com/omichelsen/compare-versions",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "mime",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/mime",
+    "三方库详情": "  获取给定文件路径或扩展名的 mime 类型。",
+    "raw_URL": "https://github.com/broofa/mime",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "class-transformer",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/class-transformer",
+    "三方库详情": "  本库提供对象和类之间基于修饰符的转换、序列化和反序列化的能力。",
+    "raw_URL": "https://github.com/typestack/class-transformer",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "ohos-jszip",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/ohos-jszip",
+    "三方库详情": "  jszip，是一个支持创建、编辑以及生成压缩文件的工具库。",
+    "raw_URL": "https://github.com/Stuk/jszip",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "Hamcrest",
+    "TPC_URL": " https://gitee.com/openharmony-sig/Hamcrest",
+    "三方库详情": "  hamcrest 是匹配器库，可以组合起来匹配。",
+    "raw_URL": "https://github.com/hamcrest/JavaHamcrest",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "jtar",
+    "TPC_URL": " https://gitee.com/openharmony-sig/jtar",
+    "三方库详情": "  tar 支持 tar 打包和 tar 解包功能。",
+    "raw_URL": "https://github.com/kamranzafar/jtar",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "dd-plist",
+    "TPC_URL": " https://gitee.com/openharmony-sig/dd-plist",
+    "三方库详情": "  解析生成属性列表文件的工具库。",
+    "raw_URL": "https://github.com/3breadt/dd-plist",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "mixpanel-ohos",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/mixpanel-ohos",
+    "三方库详情": "  Mixpanel 是一个产品分析工具，它使您能够捕获用户与数字产品交互的数据，并允许您使用简单的交互式报告分析此产品数据，您只需要单击几下就可以查询以及可视化数据。",
+    "raw_URL": "https://github.com/mixpanel/mixpanel-js",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "commons-cli",
+    "TPC_URL": " https://gitee.com/openharmony-sig/commons-cli",
+    "三方库详情": "  commons-cli 是一个命令行解析工具，它可以帮助开发者快速构建启动命令，并且帮助你组织命令的参数、以及输出列表等。",
+    "raw_URL": "https://github.com/apache/commons-cli",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "xutils",
+    "TPC_URL": " https://gitee.com/openharmony-sig/xutils_bak",
+    "三方库详情": "  xutils 是一个网络、文件、数据库操作的工具库。",
+    "raw_URL": "https://github.com/wyouflf/xUtils3",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "thrift-js",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/thrift",
+    "三方库详情": "  Thrift 是一个轻量级的、独立于语言的软件栈，用于点到点 RPC 实现。Thrift 为数据传输、数据序列化和应用程序级处理提供了清晰的抽象和实现。代码生成系统使用一种简单的定义语言作为输入并生成跨编程语言的代码，这些代码使用抽象堆栈来构建可互操作的 RPC 客户端和服务器。",
+    "raw_URL": "https://github.com/apache/thrift",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "smbj",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/smbj",
+    "三方库详情": "  主要用于计算机间共享文件，支持安全保护，访问共享目录、打开文件、读写文件等",
+    "raw_URL": "https://github.com/hierynomus/smbj",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "base64-js",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/base64-js",
+    "三方库详情": "  base64-js 是纯 JS 中的 Base64 编码/解码。",
+    "raw_URL": "https://github.com/beatgamMIT/base64-js",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "snakeyaml",
+    "TPC_URL": " https://gitee.com/openharmony-sig/snakeyaml_bak",
+    "三方库详情": "  snakeyaml 语言解析功能库。支持：Parse & Stringify，YAML Documents 等。",
+    "raw_URL": "https://github.com/snakeyaml/snakeyaml",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "okdownload",
+    "TPC_URL": " https://gitee.com/openharmony-sig/okdownload",
+    "三方库详情": "  可靠，灵活，高性能以及强大的下载引擎。支持单任务下载，多任务串、并行下载，设置多种任务监听等。",
+    "raw_URL": "https://github.com/lingochamp/okdownload",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "LibphoneNumber",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/LibphoneNumber",
+    "三方库详情": "  libphonenumber-js 是一个电话号码格式化和解析的 Javascript 开源库。",
+    "raw_URL": "https://github.com/catamphetamine/libphonenumber-js",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "jwks-rsa",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/jwks-rsa",
+    "三方库详情": "  从 JWKS（JSON Web 密钥集）端点检索密钥来生成公钥的库，其加密方式采用了非对称公钥加密算法（RSA）和非对称椭圆曲线加密算法 (ECC)。",
+    "raw_URL": "https://github.com/auth0/node-jwks-rsa",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "jsoup",
+    "TPC_URL": " https://gitee.com/openharmony-sig/jsoup",
+    "三方库详情": "  快速且宽容的 HTML 解析器。",
+    "raw_URL": "https://github.com/jhy/jsoup/",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "ohos-beacon-library",
+    "TPC_URL": " https://gitee.com/openharmony-sig/ohos-beacon-library",
+    "三方库详情": "  蓝牙工具，主要涉及信标区域监控以及信标设备测距。",
+    "raw_URL": "https://github.com/AltBeacon/android-beacon-library",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "js-joda",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/js-joda",
+    "三方库详情": "  js-joda 是一个处理时间日期的工具库，为日期时间类提供了简单 API，支持时区，持续时间，日期时间格式化和解析，适配了 OpenHarmony 的一款不可变日期和时间开源库。",
+    "raw_URL": "https://github.com/js-joda/js-joda",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "icu4j",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/icu4j",
+    "三方库详情": "  ICU 消息字符串解析，intl_messageformat_parser 是 icu4j 指定的依赖库。",
+    "raw_URL": "https://lh5.googleusercontent.com/7cuXfDV_4ffXAiJF…XYudfFJ195Hc21hCJFxUtJ42QlztQ-N9jrcFQZeQzk=w16383",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "",
+    "imgUrl": ""
+  },
+  {
+    "三方库名称": "lodashDemo",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/lodashDemo",
+    "三方库详情": "  lodash 是一个提供拓展功能的 JavaScript 实用工具库",
+    "raw_URL": "https://github.com/lodash/lodash",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "xml2jsDemo",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/xml2jsDemo",
+    "三方库详情": "  简单的 XML 到 JavaScript 对象转换器。它支持双向转换。使用 sax-js 和 xmlbuilder-js。",
+    "raw_URL": "https://github.com/henrikingo/xml2json",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "node-csv",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/node-csv",
+    "三方库详情": "  该项目使用 node-csv 解析 csv 文件，生成 csv 文件。",
+    "raw_URL": "https://github.com/voodootikigod/node-csv",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "commonmark",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/commonmark",
+    "三方库详情": "  Markdown 是一种纯文本格式，用于编写结构化文档。CommonMark 三方库用于将 Markdown 格式转换为 Html 或者 xml，以便在网页中显示。",
+    "raw_URL": "https://github.com/commonmark/commonmark.js",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "arouter-api-onActivityResult",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/arouter-api-onActivityResult",
+    "三方库详情": "  用于在各种应用或页面间的跳转和页面间的数据传递",
+    "raw_URL": "https://github.com/alibaba/ARouter.git",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "ahocorasick",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/ahocorasick",
+    "三方库详情": "  ahocorasick 是 Aho-Corasick 字符串搜索算法的实现，能够高效的进行字符串匹配",
+    "raw_URL": "https://github.com/BrunoRB/ahocorasick",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "bignumber.js",
+    "TPC_URL": " https://github.com/MikeMcl/bignumber.js",
+    "三方库详情": "  A JavaScript library for arbitray-precision decimal and non-decimalarithmetic",
+    "raw_URL": " https://github.com/MikeMcl/bignumber.js",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "jsDiffDemo",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/jsDiffDemo",
+    "三方库详情": "  JavaScript 文本差异的工具库",
+    "raw_URL": "https://github.com/kpdecker/jsdiff",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "is-png",
+    "TPC_URL": " https://gitee.com/openharmony-sig/is-png",
+    "三方库详情": "  is-png 是一个判断图片格式的库，根据图片的文件数据，判断图片是否为 png 格式",
+    "raw_URL": "https://github.com/sindresorhus/is-png",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "is-webp",
+    "TPC_URL": " https://gitee.com/openharmony-sig/is-webp",
+    "三方库详情": "  is-webp 是一款根据文件数据，判断图片是否是 webp 格式的库",
+    "raw_URL": "无",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "jmustache",
+    "TPC_URL": " https://gitee.com/openharmony-sig/jmustache",
+    "三方库详情": "  是 mustache 模板系统的零依赖实现，通过使用散列或对象中提供的值来扩展模板中的标签",
+    "raw_URL": "https://github.com/samskivert/jmustache",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "leven",
+    "TPC_URL": " https://github.com/sindresorhus/leven",
+    "三方库详情": "  Measure the difference between two strings using the Levenshtein distance algorithm",
+    "raw_URL": " https://github.com/sindresorhus/leven",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "metaphone",
+    "TPC_URL": " https://github.com/words/metaphone",
+    "三方库详情": "  Metaphone phonetic algorithm",
+    "raw_URL": " https://github.com/words/metaphone",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "behaviorTree-js",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/behaviorTree",
+    "三方库详情": "  是行为树 javascript 版实现",
+    "raw_URL": "https://github.com/Calamari/BehaviorTree.js",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "ohos_coap",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/ohos_coap",
+    "三方库详情": "  ohos_coap 是基于 libcoap v4.3.1 版本，封装 napi 接口，给上层 ts 提供 coap 通信能力的三方库",
+    "raw_URL": "https://github.com/obgm/libcoap",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "gcoord",
+    "TPC_URL": " https://github.com/hujiulong/gcoord",
+    "三方库详情": "  gcoord(geographic coordinates) 是一个处理地理坐标系的 JS 库，用来修正百度地图、高德地图及其它互联网地图坐标系不统一的问题",
+    "raw_URL": " https://github.com/hujiulong/gcoord",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "CaverPhone",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/CaverPhone",
+    "三方库详情": "  CaverPhone 算法 (语音匹配算法) 的 JavaScript 实现，规则为：将关键字转换为小写，移除不是 a-z 的字符，按照规则替换指定字符 (如字符串起始、结束，文本中包含 cq 等)，在结尾放置 6 个 1，返回前十个字符，具体参照 CaverPhone 算法规则",
+    "raw_URL": "https://github.com/jhermsmeier/node-caverphone-phonetics",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "Adler32Demo",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/Adler32Demo",
+    "三方库详情": "  是一个在 js 环境中实现 ADLER-32 的校验和算法能力的库",
+    "raw_URL": "https://github.com/Shakeskeyboarde/adler32",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "bignumberjsDemo",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/bignumberjsDemo",
+    "三方库详情": "  bignumber.js 是一个数学库，用于任意精度十进制和非十进制算术的 JavaScript 库",
+    "raw_URL": "https://github.com/MikeMcl/bignumber.js",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "aki",
+    "TPC_URL": " https://gitee.com/openharmony-sig/aki",
+    "三方库详情": "  是一款边界性编程体验友好的 ArkTs FFI 开发框架，针对 OpenHarmony Native 开发提供 JS 与 C/C++ 跨语言访问场景解决方案",
+    "raw_URL": "无",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "自主开发",
+    "license": ""
+  },
+  {
+    "三方库名称": "jama",
+    "TPC_URL": " https://gitee.com/openharmony-sig/jama",
+    "三方库详情": "  基本线性代数包，用于构造和操作真实密集矩阵的库",
+    "raw_URL": "https://math.nist.gov/javanumerics/jama/",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "Checksum",
+    "TPC_URL": " https://gitee.com/openharmony-sig/checksum",
+    "三方库详情": "  用于计算最典型的散列函数，如 md5 或 sha1",
+    "raw_URL": "https://github.com/dshaw/checksum",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "VCard",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/VCard",
+    "三方库详情": "  VCard 是电子名片的文件格式标准。它一般附加在电子邮件之后，但也可以用于其它场合（如在网际网路上相互交换）。VCard 可包含的信息有：姓名、地址资讯、电话号码、URL，logo，相片等。本库支持 VCard 标准 2.0 和 3.0。",
+    "raw_URL": "https://github.com/enesser/vCards-js",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "epublib",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/epublib",
+    "三方库详情": "  Epublib 是一个用于读取/写入/操作 epub 文件的 ets 库。",
+    "raw_URL": "https://github.com/psiegman/epublib",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "flexsearch-ohos",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/flexsearch-ohos",
+    "三方库详情": "  FlexSearch 是一个快速、零依赖的全文搜索库。在原始搜索速度方面，FlexSearch 优于每一个搜索库，并提供灵活的搜索功能，如多字段搜索，语音转换或部分匹配。根据使用的选项，它还提供最高内存效率的索引。FlexSearch 引入了一种新的评分算法，称为“上下文索引”，基于预先评分的词典字典体系结构，与其他库相比，实际执行的查询速度有大幅度提高。FlexSearch 还为您提供非阻塞异步处理模型，以通过专用平衡线程并行地对索引执行任何更新或查询。",
+    "raw_URL": "https://github.com/nextapps-de/flexsearch",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "logback",
+    "TPC_URL": " https://gitee.com/openharmony-sig/logback",
+    "三方库详情": "  日志记录框架。",
+    "raw_URL": "https://github.com/qos-ch/logback",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "jchardet",
+    "TPC_URL": " https://gitee.com/openharmony-sig/jchardet",
+    "三方库详情": "  jchardet 是一个检测文本文件 (字节流) 编码方式的 ArkTs 实现。",
+    "raw_URL": "https://github.com/vidoss/jchardet",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "nodeRulesDemo",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/nodeRulesDemo",
+    "三方库详情": "  node-rules 是一个轻量级的正向链接规则引擎。",
+    "raw_URL": "https://github.com/MIThunsatheesh/node-rules",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "ohos_gson",
+    "TPC_URL": " https://gitee.com/openharmony-sig/ohos_gson",
+    "三方库详情": "  Gson 用于对象与 JSON 字符串之间的互相转换，并支持 JsonElement 对象类型，使 JSON 字符串与对象之间的转换更高效、灵活，并且易于使用。",
+    "raw_URL": "https://github.com/google/gson",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "reflect-metadata",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/reflect-metadata",
+    "三方库详情": "  reflect_metadata 用于在 TypeScript 中操作类的元数据，允许在声明类和属性时添加和读取元数据。",
+    "raw_URL": "https://github.com/rbuckton/reflect-metadata",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "jackrabbit",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/jackrabbit",
+    "三方库详情": "  支持 AMQP（Advanced Message Queuing Protocol）网络通信协议的 library，可以在一个进程间传递异步消息。Jackrabbit 底层依赖 amqplib 库，在 RabbitMQ 上实现了多种消息传递模式。",
+    "raw_URL": "https://github.com/hunterloftis/jackrabbit",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "RocketChat",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/RocketChat",
+    "三方库详情": "  RocketChat 指的是一系列服务器方法和消息订阅的应用程序接口集合。使用本库第三方应用程序可以通过 REST API 控制和查询 RocketChat 服务器。本库专为聊天自动化而设计，使应用程序开发人员能够轻松地为其社区提供最佳解决方案和体验。",
+    "raw_URL": "https://github.com/RocketChat/Rocket.Chat",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "ohos_smack",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/ohos_smack",
+    "三方库详情": "  Smack 是一个基于 XMPP 协议的一个聊天客户端。",
+    "raw_URL": "https://github.com/igniterealtime/Smack",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "stun-server",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/stun-server",
+    "三方库详情": "  stun 是基于 STUN 协议的服务开源组件，它允许客户端获取 NAT 分配的外部 IP 地址和端口号，还可以识别 NAT 的行为类型。",
+    "raw_URL": "https://github.com/enobufs/stun",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "sanitize-html",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/sanitize-html",
+    "三方库详情": "  sanitize-html 提供了 HTML 清理 API，支持 HTML 片段清理。内置默认的标签、属性等、可根据默认属性进行 HTML 清理，同时也可进行自行配置，根据用户需求进行自定义 HTML 清理规则。",
+    "raw_URL": "https://github.com/apostrophecms/sanitize-html",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "ohos_commons-fileupload",
+    "TPC_URL": " https://gitee.com/openharmony-sig/ohos_commons-fileupload",
+    "三方库详情": "  commons-fileupload 是一个请求库。可以用来做文件上传（支持分片）、基本请求、文件下载。",
+    "raw_URL": "https://github.com/apache/commons-fileupload",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "FastBle",
+    "TPC_URL": " https://gitee.com/openharmony-sig/FastBle",
+    "三方库详情": "  FastBle 是一个处理蓝牙 BLE 设备的库，可以对蓝牙 BLE 设备进行过滤，扫描，连接，读取，写入等。",
+    "raw_URL": "https://github.com/Jasonchenlijian/FastBle",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "asn1Demo",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/asn1Demo",
+    "三方库详情": "  构建 ASN.1 对象模型以及 JSON 序列化/反序列化以及 DER 序列化/反序列化。",
+    "raw_URL": "https://github.com/indutny/asn1.js",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "retrofit",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/retrofit",
+    "三方库详情": "  一款用于 OpenHarmony 平台的 HTTP 客户端。",
+    "raw_URL": "https://github.com/square/retrofit",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "mathjsDemo",
+    "TPC_URL": " https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/mathjsDemo",
+    "三方库详情": "  mathjs 是一个 OpenHarmony 系统下使用数学运算的示例，包含数字、大数、三角函数、字符串、和矩阵等数学功能。",
+    "raw_URL": "https://github.com/josdejong/mathjs",
+    "组件分类": "其他",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "vorbis",
+    "TPC_URL": "https://gitee.com/openharmony-sig/vorbis",
+    "三方库详情": " 一种通用音频和音乐编码格式组件",
+    "raw_URL": "https://github.com/xiph/vorbis",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "opus",
+    "TPC_URL": " https://gitee.com/openharmony-sig/opus",
+    "三方库详情": " Opus 是一个开放格式的有损声音编码格式",
+    "raw_URL": "https://github.com/xiph/opus",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "flac",
+    "TPC_URL": " https://gitee.com/openharmony-sig/flac",
+    "三方库详情": " 无损音频编解码器",
+    "raw_URL": "https://github.com/xiph/flac",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "lame",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/lame",
+    "三方库详情": " 是开源 mp3 编码库，使用 MPGLIB 解码引擎，专门用于编码 mp3",
+    "raw_URL": "https://lame.sourceforge.io/",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "FFmpeg",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/FFmpeg",
+    "三方库详情": " 是领先的多媒体框架，能够解码、编码、转码、mux、demux、流式传输、过滤和播放人类和机器创建的任何东西，可以运行在 linux，mac，windows 等平台；",
+    "raw_URL": "https://github.com/FFmpeg/Ffmpeg",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "alsa-lib",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/alsa-lib",
+    "三方库详情": " 是一个用于操作音频设备的库，它提供了一组 API，使得应用程序可以与音频设备进行交互",
+    "raw_URL": "https://github.com/alsa-project/alsa-lib",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "faad2",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/faad2",
+    "三方库详情": " 是一个音频解码的库",
+    "raw_URL": "https://github.com/knik0/faad2",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "fdk-aac",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/fdk-aac",
+    "三方库详情": " 是一个开源的 AAC 编码库，被认为是开源 AAC 编码器中音质最好的之一。它支持多种编码模式，包括 LC-AAC、HE-AAC 和 HE-AAC V2",
+    "raw_URL": "https://github.com/mstorsjo/fdk-aac",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libdash",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libdash",
+    "三方库详情": " 是 ISO/IEC MPEG-DASH 标准的官方参考软件，为 Bitmovin 开发的 MPEG-DASH 提供面向对象（OO）接口",
+    "raw_URL": "https://github.com/bitmovin/libdash",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "libid3tag",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libid3tag",
+    "三方库详情": " 是一个用于读取和写入 ID3 标签的库",
+    "raw_URL": "https://github.com/sklvjz/mad/tree/master/libid3tag-0.15.1b",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "libmad",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libmad",
+    "三方库详情": " MPEG 音频解码器库",
+    "raw_URL": "https://github.com/sklvjz/mad/tree/master/libmad-0.15.1b",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "libmediasoupclient",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libmediasoupclient",
+    "三方库详情": " 是一个 C++ 客户端库，用于构建基于 mediasoup 的应用程序",
+    "raw_URL": "https://github.com/versatica/libmediasoupclient",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "isc"
+  },
+  {
+    "三方库名称": "libmp3lame",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libmp3lame",
+    "三方库详情": " 是开源 mp3 编码库，使用 MPGLIB 解码引擎，专门用于编码 mp3",
+    "raw_URL": "https://github.com/gypified/libmp3lame",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "openal-soft",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/openal-soft",
+    "三方库详情": " OpenAL Soft 是 OpenAL 3D 音频 API 的软件实现",
+    "raw_URL": "https://github.com/kcat/openal-soft",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "pvmp3dec",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/pvmp3dec",
+    "三方库详情": " 是一个开源的 MP3 解码库",
+    "raw_URL": "https://github.com/N22E114/pvmp3dec",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "sonic",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/sonic",
+    "三方库详情": " 是一种用于加速或减慢音频算法的库",
+    "raw_URL": "https://github.com/waywardgeek/sonic",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "soundtouch",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/soundtouch",
+    "三方库详情": " 是一个提供音频变速变调能力的库",
+    "raw_URL": "https://github.com/bilibili/soundtouch",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "soxr",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/soxr",
+    "三方库详情": " 是一个重采样库，执行一维采样率转换，例如，可用于对 PCM 编码的音频进行重采样",
+    "raw_URL": "https://github.com/chirlu/soxr",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "speechd",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/speechd",
+    "三方库详情": " Speech Dispatcher 项目提供了一个高级的独立于设备的层，用于通过一个简单、稳定且文档良好的接口访问语音合成",
+    "raw_URL": "http://devel.freebsoft.org/speechd",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "srs",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/srs",
+    "三方库详情": " 是一个简单高效的实时视频服务器，支持 RTMP/WebRTC/HLS/HTTP-FLV/SRT/GB28181",
+    "raw_URL": "https://github.com/ossrs/srs",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "tagLib",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/taglib",
+    "三方库详情": " 是一个用于读取和编辑几种流行音频格式的元数据的库",
+    "raw_URL": "https://github.com/taglib/taglib",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "uavs3d",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/uavs3d",
+    "三方库详情": " 是一个开源和跨平台的 avs3 解码器",
+    "raw_URL": "https://github.com/uavs3/uavs3d",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "vid.stab",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/vid.stab",
+    "三方库详情": " 是一个处理视频抖动的库",
+    "raw_URL": "https://github.com/georgmartius/vid.stab",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libvpx",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libvpx",
+    "三方库详情": " 是支持 vp8、vp9 编码解码的开源软件",
+    "raw_URL": "https://www.webmproject.org/code/",
+    "组件分类": "音视频",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "libogg",
+    "TPC_URL": " https://gitee.com/openharmony-sig/libogg",
+    "三方库详情": " 编解码器",
+    "raw_URL": "https://github.com/gcp/libogg",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "libsodium",
+    "TPC_URL": " https://gitee.com/hihopeorg/libsodium",
+    "三方库详情": " 易用，可移植的加解密库",
+    "raw_URL": "https://github.com/jedisct1/libsodium",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "cryptopp",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/cryptopp",
+    "三方库详情": " 是密码学库，集成了非常多的密码算法",
+    "raw_URL": "https://github.com/weidai11/cryptopp",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "phf",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/blob/master/thirdparty/phf",
+    "三方库详情": " 是实现完美 hash 算法的库",
+    "raw_URL": "https://github.com/wahern/phf",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "DBoW2",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/DBoW2",
+    "三方库详情": " 是一种基于词袋模型的图像特征处理和匹配算法",
+    "raw_URL": "https://github.com/dorian3d/DBoW2",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "GmSSL",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/GmSSL",
+    "三方库详情": " 是支持国密算法和标准的 OpenSSL 分支，增加了对国密 SM2/SM3/SM4 算法和 ECIES、CPK、ZUC 算法的支持，实现了这些算法与 EVP API 和命令行工具的集成",
+    "raw_URL": "https://github.com/guanzhi/GmSSL",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "BoringSSL",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/boringssl",
+    "三方库详情": " 是 OpenSSL 的一个分支，旨在满足 Google 的需求",
+    "raw_URL": "https://boringssl.googlesource.com/boringssl/",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "fribidi",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/fribidi",
+    "三方库详情": " 是 Unicode 双向算法的实现库",
+    "raw_URL": "https://github.com/fribidi/fribidi",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "gmp",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/gmp",
+    "三方库详情": " 是用于任意精度算术的运算库",
+    "raw_URL": "https://gmplib.org/",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "kaldi",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/kaldi",
+    "三方库详情": " 是开源语音识别工具 (Toolkit)，它使用 WFST 来实现解码算法",
+    "raw_URL": "https://kaldi-asr.org/",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "fftw3",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/fftw3",
+    "三方库详情": " 是一个快速计算离散傅里叶变换的标准 C 语言程序集",
+    "raw_URL": "https://github.com/FFTW/fftw3",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "gpl-2.0"
+  },
+  {
+    "三方库名称": "kissfft",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/kissfft",
+    "三方库详情": " 是提供快速傅立叶变换算法能力的库",
+    "raw_URL": "https://github.com/mborgerding/kissfft",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "liblinear",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/liblinear",
+    "三方库详情": " 是一个用于解决线性规划、回归算法和异常检测的库",
+    "raw_URL": "https://github.com/cjlin1/liblinear",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "libsvm",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libsvm",
+    "三方库详情": " 是一个支持向量机的库",
+    "raw_URL": "https://github.com/arnaudsj/libsvm",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "marisa",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/marisa-trie",
+    "三方库详情": " 递归存储匹配算法种静态的、节省空间的 trie 数据结构",
+    "raw_URL": "https://github.com/s-yata/marisa-trie",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "md5",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/md5-c",
+    "三方库详情": " 的全称是 md5 信息摘要算法，用于确保信息传输的完整一致",
+    "raw_URL": "https://github.com/Zunawe/md5-c",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "unlicense"
+  },
+  {
+    "三方库名称": "openfst",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/openfst",
+    "三方库详情": " 是一个开源的有限状态转换（FST）库，主要用于构建、操作和分析有限状态自动机和有限状态转换",
+    "raw_URL": "https://www.openfst.org/twiki/bin/view/FST/WebHome",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "openssl",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/openssl",
+    "三方库详情": " 是一个强大的、商业级的、功能齐全的用于传输层安全（TLS）协议的开源工具包，以前称为安全套接字层（SSL）协议，应用程序可以使用这个包来进行安全通信，避免窃听，同时确认另一端连接者的身份",
+    "raw_URL": "https://github.com/openssl/openssl",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "openssl_quic",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/openssl_quic",
+    "三方库详情": " 是 openssl 加密库的一个分支用于启用 quic",
+    "raw_URL": "https://github.com/igorbarshteyn/oqs-openssl-quic",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "polarssl",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/polarssl",
+    "三方库详情": " 库是 SSL 和 TLS 协议以及各自加密算法的实现",
+    "raw_URL": "https://github.com/Linphone-sync/polarssl",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "gpl-2.0"
+  },
+  {
+    "三方库名称": "sha",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/sha",
+    "三方库详情": " 是计算出一个数字消息所对应到的，长度固定的字符串（又称消息摘要）的算法",
+    "raw_URL": "https://github.com/BrianGladman/sha",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "tink",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/tink",
+    "三方库详情": " 是一个多语言、跨平台的库，提供安全、易于正确使用且难以滥用的加密 API",
+    "raw_URL": "https://github.com/google/tink/archive/refs/tags/v1.7.0.tar.gz",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "xxHash",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/xxHash",
+    "三方库详情": " 是一种极快的哈希算法，在 RAM 速度限制下处理。代码具有高度可移植性",
+    "raw_URL": "https://github.com/Cyan4973/xxHash/archive/refs/tags/v0.8.1.tar.gz",
+    "组件分类": "加解密算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "stb-image",
+    "TPC_URL": " https://gitee.com/openharmony-sig/stb-image",
+    "三方库详情": " C/C++ 实现的图像解码库",
+    "raw_URL": "https://github.com/nothings/stb",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "pyclipper",
+    "TPC_URL": " https://gitee.com/openharmony-sig/pyclipper",
+    "三方库详情": " 图形处理库，可以用于解决平面二维图形的多边形简化、布尔运算和偏置处理",
+    "raw_URL": "https://github.com/fonttools/pyclipper",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "jbig2enc",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/jbig2enc",
+    "三方库详情": " 是 JBIG2 文件的编码器",
+    "raw_URL": "https://github.com/agl/jbig2enc",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "leptonica",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/leptonica",
+    "三方库详情": "  一个开放源码的 C 语言库，它被广泛地运用于图像处理和图像分析",
+    "raw_URL": "https://github.com/DanBloomberg/leptonica/",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "openjpeg",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/openjpeg",
+    "三方库详情": "  是用 C 语言编写的开源 JPEG 2000 编解码器",
+    "raw_URL": "https://github.com/uclouvain/openjpeg",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "tiff",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/tiff",
+    "三方库详情": "  是一个用来读写标签图片 (tiff) 的库。该库还支持如下文件格式的转化",
+    "raw_URL": "http://download.osgeo.org/libtiff/tiff-4.5.0.tar.xz",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "jasper",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/blob/master/thirdparty/jasper",
+    "三方库详情": " 是一个用于图像编码和操作的软件集合",
+    "raw_URL": "https://github.com/jasper-software/jasper/tree/version-4.0.0",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "tinyexr",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/blob/master/thirdparty/tinyexr",
+    "三方库详情": " 是加载和保存 OpenEXR(.exr) 映像的小型库",
+    "raw_URL": "https://github.com/syoyo/tinyexr/archive/refs/tags/v1.0.2.tar.gz",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "Chipmunk2D",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/Chipmunk2D",
+    "三方库详情": " 是一个在 MIT 许可下分发的 2D 刚体物理库",
+    "raw_URL": "https://github.com/slembcke/Chipmunk2D/archive/refs/tags/Chipmunk-7.0.3.zip",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "Anti-Grain Geometry",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/agg",
+    "三方库详情": " 是一个用 C++ 编写的开源二维矢量图形库",
+    "raw_URL": "https://github.com/ghaerr/agg-2.6",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "cairo",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/cairo",
+    "三方库详情": " 是一个 2D 图形库，支持多种输出设备",
+    "raw_URL": "https://gitee.com/mirrors/cairo/repository/archive/1.17.8.zip",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": null
+  },
+  {
+    "三方库名称": "exiv2",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/exiv2",
+    "三方库详情": " 是一个 C++ 库和命令行实用程序，用于读取、写入、删除和修改 Exif、IPTC、XMP 和 ICC 图像元数据",
+    "raw_URL": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.27.6.tar.gz",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "Clipper Library",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/clipper",
+    "三方库详情": " 提供了对线段和多边形的裁剪 (Clipping) 以及偏置 (offseting) 的功能",
+    "raw_URL": "https://sourceforge.net/projects/polyclipping/files/clipper_ver6.4.2.zip",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "clip2tri",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/clip2tri",
+    "三方库详情": " 是使用 clipper 和 poly2tri 一起进行鲁棒三角剖分的三方库",
+    "raw_URL": "https://github.com/raptor/clip2tri",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "earcut.hpp",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/earcut.hpp",
+    "三方库详情": " 是一个 c++ 版本的 earcut.js，一个快速的，只有头文件的多边形三角测量库",
+    "raw_URL": "https://github.com/mapbox/earcut.hpp",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "isc"
+  },
+  {
+    "三方库名称": "geos",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/geos",
+    "三方库详情": " 是一个 C++ 库，用于对二维矢量几何图形执行操作",
+    "raw_URL": "https://github.com/libgeos/geos/archive/refs/tags/3.11.2.tar.gz",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "giflib",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/giflib",
+    "三方库详情": " 是一个用于阅读和编写 gif 图像的库",
+    "raw_URL": "https://sourceforge.net/projects/giflib",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "glm",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/glm",
+    "三方库详情": " OpenGL Mathematics（GLM）是一个基于 OpenGL 着色语言（GLSL）规范的图形软件的仅限标题的 C++ 数学库",
+    "raw_URL": "https://github.com/g-truc/glm/archive/refs/tags/0.9.9.8.tar.gz",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "jbig2dec",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/jbig2dec",
+    "三方库详情": " 是 JBIG2 图像压缩格式的解码器实现",
+    "raw_URL": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs9533/jbig2dec-0.19.tar.gz",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "jbigkit",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/jbigkit",
+    "三方库详情": " 是 JBIG1 数据压缩标准（ITU-T T.82）的软件实现，该标准是为扫描文档等双层图像数据设计的",
+    "raw_URL": "https://www.cl.cam.ac.uk/~mgk25/$pkgname/download/jbigkit-2.1.tar.gz",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "jpeg",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/jpeg",
+    "三方库详情": " 是 JPEG 图像压缩免费库",
+    "raw_URL": "http://www.ijg.org/files/jpegsrc.v9e.tar.gz",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "lcms2",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/lcms2",
+    "三方库详情": " 是一个色彩管理库，实现 ICC 配置文件之间的快速转换。它专注于速度，并且可以跨多个平台移植",
+    "raw_URL": "https://sourceforge.net/projects/lcms/files/lcms/2.15/lcms2-2.15.tar.gz",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "libavif",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libavif",
+    "三方库详情": " 用于编码和解码 avif 格式图像文件",
+    "raw_URL": "https://github.com/AOMediaCodec/libavif/archive/refs/tags/v1.0.1.tar.gz",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libheif",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libheif",
+    "三方库详情": " 是 HEIF 和 AVIF 文件格式编解码三方库",
+    "raw_URL": "https://github.com/strukturag/libheif/archive/refs/tags/v1.15.2.tar.gz",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libjpeg-turbo",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libjpeg-turbo",
+    "三方库详情": " 是一种 JPEG 图像编解码器，它使用 SIMD 指令来加速基准 JPEG 压缩和解压缩",
+    "raw_URL": "https://gitee.com/mirrors/libjpeg-turbo/repository/archive/2.1.91.zip",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": null
+  },
+  {
+    "三方库名称": "libpng",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libpng",
+    "三方库详情": " 是一款 C 语言编写的用来读写 PNG 文件的库",
+    "raw_URL": "https://sourceforge.net/projects/libpng/files/libpng16/1.6.39/libpng-1.6.39.tar.xz",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "libtess2",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libtess2",
+    "三方库详情": "  可以对复杂多边形进行曲面细分",
+    "raw_URL": "https://github.com/memononen/libtess2/archive/refs/tags/v1.0.2.tar.gz",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libvips",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libvips",
+    "三方库详情": " 是一个需求驱动的水平线程图像处理库",
+    "raw_URL": "https://github.com/libvips/libvips",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "libwebp",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libwebp",
+    "三方库详情": "  编解码器是一个用于编码和解码 WebP 格式图像的库。该软件包包含可用于其他程序以添加 WebP 支持的库，以及分别用于压缩和解压缩图像的命令行工具“cwebp”和“dwebp”",
+    "raw_URL": "https://github.com/webmproject/libwebp/archive/refs/tags/v1.3.1.tar.gz",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "libyuv",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libyuv",
+    "三方库详情": " 是一个开源的图像处理库，提供了多种图像处理功能，包括图像格式转换、颜色空间转换、颜色调整、去噪、去雾、锐化、缩放等",
+    "raw_URL": "https://chromium.googlesource.com/libyuv/libyuv/+archive/c0031cfd95e131c7b11be41d0272455cc63f10f4.tar.gz",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "pixman",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/pixman",
+    "三方库详情": " 是一个用于像素操作的低级软件库，提供图像合成和梯形光栅化等功能",
+    "raw_URL": "https://www.cairographics.org/releases/pixman-0.42.2.tar.gz",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "stb",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/stb",
+    "三方库详情": " 是一个图像读写库",
+    "raw_URL": "https://github.com/nothings/stb/archive/refs/heads/master.zip",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "opencv",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/opencv",
+    "三方库详情": " 是一个开源计算机视觉和机器学习软件库",
+    "raw_URL": "https://gitee.com/lycium_pkg_mirror/opencv/repository/archive/4.8.0.zip",
+    "组件分类": "图像图形处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "Apache-2.0"
+  },
+  {
+    "三方库名称": "DragonBones",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/DragonBonesCPP",
+    "三方库详情": "  是一套骨骼动画工具集，最早使用 Flash 和 ActionScript 3.0 语言开发，主要在 Flash 游戏中使用，目前在页游和手游项目中使用很广泛",
+    "raw_URL": "https://github.com/DragonBones/DragonBonesCPP.git",
+    "组件分类": "动画",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "spine-runtimes",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/spine-runtimes",
+    "三方库详情": " 项目托管了 Spine 运行时。",
+    "raw_URL": "https://github.com/EsotericSoftware/spine-runtimes/archive/refs/tags/4.1.00.tar.gz",
+    "组件分类": "动画",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "nanopb",
+    "TPC_URL": " https://gitee.com/hihopeorg/nanopb",
+    "三方库详情": " 轻量的支持 C 语言的一种数据协议，可用于数据存储、通信协议等方面",
+    "raw_URL": "https://github.com/nanopb/nanopb",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "zlib"
+  },
+  {
+    "三方库名称": "c-ares",
+    "TPC_URL": " https://gitee.com/openharmony-sig/c-ares",
+    "三方库详情": " 异步解析器库，适用于需要无阻塞地执行 DNS 查询或需要并行执行多个 DNS 查询的应用程序",
+    "raw_URL": "https://github.com/c-ares/c-ares",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libevent",
+    "TPC_URL": " https://gitee.com/openharmony-sig/libevent",
+    "三方库详情": " 事件通知库",
+    "raw_URL": "https://github.com/libevent/libevent",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "kcp",
+    "TPC_URL": " https://gitee.com/openharmony-sig/kcp",
+    "三方库详情": "是一种 ARQ 协议，可解决在网络拥堵情况下 tcp 协议的网络速度慢的问题",
+    "raw_URL": "https://github.com/skywind3000/kcp",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "mqtt",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/mqtt",
+    "三方库详情": " MQTT 是用 C 语言编写的用于 MQTT 协议的 Eclipse Paho C 客户端库",
+    "raw_URL": "https://github.com/eclipse/paho.mqtt.c/archive/refs/tags/v1.3.12.zip",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "axTLS",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/axtls",
+    "三方库详情": " 嵌入式 SSL 项目是一个高度可配置的客户端/服务器 TLSv1.2 库，专为内存需求较小的平台而设计",
+    "raw_URL": "https://sourceforge.net/projects/axtls/files/2.1.5/axTLS-2.1.5.tar.gz/download",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "coturn",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/coturn",
+    "三方库详情": " 是 TURN 和 STUN 服务器的免费开源实现",
+    "raw_URL": "https://github.com/coturn/coturn.git",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "cpp-httplib",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/cpp-httplib",
+    "三方库详情": " 是一个 C++11 单文件头跨平台 HTTP/HTTPS 库",
+    "raw_URL": "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v0.13.1.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "curl",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/curl",
+    "三方库详情": " 是一个 C 库用于网络请求",
+    "raw_URL": "https://github.com/curl/curl/archive/refs/tags/curl-8_0_1.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "exosip",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/exosip",
+    "三方库详情": " 库是 osip2 的扩展库，它隐藏了使用 SIP 协议建立多媒体会话的复杂性",
+    "raw_URL": "https://git.savannah.nongnu.org/cgit/exosip.git/snapshot/exosip-5.3.0.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "iperf",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/iperf",
+    "三方库详情": " 是一个网络性能测试工具，iperf 可以测试 TCP 和 UDP 带宽质量。iperf 即可测量最大 TCP 带宽，也具有多种参数和 UDP 特性，且可报告带宽，延迟抖动和数据包丢失",
+    "raw_URL": "https://github.com/esnet/iperf/archive/refs/tags/3.14.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "iproute2",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/iproute2",
+    "三方库详情": " 是一个 Linux 操作系统中的工具集，用于网络栈的配置、监控和管理。它提供了一组命令行工具和一套 API，用于处理数据包路由、网络设备、网络地址和协议。",
+    "raw_URL": "https://mirrors.edge.kernel.org/pub/linux/utils/net/iproute2/iproute2-6.4.0.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "cyrus-sasl",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/cyrus-sasl",
+    "三方库详情": " 简单身份验证和安全层（SASL）是一种规范，用于描述如何将身份验证机制插入到网络上的应用程序协议中。Cyrus SASL 是 SASL 的一种实现，它使应用程序开发人员可以轻松地以通用方式将身份验证机制集成到其应用程序中",
+    "raw_URL": "https://github.com/cyrusimap/cyrus-sasl/releases/download/cyrus-sasl-2.1.28/cyrus-sasl-2.1.28.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libical",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libical",
+    "三方库详情": " 是一个开源实现关于 iCalendar 协议和协议数据单元",
+    "raw_URL": "https://github.com/libical/libical/archive/refs/tags/v3.0.16.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libosip2",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libosip2",
+    "三方库详情": " 是一个开放源代码的 sip 协议栈",
+    "raw_URL": "https://ftp.gnu.org/gnu/osip/libosip2-5.3.1.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "libpcap",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libpcap",
+    "三方库详情": " 是 unix/linux 平台下的网络数据包捕获函数包，大多数网络监控软件都以它为基础",
+    "raw_URL": "https://github.com/the-tcpdump-group/libpcap/archive/refs/tags/libpcap-1.10.3.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "minidlna",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/minidlna",
+    "三方库详情": "（又名 ReadyDLNA）是服务器软件，旨在完全兼容 DLNA / UPnP-AV 客户端",
+    "raw_URL": "https://sourceforge.net/projects/minidlna/files/minidlna/1.3.3/minidlna-1.3.3.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "modbus",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/modbus",
+    "三方库详情": " 是用 C 语言编写的第三方 Modbus 库来实现 modbus 通讯，支持 RTU（串行）和 TCP（以太网）通信模式，可根据 Modbus 协议发送和接收数据",
+    "raw_URL": "https://github.com/stephane/libmodbus",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "nghttp2",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/nghttp2",
+    "三方库详情": " 是一个实现 http2 超文本传输协议的 C",
+    "raw_URL": "https://github.com/nghttp2/nghttp2/archive/refs/tags/v1.52.0.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "nghttp3",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/nghttp3",
+    "三方库详情": "是在 C 中通过 QUIC 和 QPACK 进行 HTTP/3 映射的实现，它不依赖于任何特定的 QUIC 传输实现",
+    "raw_URL": "https://github.com/ngtcp2/nghttp3/archive/refs/tags/v0.10.0.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "ngtcp2",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/ngtcp2",
+    "三方库详情": " 项目是实现 RFC9000 QUIC 协议",
+    "raw_URL": "https://github.com/ngtcp2/ngtcp2/archive/refs/tags/v0.16.0.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "libsrtp",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libsrtp",
+    "三方库详情": " 提供了保护 RTP 和 RTCP 的功能。RTP 数据包可以进行加密和身份验证（使用 srtp_protect（）函数），将其转换为 srtp 数据包",
+    "raw_URL": "https://github.com/cisco/libsrtp/archive/refs/tags/v2.5.0.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "ortp",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/ortp",
+    "三方库详情": " 是一个实现 RTP 协议的 C 库",
+    "raw_URL": "https://github.com/BelledonneCommunications/ortp/archive/refs/tags/5.2.89.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "agpl-3.0"
+  },
+  {
+    "三方库名称": "pjsip",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/pjsip",
+    "三方库详情": " 是一个免费的开源多媒体通信库，以 C 语言编写，实现了基于标准的协议，如 SIP、SDP、RTP、STUN、TURN 和 ICE。它将信令协议（SIP）与丰富的多媒体框架和 NAT 穿透功能相结合，形成高级 API",
+    "raw_URL": "https://github.com/pjsip/pjproject/archive/refs/tags/2.13.1.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "gpl-2.0"
+  },
+  {
+    "三方库名称": "pupnp",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/pupnp",
+    "三方库详情": " 是提供 UPnP 协议能力的三方库",
+    "raw_URL": "https://github.com/pupnp/pupnp/archive/refs/tags/release-1.14.16.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "thrift",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/thrift",
+    "三方库详情": " 是一种接口描述语言和二进制通讯协议，它被用来定义和创建跨语言的服务",
+    "raw_URL": "https://github.com/apache/thrift/archive/refs/tags/v0.18.1.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "websocketpp",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/websocketpp",
+    "三方库详情": " 是 c++ websocket 客户端/服务器库",
+    "raw_URL": "https://github.com/zaphoyd/websocketpp/archive/refs/tags/0.8.2.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libiscsi",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libiscsi",
+    "三方库详情": " 是一个客户端库，用于实现 iSCSI 协议，可用于访问 iSCSI 目标的资源",
+    "raw_URL": "https://github.com/sahlberg/libiscsi/archive/refs/tags/1.19.0.tar.gz",
+    "组件分类": "网络协议通信",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "lzma",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/lzma",
+    "三方库详情": " 是 2001 年以来得到发展的一个数据压缩算法，它是一种高压缩比的传统数据压缩软件 ",
+    "raw_URL": "https://tukaani.org/lzma/",
+    "组件分类": "数据压缩算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "zstd",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/zstd",
+    "三方库详情": "  一种快速的无损压缩算法，是针对 zlib 级别的实时压缩方案，以及更好的压缩比 ",
+    "raw_URL": "https://gitee.com/mirrors/facebook-zstd/repository/archive/v1.5.4.zip",
+    "组件分类": "数据压缩算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": null
+  },
+  {
+    "三方库名称": "minizip-ng",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/minizip-ng",
+    "三方库详情": "一个用 C 编写的 zip 文件操作库 ",
+    "raw_URL": "https://github.com/zlib-ng/minizip-ng",
+    "组件分类": "数据压缩算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "unrar",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/unrar",
+    "三方库详情": " 一个解压 rar 文件的库",
+    "raw_URL": "https://github.com/maoabc/unrar-android",
+    "组件分类": "数据压缩算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "xz",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/xz",
+    "三方库详情": " 是免费的通用数据压缩软件，具有较高的压缩比",
+    "raw_URL": "https://tukaani.org/xz/",
+    "组件分类": "数据压缩算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "WavPack",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/WavPack",
+    "三方库详情": " 是一个无损音频压缩的库",
+    "raw_URL": "https://github.com/dbry/WavPack/archive/refs/tags/5.6.0.tar.gz",
+    "组件分类": "数据压缩算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "brotli",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/brotli",
+    "三方库详情": " 程序库是一个 Jyrki Alakuijala 和 Zoltán Szabadka 开发的开源数据压缩程序库",
+    "raw_URL": "https://github.com/google/brotli",
+    "组件分类": "数据压缩算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "bzip2",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/bzip2",
+    "三方库详情": " 是使用 Burrows–Wheeler 算法，压缩解压文件",
+    "raw_URL": "https://sourceforge.net/projects/bzip2/files/bzip2-1.0.6.tar.gz",
+    "组件分类": "数据压缩算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "djvulibre",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/djvulibre",
+    "三方库详情": " 是一组压缩技术，一种文件格式，以及用于通过网络递送数字文档的软件平台，扫描文档和高分辨率图像",
+    "raw_URL": "https://github.com/barak/djvulibre/archive/refs/tags/debian/3.5.27.1-7+deb9u1.tar.gz",
+    "组件分类": "数据压缩算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "gpl-2.0"
+  },
+  {
+    "三方库名称": "libzip",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libzip",
+    "三方库详情": " 是一个用于读取、创建和修改 zip 存档的 C 库。文件可以从数据缓冲区、文件或直接从其他 zip 档案复制的压缩数据中添加",
+    "raw_URL": "https://github.com/nih-at/libzip.git",
+    "组件分类": "数据压缩算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "p7zip",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/p7zip",
+    "三方库详情": " 是一个功能齐全的压缩打包应用",
+    "raw_URL": "https://github.com/p7zip-project/p7zip/archive/refs/tags/v17.05.tar.gz",
+    "组件分类": "数据压缩算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "snappy",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/snappy",
+    "三方库详情": " 是一个压缩/解压缩库。它的目标不是最大化 压缩，或与任何其他压缩库兼容;相反 它的目标是非常高的速度和合理的压缩。例如 与 zlib 的最快模式相比，Snappy 快了一个数量级 对于大多数输入，但生成的压缩文件从 20% 到 100% 更大",
+    "raw_URL": "https://github.com/google/snappy",
+    "组件分类": "数据压缩算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "tremolo",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/tremolo",
+    "三方库详情": " 是 xiph.org 上 Tremor lib 的 ARM 优化版本。Tremor 库是一个用于执行 Ogg Vorbis 解压缩的纯整数库",
+    "raw_URL": "http://wss.co.uk/pinknoise/tremolo/Tremolo008.zip",
+    "组件分类": "数据压缩算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "unzip",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/unzip",
+    "三方库详情": " 为 zip 压缩文件的解压缩程序",
+    "raw_URL": "https://sourceforge.net/projects/infozip",
+    "组件分类": "数据压缩算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "zlib",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/zlib",
+    "三方库详情": " 是提供数据压缩用的函式库",
+    "raw_URL": "https://github.com/madler/zlib/releases/download/v1.2.13/zlib-1.2.13.tar.gz",
+    "组件分类": "数据压缩算法",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "xerces-c",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/xerces-c",
+    "三方库详情": " 一个开放源代码的 XML 语法分析器，它提供了 SAX 和 DOM API",
+    "raw_URL": "https://github.com/apache/xerces-c.git",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "rapidjson",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/rapidjson",
+    "三方库详情": " 一个跨平台的 c++ 的 json 的解析器和生成器",
+    "raw_URL": "https://github.com/Tencent/rapidjson.git",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "tinyxml2",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/tinyxml2",
+    "三方库详情": " 是 simple、small、efficient 的开源 C++ XML 文件解析库",
+    "raw_URL": "https://github.com/leethomason/tinyxml2.git",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "zlib"
+  },
+  {
+    "三方库名称": "tinyxpath",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/tinyxpath",
+    "三方库详情": "用于从 XML 树中提取 XPath 1.0 表达式",
+    "raw_URL": "https://sourceforge.net/projects/tinyxpath/files/TinyXPath%20%28Linux%20-%20tar.gz%29/TinyXPath%201.3.1/tinyxpath_1_3_1.tgz",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "json-schema-validator",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/blob/master/thirdparty/json-schema-validator",
+    "三方库详情": " 用于验证基于 JSON Schema 的 JSON 文档",
+    "raw_URL": "https://github.com/nlohmann/json/archive/refs/tags/v3.11.2.tar.gz",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "libxlsxwriter",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/blob/master/thirdparty/libxlsxwriter",
+    "三方库详情": " 是一个可以向 Excel 写入文字和图片的库",
+    "raw_URL": "https://github.com/jmcnamara/libxlsxwriter/archive/refs/tags/RELEASE_1.1.5.tar.gz",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "pugixml",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/blob/master/thirdparty/pugixml",
+    "三方库详情": " 是一个 C++XML 处理库",
+    "raw_URL": "https://github.com/zeux/pugixml",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "HDiffPatch",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/HDiffPatch",
+    "三方库详情": " 是一个用于比较和合并文本差异的 C++ 库",
+    "raw_URL": "https://github.com/sisong/HDiffPatch/archive/refs/tags/v4.6.3.tar.gz",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "LuaXML",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/LuaXML",
+    "三方库详情": " 作为一个开源项目，是在 Lua 和 XML 之间建立映射的模块",
+    "raw_URL": "https://github.com/n1tehawk/LuaXML.git",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "cJSON",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/cJSON",
+    "三方库详情": " 是使用 C 语言编写，用来创建、解析 JSON 文件的库。cJSON 特点就是工程文件简单，只有一个.c 和一个.h，但提供函数接口功能齐全，麻雀虽小五脏俱全，使得在嵌入式工程中使用起来得心应手",
+    "raw_URL": "https://github.com/DaveGamble/cJSON/archive/refs/tags/v1.7.15.tar.gz",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "json-c",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/json-c",
+    "三方库详情": " 是 json 数据解析库",
+    "raw_URL": "https://github.com/json-c/json-c/archive/refs/tags/json-c-0.16-20220414.tar.gz",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "json",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/json",
+    "三方库详情": " 是一个 C++ 的处理 json 数据解析的库",
+    "raw_URL": "https://github.com/nlohmann/json/archive/refs/tags/v3.11.2.tar.gz",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "jsoncpp",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/jsoncpp",
+    "三方库详情": " 是一个 C++ 库，允许操作 JSON 值，包括对字符串的序列化和反序列化",
+    "raw_URL": "https://github.com/open-source-parsers/jsoncpp/archive/refs/tags/1.9.5.tar.gz",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libexpat",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libexpat",
+    "三方库详情": " 是一个用于解析 XML 1.0 的 C99 库，面向流的 XML 解析器",
+    "raw_URL": "https://github.com/libexpat/libexpat/archive/refs/tags/R_2_5_0.tar.gz",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "libunibreak",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libunibreak",
+    "三方库详情": " 是一个文本处理器",
+    "raw_URL": "https://github.com/adah1972/libunibreak/archive/refs/tags/libunibreak_5_1.tar.gz",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "zlib"
+  },
+  {
+    "三方库名称": "libxls",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libxls",
+    "三方库详情": " 是一个解析 Excel 表格的库",
+    "raw_URL": "https://github.com/libxls/libxls/archive/refs/tags/v1.6.2.tar.gz",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libxml2",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libxml2",
+    "三方库详情": " 是一个用于解析 XML 文档的 C 语言库。它提供了一组 API，可以用于读取、修改和创建 XML 文档",
+    "raw_URL": "https://github.com/GNOME/libxml2/archive/refs/tags/v2.11.3.tar.gz",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libxslt",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libxslt",
+    "三方库详情": " 库用于处理和转换 XML 文档",
+    "raw_URL": "https://download.gnome.org/sources/libxslt/1.1/libxslt-1.1.38.tar.xz",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "libexif",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libexif",
+    "三方库详情": " 是一个用于解析、编辑和保存 EXIF 数据的库",
+    "raw_URL": "https://github.com/libexif/libexif/releases/download/v0.6.24/libexif-0.6.24.tar.bz2",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "miniini",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/miniini",
+    "三方库详情": " 是一个用于解析 INI 文件的库",
+    "raw_URL": "https://launchpadlibrarian.net/51884621/miniini-0.9.tar.gz",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "pcre2",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/pcre2",
+    "三方库详情": " 是升级版的支持 Perl 语法的正则表达式库，能够用于处理文本匹配、搜索和替换等操作",
+    "raw_URL": "https://github.com/PCRE2Project/pcre2",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "xmlrpc-c",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/xmlrpc-c",
+    "三方库详情": " 是通过 Internet 进行过程调用的一种快速简便的方法，它将过程调用转换为 XML 文档，使用 HTTP 将其发送到远程服务器，并以 XML 形式获取响应",
+    "raw_URL": "https://sourceforge.net/projects/xmlrpc-c/files/Xmlrpc-c%20Super%20Stable/1.54.06/xmlrpc-c-1.54.06.tgz",
+    "组件分类": "文本解析器",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": " Libiconv",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/iconv",
+    "三方库详情": " 一个实现字符集转换的库，用于没有 Unicode 或无法从其他字符转换为 Unicode 的系统",
+    "raw_URL": "https://savannah.gnu.org/projects/libiconv",
+    "组件分类": "编码转换",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "Jansson",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/jansson",
+    "三方库详情": " 是一个用于解码、编码、操控 JSON 的 C 库",
+    "raw_URL": "https://gitee.com/mirrors/jansson/repository/archive/v2.14.zip",
+    "组件分类": "编码转换",
+    "语言": "C/C++",
+    "备注": "",
+    "license": null
+  },
+  {
+    "三方库名称": "libqrencode",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libqrencode",
+    "三方库详情": " 是一个快速紧凑的库，用于将数据编码为二维码，二维码是一种二维符号，可以通过智能手机等方便的终端进行扫描",
+    "raw_URL": "https://github.com/fukuchi/libqrencode/archive/refs/tags/v4.1.1.tar.gz",
+    "组件分类": "编码转换",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "libuuid",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libuuid",
+    "三方库详情": " 生成唯一识别码",
+    "raw_URL": "https://sourceforge.net/projects/libuuid/files/libuuid-1.0.3.tar.gz",
+    "组件分类": "编码转换",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "lua-amf3",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/lua-amf3",
+    "三方库详情": " 为 lua 提供 AMF 二进制格式数据编解码功能",
+    "raw_URL": "https://github.com/neoxic/lua-amf3.git",
+    "组件分类": "编码转换",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": " CUnit",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/CUnit",
+    "三方库详情": " 是 C 语言的单元测试框架",
+    "raw_URL": "https://sourceforge.net/projects/cunit/files/latest/download",
+    "组件分类": "框架类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "InferLLM",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/InferLLM",
+    "三方库详情": " 是一个简单高效的 LLM CPU 推理框架，可以实现在本地部署 LLM 中的量化模型",
+    "raw_URL": "https://github.com/MegEngine/InferLLM",
+    "组件分类": "框架类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "MNN",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/MNN",
+    "三方库详情": " 是一个高效、轻量级的深度学习框架",
+    "raw_URL": "https://github.com/alibaba/MNN/archive/refs/tags/2.6.3.tar.gz",
+    "组件分类": "框架类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "apr",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/apr",
+    "三方库详情": " 是一个是创建和维护软件库，提供一组映射到下层操作系统的 API",
+    "raw_URL": "https://dlcdn.apache.org/apr/apr-1.7.4.tar.gz",
+    "组件分类": "框架类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "assimp",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/assimp",
+    "三方库详情": " 作为一个开源项目，设计了一套可扩展的架构，为模型的导入导出提供了良好的支持",
+    "raw_URL": "https://github.com/assimp/assimp/archive/refs/tags/v5.2.5.tar.gz",
+    "组件分类": "框架类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "bcunit",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/bcunit",
+    "三方库详情": " 是一个单元测试框架",
+    "raw_URL": "https://github.com/BelledonneCommunications/bcunit/archive/refs/tags/5.2.62.tar.gz",
+    "组件分类": "框架类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "behaviortree",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/behaviortree",
+    "三方库详情": " 提供了一个创建行为树的框架，常用来做任务或状态管理",
+    "raw_URL": "https://github.com/BehaviorTree/BehaviorTree.CPP",
+    "组件分类": "框架类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "Caffe",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/caffe",
+    "三方库详情": " 一个用于深度学习的快速开放框架",
+    "raw_URL": "https://github.com/BVLC/caffe/archive/refs/tags/1.0.tar.gz",
+    "组件分类": "框架类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "chrono",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/chrono",
+    "三方库详情": " 是一个多物理场开源框架，用于多物理场和多体动力学仿真的高性能 C++ 库",
+    "raw_URL": "https://github.com/projectchrono/chrono/archive/refs/tags/8.0.0.tar.gz",
+    "组件分类": "框架类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "googletest",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/googletest",
+    "三方库详情": " 是 Google 提供的一套单元测试框架",
+    "raw_URL": "https://github.com/google/googletest/archive/refs/tags/v1.13.0.tar.gz",
+    "组件分类": "框架类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "nspr",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/nspr",
+    "三方库详情": " Netscape Portable Runtime（NSPR）为系统级和类似 libc 的函数提供了一个平台 - 中间 API。API 用于 Mozilla 客户端、许多 Red Hat 和 Oracle 的服务器应用程序以及其他软件产品",
+    "raw_URL": "https://archive.mozilla.org/pub/nspr/releases/v4.35/src/nspr-4.35.tar.gz",
+    "组件分类": "框架类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "uchardet",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/uchardet",
+    "三方库详情": " 是一个编码检测器库，它采用未知字符编码的字节序列，不带任何附加信息，并尝试确定文本的编码。返回的编码名称与图标兼容",
+    "raw_URL": "https://gitlab.freedesktop.org/uchardet/uchardet/-/archive/v0.0.8/uchardet-v0.0.8.tar.gz",
+    "组件分类": "框架类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "RingBuffer",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/RingBuffer",
+    "三方库详情": " 是一个简单易用的环形缓冲库",
+    "raw_URL": "https://github.com/Locoduino/RingBuffer/tree/1.0.4",
+    "组件分类": "数据结构存储",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "gpl-2.0"
+  },
+  {
+    "三方库名称": "avro",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/avro",
+    "三方库详情": " 是指数据序列化的系统，有丰富的数据结构类型、快速可压缩的二进制数据形式",
+    "raw_URL": "https://github.com/apache/avro/archive/refs/tags/release-1.11.1.tar.gz",
+    "组件分类": "数据结构存储",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "flatbuffers",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/flatbuffers",
+    "三方库详情": " 是一个跨平台的序列化库，其架构能最大限度地提高内存效率",
+    "raw_URL": "https://github.com/google/flatbuffers/archive/refs/tags/v23.5.9.tar.gz",
+    "组件分类": "数据结构存储",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "hdf5",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/hdf5",
+    "三方库详情": " 是一种常见的跨平台数据储存文件，可以存储不同类型的图像和数码数据，并且可以在不同类型的机器上传输，同时还有统一处理这种文件格式的函数库",
+    "raw_URL": "https://github.com/HDFGroup/hdf5/archive/refs/tags/hdf5-1_14_1-2.tar.gz",
+    "组件分类": "数据结构存储",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "protobuf",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/protobuf",
+    "三方库详情": " 是 Google 提供的一套数据的序列化框架",
+    "raw_URL": "https://github.com/protocolbuffers/protobuf/archive/refs/tags/v4.23.2.tar.gz",
+    "组件分类": "数据结构存储",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "protobuf_v3.6.1",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/protobuf_v3.6.1",
+    "三方库详情": " (Protocol Buffers) 是一种跨平台、语言无关、可扩展的序列化结构数据的方法，可用于网络数据交换及存储",
+    "raw_URL": "https://github.com/protocolbuffers/protobuf.git",
+    "组件分类": "数据结构存储",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "sqlite",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/sqlite",
+    "三方库详情": "  是一个提供数据库操作能力的库",
+    "raw_URL": "https://github.com/sqlite/sqlite/archive/refs/tags/.tar.gz",
+    "组件分类": "数据结构存储",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "sqliteodbc",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/sqliteodbc",
+    "三方库详情": " 是基于 SQLite 数据库的 ODBC 驱动程序",
+    "raw_URL": "http://www.ch-werner.de/sqliteodbc/sqliteodbc-0.9998.tar.gz",
+    "组件分类": "数据结构存储",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "unixODBC",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/unixODBC",
+    "三方库详情": " 项目的目标是开发和推广 unixODBC，使其成为非 MS Windows 平台上 ODBC 的最终标准",
+    "raw_URL": "https://github.com/lurcher/unixODBC/releases/download/2.3.11/unixODBC-2.3.11.tar.gz",
+    "组件分类": "数据结构存储",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "sqlcipher",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/sqlcipher",
+    "三方库详情": "  是 SQLite 的一个独立分支，它增加了数据库文件的 256 位 AES 加密和其他安全功能",
+    "raw_URL": "https://github.com/sqlcipher/sqlcipher/archive/refs/tags/v4.5.5.tar.gz",
+    "组件分类": "数据结构存储",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "Paddle-Lite",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/Paddle-Lite",
+    "三方库详情": "  是一个高性能的深度学习引擎，支持移动端和边缘设备",
+    "raw_URL": "https://github.com/PaddlePaddle/Paddle-Lite/archive/refs/tags/v2.12.tar.gz",
+    "组件分类": "深度学习",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "mxnet",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/mxnet",
+    "三方库详情": " 是一个轻量级、便携、灵活的分布式/移动深度学习框架",
+    "raw_URL": "https://mxnet.apache.org/versions/master/",
+    "组件分类": "深度学习",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "oneDNN",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/oneDNN",
+    "三方库详情": " 是为深度学习应用开发的一块跨平台开源库",
+    "raw_URL": "https://github.com/oneapi-src/oneDNN/archive/refs/tags/v3.2.tar.gz",
+    "组件分类": "深度学习",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "fontconfig",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/fontconfig",
+    "三方库详情": " 是字体相关的计算机程序库，用于配置、定制全系统的字体，或将字体提供给应用程序使用",
+    "raw_URL": "https://gitlab.freedesktop.org/fontconfig/fontconfig/-/archive/2.14.2/fontconfig-2.14.2.tar.gz",
+    "组件分类": "字体字幕处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "freeType",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/freetype2",
+    "三方库详情": " 是用 C 语言编写的。它设计为小巧、高效且高度可定制，同时能够为数字排版生成大多数矢量和位图字体格式的高质量输出（字形图像）",
+    "raw_URL": "https://sourceforge.net/projects/freetype/files/freetype2/2.13.0/freetype-2.13.0.tar.xz",
+    "组件分类": "字体字幕处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "harfbuzz",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/harfbuzz",
+    "三方库详情": " 是一个有 OpenType 文本整形能力的库",
+    "raw_URL": "https://github.com/harfbuzz/harfbuzz/archive/refs/tags/7.3.0.tar.gz",
+    "组件分类": "字体字幕处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libass",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libass",
+    "三方库详情": " 库则是一个轻量级的对 ASS/SSA 格式字幕进行渲染的开源库",
+    "raw_URL": "https://github.com/libass/libass/releases/download/0.17.1/libass-0.17.1.tar.gz",
+    "组件分类": "字体字幕处理",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "isc"
+  },
+  {
+    "三方库名称": "log4cplus",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/log4cplus",
+    "三方库详情": " 是一个简单易用的 C++ 日志记录 API，它对日志管理和配置提供了线程安全、灵活和任意粒度的控制",
+    "raw_URL": "https://github.com/log4cplus/log4cplus",
+    "组件分类": "日志打印",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "glog",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/glog",
+    "三方库详情": " 提供基于 C++ 样式流的日志记录 API",
+    "raw_URL": "https://github.com/google/glog.git",
+    "组件分类": "日志打印",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "cups",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/cups",
+    "三方库详情": " 是苹果公司为 macOS？和其他类似 UNIX？的操作系统开发的基于标准的开源打印系统",
+    "raw_URL": "https://github.com/apple/cups/releases/tag/v2.3.6",
+    "组件分类": "日志打印",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "lua",
+    "TPC_URL": " https://gitee.com/openharmony-sig/lua",
+    "三方库详情": " Lua 是一种功能强大、高效、轻量级、可嵌入的脚本语言",
+    "raw_URL": "https://github.com/lua/lua",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "inotify-tools",
+    "TPC_URL": " https://gitee.com/hihopeorg/inotify-tools",
+    "三方库详情": " 异步文件系统监控组件，它满足各种各样的文件监控需要，可以监控文件系统的访问属性、读写属性、权限属性、删除创建、移动等操作",
+    "raw_URL": "https://github.com/inotify-tools/inotify-tools",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "gpl-2.0"
+  },
+  {
+    "三方库名称": "libharu",
+    "TPC_URL": " https://gitee.com/openharmony-sig/libharu",
+    "三方库详情": " 用于生成 PDF 格式的文件",
+    "raw_URL": "https://github.com/libharu/libharu",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "zlib"
+  },
+  {
+    "三方库名称": "leveldb",
+    "TPC_URL": " https://gitee.com/openharmony-sig/leveldb",
+    "三方库详情": " 快速键值存储库，提供从字符串键到字符串值的有序映射",
+    "raw_URL": "https://github.com/google/leveldb",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "bsdiff",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/bsdiff",
+    "三方库详情": " 一个提供二进制文件拆分以及合并能力的三方组件",
+    "raw_URL": "https://github.com/mendsley/bsdiff",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "concurrentqueue",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/concurrentqueue",
+    "三方库详情": " 一个高效的线程安全的队列的库",
+    "raw_URL": "https://github.com/cameron314/concurrentqueue",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "double-conversion",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/double-conversion",
+    "三方库详情": " 用于 IEEE 高效二进制 - 十进制和十进制 - 二进制转换",
+    "raw_URL": "https://github.com/google/double-conversion/archive/refs/tags/v3.2.1.tar.gz",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "busybox",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/blob/master/thirdparty/busybox",
+    "三方库详情": " 将许多常见 UNIX 实用程序的微小版本组合成一个小型可执行文件",
+    "raw_URL": "https://github.com/mirror/busybox",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "hunspell",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/blob/master/thirdparty/hunspell",
+    "三方库详情": " 是一个免费的拼写检查器和形态分析器库和命令行工具",
+    "raw_URL": "https://github.com/hunspell/hunspell/tree/v1.7.2",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "libtommath",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/blob/master/thirdparty/libtommath",
+    "三方库详情": " 是一个完全用 C 语言编写的免费开源可移植数字理论多精度整数（MPI）库",
+    "raw_URL": "https://github.com/libtom/libtommath/archive/refs/tags/v1.2.0.tar.gz",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "bctoolbox",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/bctoolbox",
+    "三方库详情": " 通信软件使用的一些实用库，像 belle-sip、mediastreamer2 和 liblinphone",
+    "raw_URL": "https://codeload.github.com/BelledonneCommunications/bctoolbox/zip/refs/tags/5.2.91",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "gpl-3.0"
+  },
+  {
+    "三方库名称": "boost",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/boost",
+    "三方库详情": " 是为 C++ 语言标准库提供扩展的一些 C++ 程序库的总称",
+    "raw_URL": "https://boostorg.jfrog.io/artifactory/main/release/1.81.0/source/boost_1_81_0.tar.gz",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "ceres-solver",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/ceres-solver",
+    "三方库详情": " 是一个由 Google 开发的开源 C++ 库，用于解决具有边界约束和非线性最小二乘问题的优化问题，以及一般无约束优化问题",
+    "raw_URL": "http://ceres-solver.org/ceres-solver-2.1.0.tar.gz",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "diff-match-patch-cpp-stl",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/diff-match-patch-cpp-stl",
+    "三方库详情": " 是一个多种语言的高性能库，可操作纯文本",
+    "raw_URL": "https://github.com/leutloff/diff-match-patch-cpp-stl/archive/refs/heads/master.zip",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "fmt",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/fmt",
+    "三方库详情": " 是一个开源格式库，可提供 C stdio 和 C ++ iostreams 的快速安全替代品",
+    "raw_URL": "https://github.com/fmtlib/fmt/archive/refs/tags/10.0.0.tar.gz",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "gflags",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/gflags",
+    "三方库详情": " 是一种命令行解析工具，主要用于解析用命令行执行可执行文件时传入的参数",
+    "raw_URL": "https://github.com/gflags/gflags/archive/refs/tags/v2.2.2.tar.gz",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "libarchive",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libarchive",
+    "三方库详情": " 项目开发了一种便携式，高效的 C 库，可以以各种格式读取和编写流库。它还包括使用 libarchive 库的常见功能包括，tar",
+    "raw_URL": "https://github.com/libarchive/libarchive/archive/refs/tags/v3.6.2.tar.gz",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libffi",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libffi",
+    "三方库详情": " 是一个开源库，提供了一种通用的调用外部函数的机制",
+    "raw_URL": "https://gitee.com/lycium_pkg_mirror/libffi/repository/archive/v3.4.4.zip",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "libusb",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libusb",
+    "三方库详情": " 是一个 C 库，提供对 USB 设备的通用访问。它旨在供开发人员用来促进与 USB 硬件通信的应用程序的生成",
+    "raw_URL": "https://github.com/libusb/libusb",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "lpeg",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/lpeg",
+    "三方库详情": " 是一个供 lua 使用的基于 Parsing Expression Grammars 的模式匹配库",
+    "raw_URL": "https://github.com/luvit/lpeg/archive/refs/heads/master.zip",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "luv",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/luv",
+    "三方库详情": "是一个用于 lua 的 libuv 裸绑定的库，使 libuv 可用于 lua 脚本",
+    "raw_URL": "https://github.com/luvit/luv/archive/refs/tags/1.45.0-0.tar.gz",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "mythes",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/mythes",
+    "三方库详情": " 是一个简单的词库，使用结构化的具有二进制搜索的文本数据文件和索引文件查找单词和短语并返回词性、意义和同义词",
+    "raw_URL": "https://github.com/hunspell/mythes/archive/refs/tags/v1.2.5.tar.gz",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "other"
+  },
+  {
+    "三方库名称": "openldap",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/openldap",
+    "三方库详情": " 是一个开源的实现 LDAP 协议的软件套件，LDAP 是一种用于访问和维护分布式目录信息的协议，而 OpenLDAP 提供了一套工具和库，使用户能够构建和管理 LDAP 服务器",
+    "raw_URL": "https://mirror-hk.koddos.net/OpenLDAP/openldap-release/openldap-2.5.14.tgz",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "tcl",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/tcl",
+    "三方库详情": " 是一种解释语言，也是该语言的一种非常便携的解释器",
+    "raw_URL": "https://sourceforge.net/projects/tcl/files/Tcl/8.6.13/tcl8.6.13-src.tar.gz",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "tesseract",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/tesseract",
+    "三方库详情": " 是一个 OCR 引擎，提供库函数和命令行工具",
+    "raw_URL": "https://github.com/tesseract-ocr/tesseract/archive/refs/tags/5.3.2.tar.gz",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "zbar",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/zbar",
+    "三方库详情": " 是一个条形码和二维码解析的库",
+    "raw_URL": "https://sourceforge.net/projects/zbar/files/zbar/0.10/zbar-0.10.tar.gz",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "zxing-cpp",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/zxing-cpp",
+    "三方库详情": " 是一个二维码生成和解析的库",
+    "raw_URL": "https://github.com/zxing-cpp/zxing-cpp/archive/refs/tags/v2.0.0.tar.gz",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "libcap",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libcap",
+    "三方库详情": " 的功能是用于管理进程的权限和权限限制",
+    "raw_URL": "https://mirrors.edge.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.69.tar.gz",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "qpdf",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/qpdf",
+    "三方库详情": " 是一个命令行工具和 C++ 库，用于对 PDF 文件执行内容保留转换",
+    "raw_URL": "https://github.com/qpdf/qpdf/archive/refs/tags/v11.6.3.tar.gz",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "libgphoto2",
+    "TPC_URL": " https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/libgphoto2",
+    "三方库详情": " 是一个功能强大的库，用于通过应用程序访问和控制数字相机",
+    "raw_URL": "https://github.com/gphoto/libgphoto2/archive/refs/tags/v2.5.31.tar.gz",
+    "组件分类": "其他工具类",
+    "语言": "C/C++",
+    "备注": "",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "lyrics",
+    "TPC_URL": " https://gitee.com/wedatahub/lom_lyrics",
+    "三方库详情": "  lyrics 是一个用于解析 LRC 文件和同步歌词的 JavaScript 库。",
+    "raw_URL": "https://github.com/frank-deng/js-lyrics",
+    "组件分类": "文件数据与传输",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "CommonsCompress",
+    "TPC_URL": "https://gitee.com/openharmony-tpc/CommonsCompress",
+    "三方库详情": "本软件是参照开源软件 Apache Commons Compress 源码并用 TypeScript 语言实现了相关功能，在 OpenHarmony 上支持 bzip2、gzip、lzma、xz、Snappy、LZ4、Brotli、DEFLATE、Zstandard 和 ar、cpio、tar、zip、dump、7z 等格式的压缩和解压功能",
+    "raw_URL": "https://github.com/apache/commons-compress",
+    "组件分类": "数据压缩算法",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "dialogs",
+    "TPC_URL": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/dialogs",
+    "三方库详情": "本项目是基于 OpenHarmony 的弹框基础能力和自定义能力，针对通用的弹框业务场景进行封装组合，实现了确认输入弹窗、列表展示选择弹窗、自定义底部、顶部弹窗、自定义动画弹窗、自定义全屏弹窗、消息类弹窗、抽屉类弹、联想类弹窗、图片浏览弹窗等相关组件弹窗功能，提供一款 OpenHarmony 版的三方 UI 库。",
+    "raw_URL": "https://github.com/avast/android-styled-dialogs",
+    "组件分类": "UI",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "jbox2d",
+    "TPC_URL": "https://gitee.com/hihopeorg/jbox2d",
+    "三方库详情": "用于游戏开发，使物体的运动更加真实，让游戏场景看起来更具交互性，比如愤怒的小鸟",
+    "raw_URL": "https://github.com/jbox2d/jbox2d",
+    "组件分类": "动画",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "bsd-2-clause"
+  },
+  {
+    "三方库名称": "inversifyDemo",
+    "TPC_URL": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/inversifyDemo",
+    "三方库详情": "本 demo 是基于 openHarmony 系统下使用三方 js 库 inversify，inversify 是一个强大而轻量级的控制反转容器，用于 JavaScript 和 Node.js 由 TypeScript 提供支持的应用程序。",
+    "raw_URL": "https://github.com/inversify/InversifyJS",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "inversify_inject_decorators-demo",
+    "TPC_URL": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/inversify_inject_decorators-demo",
+    "三方库详情": "inversify_inject_decorators-demo 是一个在 OpenHarmony 系统上验证 inversify-inject-decorators（一个工具库，主要提供了 lazyInject 之类的方法，除了字面上所说的惰性，另外一个非常重要的功能就是允许将 inversifyJs 集成到任何自己控制类实例创建的库或者框架，比如 react。）能力的代码示例。",
+    "raw_URL": "https://github.com/inversify/inversify-inject-decorators",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "inversify-binding-decorators-demo",
+    "TPC_URL": "https://gitee.com/openharmony-tpc/openharmony_tpc_samples/tree/master/inversify-binding-decorators-demo",
+    "三方库详情": "inversify-binding-decoratorsDemo 是一个在 OpenHarmony 系统上验证 inversify-binding-decoratorsDemo（一个实用程序，允许开发人员使用 ES2016 装饰器声明 InversifyJS 绑定）能力的代码示例。",
+    "raw_URL": "https://github.com/inversify/inversify-binding-decorators",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "ohos_mail",
+    "TPC_URL": "https://gitee.com/openharmony-tpc/ohos_mail",
+    "三方库详情": "ohos_mail 主要提供电子邮件 SMTP、POP3、IMAP 协议的发送、接收、移动、删除等功能，能够解析和构建 eml 格式的电子邮件，识别电子邮件的 MIME 类型消息头和消息体，方便开发者执行一些常用的邮件传输。",
+    "raw_URL": "无",
+    "组件分类": "网络协议通信",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "smartperf",
+    "TPC_URL": "https://gitee.com/openharmony-sig/smartperf",
+    "三方库详情": "Smartperf-Host 是一款深入挖掘数据、细粒度地展示数据的性能功耗调优工具，旨在为开发者提供一套性能调优平台，支持对 CPU 调度、频点、进程线程时间片、堆内存、帧率等数据进行采集和展示，展示方式为泳道图，支持 GUI（图形用户界面）操作进行详细数据分析。",
+    "raw_URL": "无",
+    "组件分类": "工具",
+    "语言": "JS/ArkTs",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "speexdsp",
+    "TPC_URL": "https://gitee.com/openharmony-sig/tpc_c_cplusplus/tree/master/thirdparty/speexdsp",
+    "三方库详情": "speex 音频回音消除",
+    "raw_URL": "https://github.com/xiph/speex",
+    "组件分类": "工具",
+    "语言": "C/C++",
+    "备注": "",
+    "license": ""
+  },
+  {
+    "三方库名称": "ogg",
+    "raw_URL": "https://github.com/xiph/ogg",
+    "组件描述": "Reference implementation of the Ogg media container",
+    "分类": "多媒体",
+    "语言": "C/C++",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "folly",
+    "raw_URL": "https://github.com/facebook/folly",
+    "组件描述": "An open-source C++ library developed and used at Facebook.",
+    "分类": "#N/A",
+    "语言": "C/C++",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "inotify-tools",
+    "raw_URL": "https://github.com/inotify-tools/inotify-tools",
+    "组件描述": "Inotify 一种强大的、细粒度的、异步文件系统监控机制，它满足各种各样的文件监控需要，可以监控文件系统的访问属性、读写属性、权限属性、删除创建、移动等操作，也就是可以监控文件发生的一切变化",
+    "分类": "框架类",
+    "语言": "C/C++",
+    "license": "gpl-2.0"
+  },
+  {
+    "三方库名称": "yara",
+    "raw_URL": "https://github.com/VirusTotal/yara",
+    "组件描述": "YARA is a tool aimed at (but not liMITed to) helping malware researchers to identify and classify malware samples. With YARA you can create descriptions of malware families (or whatever you want to describe) based on textual or binary patterns. Each description, a.k.a. rule, consists of a set of strings and a boolean expression which determine its logic.?",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "ardour",
+    "raw_URL": "https://github.com/Ardour/ardour",
+    "组件描述": "Ardour 是一款免费开源专业的 DAW (digital audio workstation，数字音频工作站)，用于处理音频和 MIDI。你可以使用它来录制，编辑和混合多轨音频，还可以制作自己的 CD，混合视频音轨等主要功能。",
+    "分类": "多媒体",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "angle",
+    "raw_URL": "https://chromium.googlesource.com/angle/angle/",
+    "组件描述": "几乎原生的图形层引擎",
+    "分类": "办公",
+    "语言": "JS",
+    "license": ""
+  },
+  {
+    "三方库名称": "ne10",
+    "raw_URL": "https://github.com/projectNe10/Ne10",
+    "组件描述": "Ne10 is a library of common, useful functions that have been heavily optimised for ARM-based CPUs equipped with NEON SIMD capabilities. It provides consistent, well-tested behaviour, allowing for painless integration into a wide variety of applications",
+    "分类": "#N/A",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "wcdb",
+    "raw_URL": "https://github.com/Tencent/wcdb",
+    "组件描述": "WCDB 是一个高效、完整、易用的移动数据库框架，基于 SQLCipher，支持 iOS, macOS 和 Android。",
+    "分类": "文件数据类",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "android-database-sqlcipher",
+    "raw_URL": "https://github.com/sqlcipher/sqlcipher",
+    "组件描述": "SQLCipher 是 SQLite 数据库库的独立分支，它添加了数据库文件的 256 位 AES 加密和其他安全功能，例如：",
+    "分类": "工具类",
+    "语言": "Java",
+    "license": "other"
+  },
+  {
+    "三方库名称": "silk-v3-decoder",
+    "raw_URL": "https://github.com/kn007/silk-v3-decoder",
+    "组件描述": "Decode silk v3 audio files (like wechat amr, aud files, qq slk files) and convert to other format (like mp3). Batch conversion support.",
+    "分类": "#N/A",
+    "语言": "C/C++",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "gc",
+    "raw_URL": "https://github.com/mkirchner/gc",
+    "组件描述": "C 的简单、零依赖的垃圾收集",
+    "分类": "工具类",
+    "语言": "C",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "xutils3",
+    "raw_URL": "https://github.com/wyouflf/xUtils3",
+    "组件描述": "xUtils 包含了 orm, http(s), image, view 注解，但依然很轻量级 (251K), 并且特性强大，方便扩展。",
+    "分类": "工具类",
+    "语言": "java",
+    "license": "other"
+  },
+  {
+    "三方库名称": "com.squareup.wire.wire-runtime",
+    "raw_URL": "https://github.com/square/wire",
+    "组件描述": "这是一个支持 FreeBSD、OpenBSD、Linux、Mac OS X 和 Windows 的用户层 SCTP 堆栈。",
+    "分类": "工具类",
+    "语言": "kotlin/java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "sentencepiece",
+    "raw_URL": "https://github.com/google/sentencepiece",
+    "组件描述": "SentencePiece is an unsupervised text tokenizer and detokenizer mainly for Neural Network-based text generation systems where the vocabulary size is predetermined prior to the neural model training.?",
+    "分类": "#N/A",
+    "语言": "C/C++",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "vditor",
+    "raw_URL": "https://github.com/Vanessa219/vditor",
+    "组件描述": "Vditor 是一款浏览器端的 Markdown 编辑器，支持所见即所得、即时渲染（类似 Typora）和分屏预览模式。它使用 TypeScript 实现，支持原生 JavaScript 以及 Vue、React、Angular 和 Svelte 等框架。",
+    "分类": "工具类",
+    "语言": "TS",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "live555",
+    "raw_URL": "https://github.com/rgaufman/live555",
+    "组件描述": "它实现了对标准流媒体传输协议如 RTP/RTCP、RTSP、SIP 等的支持。Live555 实现了对多种音视频编码格式的音视频数据的流化、接收和处理等支持，包括 MPEG、H.263+、DV、JPEG 视频和多种音频编码。",
+    "分类": "网络类",
+    "语言": "C/C++",
+    "license": "lgpl-3.0"
+  },
+  {
+    "三方库名称": "croaring",
+    "raw_URL": "https://github.com/RoaringBitmap/Croaring",
+    "组件描述": "ortable Roaring bitmaps in C (and C++) with full support for your favorite compiler (GNU GCC, LLVM's clang, Visual Studio, Apple Xcode, Intel oneAPI). Included in the Awesome C list of open source C software.",
+    "分类": "#N/A",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "javacv",
+    "raw_URL": "https://github.com/bytedeco/javacv",
+    "组件描述": "JavaCV 是对各种常用计算机视觉库的封装后的一组 jar 包，OpenCV、FFmpeg 等的 Java 接口",
+    "分类": "工具类",
+    "语言": "JAVA",
+    "license": "other"
+  },
+  {
+    "三方库名称": "tcpflow",
+    "raw_URL": "https://github.com/simsong/tcpflow",
+    "组件描述": "TCPflow 是一款功能强大的、基于命令行的免费开源工具，用于在 Unix 之类的系统 (如 Linux) 上分析网络流量。它可捕获通过 TCP 连接接收或传输的数据，并存储在文件中供以后分析，采用的格式便于协议分析和调试。它实际上是类似 tcpdump 的工具，因为它处理来自网络或存储文件的数据包。",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "gpl-3.0"
+  },
+  {
+    "三方库名称": "freerdp",
+    "raw_URL": "https://github.com/FreeRDP/FreeRDP",
+    "组件描述": "FreeRDP 是一个免费的远程桌面协议库和客户端",
+    "分类": "网络类",
+    "语言": "C/C++",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "org.elasticsearch.jna",
+    "raw_URL": "https://mvnrepository.com/artifact/org.elasticsearch/jna",
+    "组件描述": "Elasticsearch 是一种分布式 RESTful 搜索引擎，针对生产规模工作负载的速度和相关性进行了优化。您可以使用 Elasticsearch 对海量数据集执行实时搜索应用程序，包括：",
+    "分类": "搜索引擎",
+    "语言": "java",
+    "license": ""
+  },
+  {
+    "三方库名称": "srt",
+    "raw_URL": "https://github.com/Haivision/srt",
+    "组件描述": "C++ 库，SRT（Secure Reliable Transport）是新一代低延迟视频传输协议，是一种开源、免费和应用灵活的规范，它的性能与专用的协议一样优秀",
+    "分类": "网络类",
+    "语言": "C/C++",
+    "license": "mpl-2.0"
+  },
+  {
+    "三方库名称": "apache freemarker",
+    "raw_URL": "https://github.com/apache/freemarker",
+    "组件描述": "Apache FreeMarker is a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data.",
+    "分类": "工具类",
+    "语言": "java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "luajit2",
+    "raw_URL": "https://github.com/openresty/luajit2",
+    "组件描述": "LuaJIT 是 Lua 编程语言的即时（JIT）编译器",
+    "分类": "工具类",
+    "语言": "c",
+    "license": "other"
+  },
+  {
+    "三方库名称": "adobe-xmp-toolkit",
+    "raw_URL": "https://github.com/adobe/XMP-Toolkit-SDK",
+    "组件描述": "XMP-Toolkit-SDK 是一个用于处理 XMP 元数据的软件开发工具包（SDK）。XMP 元数据是一种标准化的元数据格式，用于描述数字媒体资源（如图像、音频和视频文件）的属性和元数据。",
+    "分类": "多媒体",
+    "语言": "C/C++",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "glslang",
+    "raw_URL": "https://github.com/KhronosGroup/glslang",
+    "组件描述": "GLSL(OpenGL 着色语言 OpenGL Shading Language)。\nglslang Validator 是 OpenGL 标准定制官方 Khronos Group 定制的 GLSL 参考编译器，命令行编译模式方便了用户直接测试 glsl 语法而绕过 C/C++ 的相关依赖库编译，也不需要在主文件编写大量初始化代码。",
+    "分类": "框架类",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "resiprocate",
+    "raw_URL": "https://github.com/resiprocate/resiprocate",
+    "组件描述": "SIP、ICE、TURN 和相关协议的 C++ 实现。",
+    "分类": "#N/A",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "smack api",
+    "raw_URL": "http://www.igniterealtime.org/projects/smack/",
+    "组件描述": "Smacks 是一个用于即时消息传递和在线状态的开源 XMPP 客户端库。",
+    "分类": "框架类",
+    "语言": "java",
+    "license": ""
+  },
+  {
+    "三方库名称": "html2canvas",
+    "raw_URL": "https://github.com/niklasvh/html2canvas",
+    "组件描述": "The script allows you to take \"screenshots\" of webpages or parts of it, directly on the users browser.",
+    "分类": "工具类",
+    "语言": "TS",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "bgfx",
+    "raw_URL": "https://github.com/bkaradzic/bgfx",
+    "组件描述": "跨平台图像引擎渲染库",
+    "分类": "框架类",
+    "语言": "C/C++",
+    "license": "bsd-2-clause"
+  },
+  {
+    "三方库名称": "aws-sdk-android",
+    "raw_URL": "https://aws.amazon.com/cn/mobile/sdk/",
+    "组件描述": "借助 AWS Amplify，您可以轻松创建、配置和实施由 AWS 提供支持的可扩展的移动和 Web 应用程序。Amplify 不仅可以无缝预置和管理移动后端，还能提供简单的框架来轻松将后端与 iOS、Android、Web 和 React Native 前端集成。另外，Amplify 还可以自动执行前端和后端的应用程序发布流程，让您能够更快速地交付功能。",
+    "分类": "框架类",
+    "语言": "Java",
+    "license": ""
+  },
+  {
+    "三方库名称": "apache mina",
+    "raw_URL": "https://github.com/apache/mina",
+    "组件描述": "Apache MINA is a network application framework which helps users\ndevelop high performance and high scalability network applications\neasily.",
+    "分类": "网络类",
+    "语言": "java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "jexcelapi",
+    "raw_URL": "https://github.com/loginus/jexcelapi",
+    "组件描述": "用于读取、写入和修改 Excel 电子表格的 Java API",
+    "分类": "办公",
+    "语言": "java",
+    "license": "gpl-2.0"
+  },
+  {
+    "三方库名称": "fluidsynth",
+    "raw_URL": "https://github.com/FluidSynth/fluidsynth",
+    "组件描述": "Software synthesizer based on the SoundFont 2 specifications",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "asio",
+    "raw_URL": "https://github.com/chriskohlhoff/asio/",
+    "组件描述": "Asio is a cross-platform C++ library for network and low-level I/O programming that provides developers with a consistent asynchronous model using a modern C++ approach.",
+    "分类": "网络类",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "opencv_contrib",
+    "raw_URL": "https://github.com/opencv/opencv_contrib",
+    "组件描述": "OpenCV 额外模块的存储库",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "lzo",
+    "raw_URL": "https://www.oberhumer.com/opensource/lzo/",
+    "组件描述": "LZO is a portable lossless data compression library written in ANSI C",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "aubio",
+    "raw_URL": "https://github.com/aubio/aubio",
+    "组件描述": "声音检测算法",
+    "分类": "多媒体",
+    "语言": "C/C++",
+    "license": "gpl-3.0"
+  },
+  {
+    "三方库名称": "vlc",
+    "raw_URL": "https://github.com/videolan/vlc",
+    "组件描述": "VLC is a libre and open source media player and multimedia engine, focused on playing everything, and running everywhere.",
+    "分类": "多媒体",
+    "语言": "C/C++",
+    "license": "gpl-2.0"
+  },
+  {
+    "三方库名称": "grpc-java",
+    "raw_URL": "https://github.com/grpc/grpc-java/",
+    "组件描述": "gRPC 是一个高性能、通用的开源 RPC 框架，主要面向移动应用开发并基于 HTTP/2 协议标准而设计，基于 ProtoBuf(Protocol Buffers) 序列化协议开发，且支持众多开发语言。gRPC 提供了一种简单的方法来精确地定义服务和为 iOS、Android 和后台支持服务自动生成可靠性很强的客户端功能库。客户端充分利用高级流和链接功能，从而有助于节省带宽、降低的 TCP 链接次数、节省 CPU 使用",
+    "分类": "网络类",
+    "语言": "java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "libssh2",
+    "raw_URL": "https://github.com/libssh2/libssh2",
+    "组件描述": "libssh2 is a library implementing the SSH2 protocol, available under the revised BSD license.",
+    "分类": "网络类",
+    "语言": "C/C++",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "libgcrypt",
+    "raw_URL": "https://github.com/gpg/libgcrypt",
+    "组件描述": "The GNU crypto library",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "gpl-2.0"
+  },
+  {
+    "三方库名称": "libnfs",
+    "raw_URL": "https://github.com/sahlberg/libnfs",
+    "组件描述": "NFS client library",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "androidpicker",
+    "raw_URL": "https://github.com/gzu-liyujiang/AndroidPicker",
+    "组件描述": "安卓选择器类库，包括日期及时间选择器...",
+    "分类": "UI 类",
+    "语言": "java",
+    "license": "other"
+  },
+  {
+    "三方库名称": "xz for java",
+    "raw_URL": "https://github.com/tukaani-project/xz-java",
+    "组件描述": "XZ for Java Official Repository",
+    "分类": "工具类",
+    "语言": "java",
+    "license": "0bsd"
+  },
+  {
+    "三方库名称": "libev",
+    "raw_URL": "https://github.com/enki/libev",
+    "组件描述": "Full-featured high-performance event loop loosely modelled after libevent",
+    "分类": "消息传递",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "howler",
+    "raw_URL": "https://github.com/goldfire/howler.js",
+    "组件描述": "Javascript audio library for the modern web.",
+    "分类": "多媒体",
+    "语言": "JS",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "gnupg",
+    "raw_URL": "https://github.com/gpg/gnupg",
+    "组件描述": "GnuPG 启用加密和数据和通信的签名，并具有多功能密钥，公钥管理系统及访问模块\n目录。GnuPG，也称为 GPG，是一个命令行工具，具有易于与其他应用程序集成。丰富的前端\n可以使用 GnuPG 的应用程序和库。",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "gpl-3.0"
+  },
+  {
+    "三方库名称": "hwcpipe",
+    "raw_URL": "https://github.com/ARM-software/HWCPipe",
+    "组件描述": "WCPipe 是一个实用程序，允许应用程序对 Arm?Immortalis TM 和 Arm Mali TM GPU 的性能计数器进行采样。此信息允许开发人员使用其现有的内部性能工具来分析和优化其应用程序工作负载，并提供在应用程序用户界面中实时显示性能数据的能力。",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "mdnsresponder",
+    "raw_URL": "https://github.com/jevinskie/mDNSResponder",
+    "组件描述": "?Bonjour 的一个组件，",
+    "分类": "网络类",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "lwip",
+    "raw_URL": "http://download.savannah.nongnu.org/releases/lwip/",
+    "组件描述": "lwIP is a small independent implementation of the TCP/IP protocol suite that has been developed by Adam Dunkels at the Computer and Networks Architectures (CNA) lab at the Swedish Institute of Computer Science (SICS).",
+    "分类": "文件数据类",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "mathjax",
+    "raw_URL": "https://github.com/mathjax/MathJax",
+    "组件描述": "MathJax 是一个开源的 JavaScript 显示引擎，用于 LaTeX、MathML、以及适用于所有现代浏览器的 AsciiMath 符号。",
+    "分类": "文件数据类",
+    "语言": "JS",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "openscenegraph",
+    "raw_URL": "https://github.com/openscenegraph/OpenSceneGraph",
+    "组件描述": "OpenSceneGraph 是一款高性能的 3D 图形开发库。广泛应用在可视化仿真、游戏、虚拟现实、高端技术研发以及建模等领域",
+    "分类": "图形类",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "nebula-algorithm",
+    "raw_URL": "https://github.com/vesoft-inc/nebula-algorithm",
+    "组件描述": "nebula-algorithm 是一个基于 GraphX 的 Spark 应用程序，提供许多算法",
+    "分类": "工具类",
+    "语言": "Java",
+    "license": ""
+  },
+  {
+    "三方库名称": "spirv-headers",
+    "raw_URL": "https://github.com/KhronosGroup/SPIRV-Headers",
+    "组件描述": "This repository contains machine-readable files for the?SPIR-V Registry.",
+    "分类": "#N/A",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libtorrent",
+    "raw_URL": "https://github.com/arvidn/libtorrent",
+    "组件描述": "libtorrent 是一个实现 BitTorrent 协议的开源 C++ 库，以及最流行的扩展，使其适合现实世界的部署。它是可配置的，能够适应服务器和嵌入式设备。",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "org.codelibs.jcifs",
+    "raw_URL": "https://github.com/codelibs/jcifs",
+    "组件描述": "JCIFS is an Open Source client library that implements the CIFS/SMB networking protocol in 100% Java.",
+    "分类": "工具类",
+    "语言": "Java",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "gsoap toolkit",
+    "raw_URL": "https://sourceforge.net/projects/gsoap2/files/",
+    "组件描述": "用于 C 和 C++ 的 Web 服务和 XML 数据绑定的开发工具包",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "gfxreconstruct",
+    "raw_URL": "https://github.com/LunarG/gfxreconstruct",
+    "组件描述": "GFXReconstruct 项目提供了用于捕获和回放图形的工具 API 调用，允许应用程序执行图形命令 记录到一个文件中，以后可以重播以重建 捕获的应用程序的特定于图形的行为。重播代码有 使用框架设计进行组织，以便于创建其他 用于处理捕获文件的工具。",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "kudu",
+    "raw_URL": "https://github.com/apache/kudu",
+    "组件描述": "单个 Kudu 源代码树可用于多个构建，每个构建都具有 自己的构建目录。构建目录可以放置在 文件系统，但源代码树的根目录除外。",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "circleindicator",
+    "raw_URL": "https://github.com/ongakuer/CircleIndicator",
+    "组件描述": "A lightweight indicator like in nexus 5 launcher",
+    "分类": "UI 类",
+    "语言": "java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "jsrsasign",
+    "raw_URL": "https://github.com/kjur/jsrsasign",
+    "组件描述": "The 'jsrsasign' (RSA-Sign JavaScript Library) is an opensource free cryptography library supporting RSA/RSAPSS/ECDSA/DSA signing/validation...",
+    "分类": "工具类",
+    "语言": "JS",
+    "license": "other"
+  },
+  {
+    "三方库名称": "gdal",
+    "raw_URL": "https://github.com/OSGeo/gdal",
+    "组件描述": "GDAL 是一个开源的 MIT 许可翻译器库，用于光栅和矢量地理空间数据格式。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "backbone.js",
+    "raw_URL": "https://github.com/jashkenas/backbone/",
+    "组件描述": "Backbone.js 是一个轻量级的 JavaScript 框架，用于构建客户端 web 应用。它提供了一种结构化的方法来管理复杂的 JavaScript 代码和数据，使得开发人员可以更加高效地构建和维护 web 应用。",
+    "分类": "工具类",
+    "语言": "JS",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "apache commons vfs",
+    "raw_URL": "https://github.com/apache/commons-vfs",
+    "组件描述": "Apache Commons VFS is a Virtual File System library.",
+    "分类": "工具类",
+    "语言": "java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "capnproto",
+    "raw_URL": "https://github.com/capnproto/capnproto",
+    "组件描述": "Cap'n Proto serialization/RPC system - core tools and C++ library",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "muparser - a fast math parser library",
+    "raw_URL": "https://github.com/beltoforion/muparser",
+    "组件描述": "MuParser 是一个高性能的数学表达式解析库，旨在为应用程序提供快速、可靠和灵活的数学表达式解析功能。它设计用于解析和计算复杂的数学表达式，支持各种数学函数、运算符和常量。\nMuParser 的主要特点包括：\n高效性能：MuParser 使用了优化的算法和数据结构，能够快速解析和计算复杂的数学表达式。它支持动态计算，能够根据需要动态地计算表达式的值，避免了不必要的重复计算。\n丰富的表达式语法：MuParser 支持各种数学函数、运算符和常量，能够解析包含括号、指数、分数、三角函数等复杂表达式的数学公式。\n易于使用：MuParser 提供了一个简单易用的 API，使得开发者可以轻松地将其集成到自己的应用程序中。它支持多种语言，包括 C、C++、C# 和 Java 等。\n灵活的扩展性：开发者可以根据需要使用 MuParser 的 API 扩展表达式语法，添加自定义函数或运算符。这使得 MuParser 非常适合用于各种需要数学表达式解析的场景。\n可定制的精度和范围：MuParser 支持自定义表达式的精度和数值范围，可以根据需要设置不同的精度和范围限制。\n错误处理和调试支持：MuParser 提供了错误处理机制，能够检测并报告解析和计算过程中的错误。它还支持调试模式，可以帮助开发者定位和解决问题。\n总的来说，MuParser 是一个功能强大、高效、易于使用和灵活的数学表达式解析库，适用于各种需要数学表达式解析的场景。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "bsd-2-clause"
+  },
+  {
+    "三方库名称": "rtmp-rtsp-stream-client-java",
+    "raw_URL": "https://github.com/pedroSG94/RootEncoder",
+    "组件描述": "rtmp-rtsp-stream-client-java 似乎是一个 Java 库或工具，用于实现 RTMP 和 RTSP 流式传输客户端功能。RTMP（Real Time Messaging Protocol）和 RTSP（Real Time Streaming Protocol）是两种常用的流媒体传输协议，广泛应用于音视频流媒体传输场景。",
+    "分类": "网络类",
+    "语言": "java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "jcifs-ng",
+    "raw_URL": "https://github.com/AgNO3/jcifs-ng",
+    "组件描述": "jCIFS 库的清理和改进版本",
+    "分类": "",
+    "语言": "java",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "libgd",
+    "raw_URL": "https://github.com/libgd/libgd",
+    "组件描述": "GD 是一个开源代码库，用于动态创建图像 程序员。\n\nGD 是用 C 语言编写的，“包装器”可用于 Perl、PHP 和其他 语言。GD 可以读取和写入许多不同的图像格式。GD 通常 用于生成图表、图形、缩略图和大多数其他内容，在 飞。",
+    "分类": "图形类",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "uavs3d",
+    "raw_URL": "https://github.com/uavs3/uavs3d",
+    "组件描述": "AVS3 decoder which supports AVS3-P2 baseline profile.",
+    "分类": "多媒体",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "fatfs",
+    "raw_URL": "http://elm-chan.org/fsw/ff/00index_e.html\nhttps://github.com/abbrev/fatfs",
+    "组件描述": "FatFs 是用于小型嵌入式系统的通用 FAT/exFAT 文件系统模块。FatFs 模块按照 ANSI C（C89）编写，与磁盘 I/O 层完全分离。因此，它独立于平台。它可以集成到资源有限的小型微控制器中，如 8051、PIC、AVR、ARM、Z80、RX 等。此外，这里还提供用于微型微控制器的 Petit FatFs 模块。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "libbluray",
+    "raw_URL": "https://www.videolan.org/developers/libbluray.html",
+    "组件描述": "libbluray 是一个开源的 Bluray 盘片解析和播放库。它支持 Bluray 盘片的读取、解析和播放，提供了一种方便的方式来访问和呈现 Bluray 盘片中的内容。",
+    "分类": "多媒体",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "irods",
+    "raw_URL": "https://github.com/irods/irods",
+    "组件描述": "iRODS. 面向规则的集成数据系统 (iRODS) 是全球研究、商业和政府组织使用的开源数据管理软件。iRODS 作为生产级发行版，旨在部署在关键任务环境。它将数据存储资源虚拟化，因此用户可以控制他们的数据，而不管数据存储在何处以及存储在什么设备上",
+    "分类": "数据存储",
+    "语言": "C/C++",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "libgdx",
+    "raw_URL": "https://github.com/libgdx/libgdx",
+    "组件描述": "ibGDX is a cross-platform Java game development framework based on OpenGL (ES) that works on Windows, Linux, Mac OS X, Android, your WebGL enabled browser and iOS.",
+    "分类": "框架类",
+    "语言": "java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "dlib",
+    "raw_URL": "https://github.com/davisking/dlib",
+    "组件描述": "Dlib 是一个现代 C++ 工具包，包含机器学习算法和工具，用于在 C++ 中创建复杂的软件以解决现实世界的问题。",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "bsl-1.0"
+  },
+  {
+    "三方库名称": "glib2",
+    "raw_URL": "https://gitlab.gnome.org/GNOME/glib",
+    "组件描述": "glib 库是 Linux 平台下最常用的 C 语言函数库，它具有很好的可移植性和实用性。提供：类型定义、内存管理、数据结构、计时器函数、错误处理函数等",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "usrsctp",
+    "raw_URL": "https://github.com/sctplab/usrsctp",
+    "组件描述": "这是一个支持 FreeBSD、OpenBSD、Linux、Mac OS X 和 Windows 的用户层 SCTP 堆栈。",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "libde265",
+    "raw_URL": "https://github.com/strukturag/libde265",
+    "组件描述": "libde265 是一个开源的 H.265/HEVC 视频解码器库，其旨在提供高效的 H.265/HEVC 视频解码功能，支持各种应用程序和设备。以下是 libde265 的主要特点：\n高效的解码性能：libde265 使用了先进的解码技术，支持并行处理和硬件加速，以提高解码性能和效率。\n支持多种平台：libde265 可以在多种平台上使用，包括 Windows、Linux、Mac OS X 等。\n高级功能：除了基本的解码功能外，libde265 还提供了一些高级功能，如图像增强、噪声抑制、色彩空间转换等，以提高视频质量和用户体验。\n易于使用：libde265 提供了一个简单的 C API，可以简单地集成到其他软件中。\n开源和免费：libde265 以 GNU Lesser General Public License（LGPL）提供，这意味着用户可以免费使用并根据自己的需求进行修改。\n综上所述，libde265 是一个强大、高效、易于使用的 H.265/HEVC 视频解码器库，能够满足各种应用程序和设备的视频解码需求。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "dlib c++ library",
+    "raw_URL": "https://github.com/dorian3d/DLib",
+    "组件描述": "DLib 是一个 C++ 类的集合，用于解决 C++ 程序中的常见任务，以及提供使用 OpenCV 数据和解决计算机视觉问题的附加功能。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "godot",
+    "raw_URL": "https://github.com/godotengine/godot",
+    "组件描述": "Godot 3.3 focuses on optimization and reliability, with core and rendering features such as 2D batching, dynamic BVH, CPU lightmapper, modernized threading APIs, and more!",
+    "分类": "框架类",
+    "语言": "C/C++",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "apache xerces-c++",
+    "raw_URL": "https://github.com/apache/xerces-c",
+    "组件描述": "Apache Xerces-C 验证 XML 解析器",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "soci",
+    "raw_URL": "https://github.com/SOCI/soci",
+    "组件描述": "数据库访问库",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "bsl-1.0"
+  },
+  {
+    "三方库名称": "antv_f6",
+    "raw_URL": "https://f6.antv.vision/zh/docs/manual/introduction/",
+    "组件描述": "F6 是一款可以快速、流畅运行于移动设备中的图可视化引擎，通过丰富的布局、组件及分析能力，帮助用户落地跨平台的图可视化应用解决方案。在 H5、小程序等移动端平台上，对包体积、性能有更高的要求，也需要定义一套合适的交互模式。针对以上问题，我们在 G6 的基础上重新设计并构建了 F6。F6 不仅具有基础的关联图绘制、事件、动画，同时内置了常用的移动端交互模式、丰富的布局和分析组件，通过简单的配置即可使用。",
+    "分类": "UI 类",
+    "语言": "JS",
+    "license": ""
+  },
+  {
+    "三方库名称": "osmdroid",
+    "raw_URL": "https://github.com/osmdroid/osmdroid",
+    "组件描述": "OSMDroid 是一个开源项目，旨在提供比 Android 原生的 MapView 更加强大的地图组件库。以下是 OSMDroid 组件的描述：\n地图引擎：OSMDroid 是一个基于 Android 的模块化地图引擎，它完全开源，相比于其他商业地图引擎（如百度地图、高德地图、谷歌地图等），具有更大的灵活性和定制性。\n瓦片地图源：OSMDroid 支持多种在线或离线的瓦片地图源，包括 OpenStreetMap、Google Maps 以及其他第三方地图提供商。这使得用户可以根据自己的需求选择合适的地图源。\n地图覆盖管理器：OSMDroid 支持地图覆盖功能，用于绘制图标、几何图形以及 GPS 定位等。通过地图覆盖管理器，用户可以轻松地在地图上添加自定义的覆盖层，例如标记、线条、多边形等。\n矢量绘制：OSMDroid 支持矢量绘制功能，允许用户在地图上绘制各种几何形状和路径。这为用户提供了更大的灵活性，可以根据自己的需求进行定制。\nGNSS 定位显示：OSMDroid 支持 GNSS 定位功能，可以实时显示用户的地理位置。用户可以通过集成 GPS 模块或其他 GNSS 技术来获取精确的位置信息。\n定制化地图展示：OSMDroid 允许用户完全定制地图的展示方式，包括调整地图的缩放级别、旋转角度、透明度等。此外，用户还可以通过修改瓦片图层或覆盖层来调整地图的外观和细节。\n总的来说，OSMDroid 是一个功能强大的开源地图组件库，它提供了丰富的地图操作和定制选项，适用于需要进行地图展示和交互的 Android 应用程序。通过使用 OSMDroid，开发人员可以轻松地构建出具有高度定制化和灵活性的地图应用程序。",
+    "分类": "图形类",
+    "语言": "java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "mapbox-java",
+    "raw_URL": "https://github.com/mapbox/mapbox-java/",
+    "组件描述": "Mapbox Java SDK 是 Mapbox 的官方 Java 客户端库，它允许开发人员轻松地在其应用程序中集成地图功能。通过使用 Mapbox Java SDK，开发人员可以快速构建具有高质量地图的 Java 应用程序，并利用 Mapbox 的各种地图样式和功能。\nMapbox Java SDK 提供了一组易于使用的 API，使开发人员能够轻松地添加地图、样式、标记、路径和地理编码等功能。它支持多种地图样式和定制选项，使开发人员可以根据其需求选择最适合的样式。此外，Mapbox Java SDK 还提供了实时地图更新、地理编码和反向地理编码等功能，以及交互式地图控件和事件处理机制。\n要使用 Mapbox Java SDK，您需要先将其添加到您的项目中。您可以通过 Maven 或 Gradle 等依赖管理工具来添加 Mapbox Java SDK 的依赖项。一旦添加了依赖项，您就可以开始使用 Mapbox Java SDK 的 API 来构建您的地图应用程序。\n总的来说，Mapbox Java SDK 是一个功能强大、易于使用和高度可定制的地图库，适用于需要在 Java 应用程序中集成地图功能的开发人员。",
+    "分类": "图形类",
+    "语言": "java",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "io.noties.markwon.html",
+    "raw_URL": "https://github.com/noties/Markwon/tree/master/markwon-html",
+    "组件描述": "封装了来自核心工件的 HTML 解析",
+    "分类": "办公",
+    "语言": "java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "proj.4 - cartographic projections library",
+    "raw_URL": "https://github.com/OrdnanceSurvey/proj.4",
+    "组件描述": "PROJ.4 是开源 GIS 最著名的地图投影库，它专注于地图投影的表达，以及转换，许多 GIS 开源软件的投影都直接使用 Proj.4 的库文件。GDAL 中的投影转换函数（类 CoordinateTransformation 中的函数）也是动态调用该库函数的",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "ezmorph",
+    "raw_URL": "https://repo1.maven.org/maven2/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6-sources.jar",
+    "组件描述": "EZMorph 是一个简单的 java 库，用于将对象转换为 另一个对象。",
+    "分类": "文件数据类",
+    "语言": "Java",
+    "license": ""
+  },
+  {
+    "三方库名称": "katex",
+    "raw_URL": "https://github.com/KaTeX/KaTeX",
+    "组件描述": "KaTeX 是一个快速、易于使用的 JavaScript 库，用于在 Web 上进行 TeX 数学渲染。",
+    "分类": "文件数据类",
+    "语言": "JS",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "libmobi",
+    "raw_URL": "https://github.com/bfabiszewski/libmobi",
+    "组件描述": "用于处理 Mobipocket/Kindle（MOBI）电子书格式文档的 C 库。",
+    "分类": "多媒体",
+    "语言": "C/C++",
+    "license": "lgpl-3.0"
+  },
+  {
+    "三方库名称": "jemalloc",
+    "raw_URL": "https://github.com/jemalloc/jemalloc",
+    "组件描述": "jemalloc 三方库是一个功能丰富、高效且可定制的内存管理库，适用于各种需要进行高效内存管理的应用场景。它针对多线程环境进行了优化，并提供了内存碎片整理、内存预热、内存池和对齐等功能，能够提高应用程序的性能和可靠性\n是一个通用的 malloc（3）实现，它强调 避免碎片和可扩展的并发支持的内存分配器",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libspatialite",
+    "raw_URL": "http://www.gaia-gis.it/gaia-sins/",
+    "组件描述": "是一个开放源代码库，旨在扩展 SQLite 的核心来支持成熟的空间 SQL 函数",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "emoji-java",
+    "raw_URL": "https://github.com/vdurmont/emoji-java",
+    "组件描述": "emoji-java 是一个轻量级的 Java 库，可帮助您在 Java 应用程序中使用 Emojis。",
+    "分类": "工具类",
+    "语言": "java",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "imgui",
+    "raw_URL": "https://github.com/ocornut/imgui",
+    "组件描述": "Dear ImGui 是一个用于 C++ 的无膨胀图形用户界面库。它输出优化的顶点缓冲区，您可以随时在启用 3D 管道的应用程序中渲染这些缓冲区。它快速、可移植、与渲染器无关且独立（无外部依赖）。",
+    "分类": "UI 类",
+    "语言": "C/C++",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "nmealib",
+    "raw_URL": "https://github.com/Paulxia/nmealib",
+    "组件描述": "nmealib 是一个用于解析 NMEA 协议的 C 语言库。",
+    "分类": "数据存储",
+    "语言": "C/C++",
+    "license": "lgpl-2.1"
+  },
+  {
+    "三方库名称": "stm32flash",
+    "raw_URL": "https://github.com/stm32duino/stm32flash",
+    "组件描述": "STM32CubeProgrammer is used to flash and replaced this tool.",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "gpl-2.0"
+  },
+  {
+    "三方库名称": "tigervnc",
+    "raw_URL": "https://github.com/TigerVNC/tigervnc",
+    "组件描述": "虚拟网络计算 (VNC) 是一种远程显示系统，允许您查看网络上另一台计算机上运行的虚拟桌面环境并与之交互。使用 VNC，您可以在远程计算机上运行图形应用程序，并仅将这些应用程序的显示发送到本地计算机。VNC 是独立于平台的，并且支持多种操作系统和体系结构作为服务器和客户端。",
+    "分类": "多媒体",
+    "语言": "C/C++",
+    "license": "gpl-2.0"
+  },
+  {
+    "三方库名称": "g2o",
+    "raw_URL": "https://github.com/RainerKuemmerle/g2o",
+    "组件描述": "A General Framework for Graph Optimization",
+    "分类": "框架类",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "dcmtk",
+    "raw_URL": "https://github.com/DCMTK/dcmtk",
+    "组件描述": "DCMTK 是由德国 OFFIS 公司开发的医学数字成像通信技术库",
+    "分类": "多媒体",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "smartrefreshhorizontal",
+    "raw_URL": "https://github.com/scwang90/SmartRefreshHorizontal",
+    "组件描述": "横向刷新、水平刷新、RefreshLayout、OverScroll，Horizontal，基于 SmartRefreshLayout 的水平智能刷新",
+    "分类": "UI 类",
+    "语言": "JAVA",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "bgaqrcode-android",
+    "raw_URL": "https://github.com/bingoogolapple/BGAQRCode-Android",
+    "组件描述": "QRCode 扫描二维码、扫描条形码、相册获取图片后识别、生成带 Logo 二维码、支持微博微信 QQ 二维码扫描样式",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "openpbs",
+    "raw_URL": "https://github.com/openpbs/openpbs",
+    "组件描述": "An HPC workload manager and job scheduler for desktops, clusters, and clouds.",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "clickhouse",
+    "raw_URL": "https://github.com/ClickHouse/ClickHouse",
+    "组件描述": "ClickHouse 是一个开源的列式数据库管理系统（DBMS），主要用于在线分析处理（OLAP）查询。",
+    "分类": "数据库",
+    "语言": "C/C++",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "nebula-flink-connector",
+    "raw_URL": "https://github.com/vesoft-inc/nebula-flink-connector",
+    "组件描述": "Nebula-Flink-Connector 2.0/3.0 是一个帮助 Flink 用户轻松访问 Nebula Graph 2.0/3.0 的连接器",
+    "分类": "工具类",
+    "语言": "java",
+    "license": ""
+  },
+  {
+    "三方库名称": "cesiumjs",
+    "raw_URL": "https://github.com/CesiumGS/cesium",
+    "组件描述": "CesiumJS 是一个 JavaScript 库，用于在没有插件的情况下在 Web 浏览器中创建 3D 地球仪和 2D 地图。它使用 WebGL 进行硬件加速图形，并且是跨平台、跨浏览器的，并针对动态数据可视化进行了调整。",
+    "分类": "图形类",
+    "语言": "JS",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "doodle",
+    "raw_URL": "https://github.com/1993hzw/Doodle",
+    "组件描述": "Image doodle for Android, with functions such as undo, zoom, move, text, image, etc. Also a powerful, customizable and extensible doodle framework & multi-function drawing board. Android 图片涂鸦，具有撤消，缩放，移动，添加文字，贴图等功能。还是一个功能强大，可自定义和可扩展的涂鸦框架、多功能画板。",
+    "分类": "图形类",
+    "语言": "java",
+    "license": ""
+  },
+  {
+    "三方库名称": "js-xss",
+    "raw_URL": "https://github.com/leizongmin/js-xss",
+    "组件描述": "js-xss 是一个用于防止跨站脚本攻击（XSS）的 JavaScript 库。它提供了一种简单而有效的方法来过滤用户输入，从而减少或消除注入恶意脚本的风险。",
+    "分类": "安全类",
+    "语言": "JS",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libtomcrypt",
+    "raw_URL": "https://gitee.com/src-openeuler/libtomcrypt",
+    "组件描述": "一个全面的、可移植的密码学工具包",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": null
+  },
+  {
+    "三方库名称": "tassl-1.1.1b",
+    "raw_URL": "https://github.com/jntass/TASSL-1.1.1b",
+    "组件描述": "是一个功能强大、安全可靠的安全套接字密码学基础库，适用于需要进行数据加密和安全传输的应用场景",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "jsonrpc4j",
+    "raw_URL": "https://github.com/briandilley/jsonrpc4j",
+    "组件描述": "适用于 Java 的 JSON-RPC",
+    "分类": "网络类",
+    "语言": "java",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "sheetjs_js-xls",
+    "raw_URL": "https://github.com/SheetJS/sheetjs",
+    "组件描述": "SheetJS 是一个开源的 JavaScript 库，用于读取、解析、写入和操作电子表格文件",
+    "分类": "工具类",
+    "语言": "JS",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "libre",
+    "raw_URL": "https://github.com/maplibre/maplibre-gl-js",
+    "组件描述": "基于 WebGL 技术的 JavaScript 库，用于创建交互式、可定制的地图应用程序",
+    "分类": "UI 类",
+    "语言": "JS",
+    "license": "other"
+  },
+  {
+    "三方库名称": "epeg",
+    "raw_URL": "https://github.com/mattes/epeg",
+    "组件描述": "疯狂快速的 JPEG/ JPG 缩略图缩放与最小的麻烦和 CPU 开销。它利用了 libjpeg 的特性，即能够通过仅解码重建所需大小的图像所需的 DCT 系数来加载图像。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "antv_x6",
+    "raw_URL": "https://github.com/antvis/X6",
+    "组件描述": "antv-x6？是基于 HTML 和 SVG 的图编辑引擎，提供低成本的定制能力和开箱即用的内置扩展，方便我们快速搭建 DAG(有向无环图) 图、ER(实体联系模式图) 图、流程图、血缘图等应用。",
+    "分类": "图形类",
+    "语言": "TS",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "vulkan memory allocator",
+    "raw_URL": "https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+    "组件描述": "Vulkan Memory Allocator（VMA）是一个开源的 Vulkan 内存分配器，它是 AMD 公司开发的一个项目。VMA 提供了一种高效的方式来管理 Vulkan 内存，特别适用于需要大量分配和释放内存的图形应用程序。\nVMA 通过创建一个单独的内存块来管理所有 Vulkan 内存，从而简化了内存管理过程。这个内存块被分割成多个小块，每个小块都可以用于不同类型的内存分配。这种分块管理方式使得 VMA 能够更好地控制内存的使用，减少了内存碎片和不必要的内存分配。\nVMA 还提供了一些高级功能，如内存池和内存段，这些功能可以进一步优化内存的使用和管理。内存池可以预先分配一定数量的内存块，并在需要时将它们分配给不同的对象。内存段则可以将内存划分为不同的区域，每个区域可以用于不同类型的内存分配。\n使用 VMA 可以显著提高图形应用程序的性能和稳定性，因为它能够减少内存分配和释放的开销，并避免了一些常见的内存管理错误。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "qhull",
+    "raw_URL": "https://github.com/qhull/qhull",
+    "组件描述": "Qhull 实现 Quickhull 用于计算凸包的算法。它处理舍入 浮点运算误差。它计算体积，表面积和凸包的近似值。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "jcommander",
+    "raw_URL": "https://github.com/cbeust/jcommander",
+    "组件描述": "Command line parsing framework for Java",
+    "分类": "工具类",
+    "语言": "java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "rajawali",
+    "raw_URL": "https://github.com/Rajawali/Rajawali",
+    "组件描述": "Rajawali 是一个基于 Java 的开源库，主要用于 Android 平台上的 3D 图形渲染。它提供了一个封装了 OpenGL ES API 的引擎，使得开发者可以方便地建立自己的场景，并支持动画、摄像头等功能。Rajawali 还集成了 CardBoard 相关技术，可以进行 VR 相关的开发。",
+    "分类": "图形类",
+    "语言": "java",
+    "license": "other"
+  },
+  {
+    "三方库名称": "luckysheet",
+    "raw_URL": "https://github.com/mengshukeji/Luckysheet.git",
+    "组件描述": "Luckysheet 是一款基于 Web 的在线电子表格应用程序，它提供了类似于 Excel 的功能，包括数据分析、图表制作、数据可视化等。",
+    "分类": "办公",
+    "语言": "JS",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "jrtplib",
+    "raw_URL": "https://github.com/j0r1/JRTPLIB",
+    "组件描述": "JRTPLIB 是一个 C 库，用于处理 RTP 协议",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "threadpool",
+    "raw_URL": "https://github.com/progschj/ThreadPool",
+    "组件描述": "一个简单的 C++11 线程池实现",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "zlib"
+  },
+  {
+    "三方库名称": "virtuald/curvesapi",
+    "raw_URL": "https://github.com/virtuald/curvesapi",
+    "组件描述": "实现各种数学曲线，这些曲线定义了自己 一组控制点",
+    "分类": "工具类",
+    "语言": "java",
+    "license": "other"
+  },
+  {
+    "三方库名称": "popper.js",
+    "raw_URL": "https://floating-ui.com/?utm_source=popper.js.org",
+    "组件描述": "Popper.js 是一个轻量级的 JavaScript 库，用于在 Web 页面上准确地将元素定位到特定的位置。",
+    "分类": "UI 类",
+    "语言": "TS",
+    "license": ""
+  },
+  {
+    "三方库名称": "libvncserver",
+    "raw_URL": "https://github.com/LibVNC/libvncserver",
+    "组件描述": "一个用于轻松实现 VNC 服务器的库",
+    "分类": "#N/A",
+    "语言": "C/C++",
+    "license": "gpl-2.0"
+  },
+  {
+    "三方库名称": "echarts-wordcloud",
+    "raw_URL": "https://github.com/ecomfe/echarts-wordcloud",
+    "组件描述": "echarts-wordcloud 基于 wordcloud2.js for Apache ECharts 的第三方词云扩展。",
+    "分类": "工具类",
+    "语言": "JS",
+    "license": ""
+  },
+  {
+    "三方库名称": "apriltag",
+    "raw_URL": "https://github.com/AprilRobotics/apriltag",
+    "组件描述": "AprilTag 是一个视觉基准系统，可用于各种任务，包括 AR，机器人和相机校准。",
+    "分类": "图形类",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libssh",
+    "raw_URL": "https://github.com/eroullit/libssh",
+    "组件描述": "mulitplatform C library implementing the SSHv2 and SSHv1 protocol on client and server side",
+    "分类": "网络类",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libav",
+    "raw_URL": "https://android.googlesource.com/platform/external/libavc",
+    "组件描述": "Libav 是一个用于音频和视频处理的开源库，提供了一组用于录制、转换、流式传输音频和视频的函数。它支持多种音频和视频格式，包括 MP3、AAC、Vorbis、MPEG、H.264 等，并且支持多种编解码器和封装格式。\nLibav 最初是由 FFmpeg 项目中的一些开发者创建的，用于提供一种更自由和开放的替代方案。与 FFmpeg 不同的是，Libav 的开发更加开放，并且遵循 GPL 许可证。\nLibav 提供了一组丰富的 API 函数，用于处理音频和视频数据。这些函数可以用于读取、写入、解析、转换、编码和解码音频和视频数据。它还支持实时音频和视频流处理，包括滤镜、音效、颜色空间转换等。\nLibav 还可以与许多流行的媒体播放器一起使用，例如 VLC、MPlayer 等。此外，许多开发者和项目使用 Libav 作为其音频和视频处理的基础，包括开源软件和商业软件。\n总的来说，Libav 是一个功能强大、灵活的音频和视频处理库，适用于需要进行媒体处理的开发人员",
+    "分类": "",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "libkml",
+    "raw_URL": "https://github.com/libkml/libkml",
+    "组件描述": "libkml 是一个用于处理 KML（Keyhole Markup Language）格式的库。KML 是一种基于 XML 的标记语言，主要用于描述地理信息，通常用于与地图相关的应用程序。libkml 提供了一系列函数和类，使开发者可以方便地读取、创建和修改 KML 文件。\nlibkml 的主要功能包括：\n读取和解析 KML 文件：libkml 提供了一个 KML 解析器，可以将 KML 文件转换为内部数据结构，从而方便开发者访问其中的地理信息。\n创建和修改 KML 文件：libkml 提供了类和函数，使开发者可以方便地创建和修改 KML 文件，以满足应用需求。\n总的来说，libkml 是一个用于处理 KML 格式的库，它提供了一系列功能，使得开发者可以方便地读取、创建和修改 KML 文件。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "uriparser",
+    "raw_URL": "https://github.com/uriparser/uriparser",
+    "组件描述": "UriParser 是 Apache 的一个子项目，用于解析和规范化 URI。它提供了一个 URI 解析器，可以解析和规范化 URI，并且可以处理各种不同的 URI 形式，如绝对 URI、相对 URI、片段 URI 等。\nUriParser 的主要功能包括：\nURI 解析：可以将各种形式的 URI 解析为组件，例如主机名、路径、查询字符串等。\nURI 规范化：可以对 URI 进行规范化处理，例如去除多余的斜杠、将查询字符串规范化等。\nURI 比较：可以比较两个 URI 是否相等或是否具有相同的组件。\nURI 构建：可以根据给定的组件构建 URI。\nURI 转义和反转义：可以对 URI 进行转义和反转义处理，例如对特殊字符进行编码和解码。\nURI 组件提取：可以从解析后的 URI 中提取各种组件，例如主机名、路径、查询字符串等。\nUriParser 的使用非常简单，只需要创建一个 UriParser 对象，然后调用其相关方法即可。例如，要解析一个 URI，可以使用 UriParser.parse() 方法；要规范化一个 URI，可以使用 UriParser.normalize() 方法。\n\n总的来说，UriParser 是一个功能强大、易于使用的 URI 解析和规范化库，适用于需要进行 URI 处理和操作的开发人员",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "thrax",
+    "raw_URL": "https://www.openfst.org/twiki/bin/view/GRM/Thrax",
+    "组件描述": "Thrax 是一个工具，它使用正则表达式和基于上下文的重写规则的语法，将语法编译为 OpenFst 格式的加权状态机。具体来说，Thrax 可以用于将主语法文件的分析转换为 Makefile，也可以用于根据指定的规则文件对 fst 档案进行输入输出的测试。\n在安装 Thrax 之前，需要先安装 OpenFst，因为 Thrax 是基于 OpenFst 的。可以通过下载 OpenFst 的压缩文件，解压后进入解压的文件目录进行安装。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "libyaml",
+    "raw_URL": "https://github.com/yaml/libyaml",
+    "组件描述": "Canonical source repository for LibYAML",
+    "分类": "数据解析",
+    "语言": "C/C++",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "freeswitch",
+    "raw_URL": "https://github.com/signalwire/freeswitch",
+    "组件描述": "FreeSWITCH 是一个开源的电话软交换平台，支持跨平台运行，具有很好的伸缩性和灵活性。它可以用作交换引擎、PBX、多媒体网关和多媒体服务器等，是传统的电话交换系统及商业电话交换系统的良好替代品。",
+    "分类": "多媒体",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "mapbox-plugins-android",
+    "raw_URL": "https://www.mapbox.com/android-docs/plugins/overview/",
+    "组件描述": "地图插件",
+    "分类": "",
+    "语言": "java",
+    "license": ""
+  },
+  {
+    "三方库名称": "apache shiro",
+    "raw_URL": "https://github.com/apache/shiro",
+    "组件描述": "Apache Shiro 是一个开源的安全框架，它提供身份验证、授权、密码学和会话管理功能。Shiro 框架直观、易用，同时也能提供健壮的安全性。",
+    "分类": "安全类",
+    "语言": "java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "libextractor",
+    "raw_URL": "https://github.com/ndurner/libextractor",
+    "组件描述": "GNU libextractor 是一个用于从文件中提取元数据的库 任意类型。它旨在使用辅助库来执行 实际提取，并且可以通过链接轻松扩展 用于其他文件类型的外部提取器。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "gpl-3.0"
+  },
+  {
+    "三方库名称": "darts-clone",
+    "raw_URL": "https://github.com/s-yata/darts-clone.git",
+    "组件描述": "arts-clone 是一个基于 DARTS (Differentiable Architecture Search) 算法的神经网络架构搜索库。它提供了一个高度可定制的搜索框架，可以在给定的数据集上搜索最佳的神经网络架构。",
+    "分类": "网络类",
+    "语言": "C/C++",
+    "license": "bsd-2-clause"
+  },
+  {
+    "三方库名称": "recorder-core",
+    "raw_URL": "https://github.com/xiangyuecn/Recorder.git",
+    "组件描述": "html5 js 录音 mp3 wav ogg webm amr g711a g711u 格式，支持 pc 和 Android、iOS 部分浏览器、Hybrid App（提供 Android iOS App 源码）、微信，提供 ASR 语音识别转文字 H5 版语音通话聊天示例 DTMF 编码解码",
+    "分类": "工具类",
+    "语言": "JS",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "capstone",
+    "raw_URL": "https://www.capstone-engine.org",
+    "组件描述": "Capstone 是一个轻量级的、易于使用的多平台二进制反汇编框架。它支持多种 CPU 体系结构，包括 x86、ARM、MIPS、PowerPC 等，并提供了一组易于使用的 API，使开发人员可以轻松地将其集成到他们的应用程序中。Capstone 还提供了一些高级功能，如内存映射、符号解析、寄存器跟踪等，使反汇编过程更加灵活和可定制。Capstone 是一个开源项目，使用 MIT 许可证发布，可以在商业和非商业项目中免费使用。",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "txtmark",
+    "raw_URL": "https://github.com/rjeschke/txtmark",
+    "组件描述": "Txtmark 是一个 Java Markdown 处理库，它可以将 Markdown 格式的文本转换为 HTML 格式",
+    "分类": "工具类",
+    "语言": "java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "strongswan",
+    "raw_URL": "https://github.com/strongswan/strongswan.git",
+    "组件描述": "一个开源的 IPsec 实现，用于建立虚拟私人网络（VPN）",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "text.js",
+    "raw_URL": "https://github.com/requirejs/text",
+    "组件描述": "用于加载文本资源的 AMD 加载器插件",
+    "分类": "工具类",
+    "语言": "JS",
+    "license": "other"
+  },
+  {
+    "三方库名称": "aes",
+    "raw_URL": "https://github.com/dhuertas/AES",
+    "组件描述": "AES 算法的 C 实现。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "ahocorasickdoublearraytrie",
+    "raw_URL": "https://github.com/hankcs/AhoCorasickDoubleArrayTrie",
+    "组件描述": "Aho-Corasiek 双数组搜索算法，用于在一个字符串中搜索多个模式串，可以同时搜索多个模式串，并且可以返回模式串的出现位置。",
+    "分类": "工具类",
+    "语言": "java",
+    "license": ""
+  },
+  {
+    "三方库名称": "tooltipster",
+    "raw_URL": "https://github.com/calebjacob/tooltipster",
+    "组件描述": "Tooltipster 是一个强大又灵活的 jQuery 插件，能够帮助您轻松创建带有 CSS 装饰的工具提示 (Tooltip)，让原本丑陋的工具提示变得时尚前卫、贴合情境。",
+    "分类": "UI 类",
+    "语言": "JS",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "apache xml graphics commons",
+    "raw_URL": "https://github.com/apache/xmlgraphics-commons",
+    "组件描述": "用于处理和操作 XML 和图形数据的工具和库",
+    "分类": "工具类",
+    "语言": "java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "kenlm",
+    "raw_URL": "https://github.com/kpu/kenlm",
+    "组件描述": "KenLM：更快更小的语言模型查询",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libwmf",
+    "raw_URL": "https://github.com/caolanm/libwmf",
+    "组件描述": "libwmf 是一个将 *.wmf 文件更改为 JPG、PNG、SVG 文件。",
+    "分类": "图形类",
+    "语言": "C/C++",
+    "license": "gpl-2.0"
+  },
+  {
+    "三方库名称": "sophus",
+    "raw_URL": "https://github.com/strasdat/Sophus",
+    "组件描述": "这是通常用于 2d 和 3d 的 Lie 群的 c++ 实现 几何问题（即计算机视觉或机器人应用）",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "dnsmasq",
+    "raw_URL": "https://thekelleys.org.uk/git/dnsmasq.git",
+    "组件描述": "Dnsmasq 为小型网络提供网络基础设施：DNS、DHCP、路由器通告和网络引导。它被设计为轻量级，占用空间小，适用于资源受限的路由器和防火墙。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "e2fsprogs",
+    "raw_URL": "https://github.com/tytso/e2fsprogs",
+    "组件描述": "Ext2/3/4 file system utilities",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "lighttpd",
+    "raw_URL": "https://github.com/lighttpd/lighttpd1.4",
+    "组件描述": "lighttpd1.4 on github for easier collaboration - main repo still on lighttpd.net",
+    "分类": "网络类",
+    "语言": "C/C++",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "ppp - pauls ppp package",
+    "raw_URL": "https://github.com/ppp-project/ppp",
+    "组件描述": "Paul's PPP Package: PPP daemon and associated utilities",
+    "分类": "网络类",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "rp_pppoe",
+    "raw_URL": "https://github.com/dfskoll/rp-pppoe",
+    "组件描述": "Public repository for RP-PPPoE PPPoE client and server software",
+    "分类": "网络类",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "usbutils",
+    "raw_URL": "https://github.com/gregkh/usbutils",
+    "组件描述": "USB utilities for Linux, including lsusb",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "org.zwobble.mammoth.mammoth",
+    "raw_URL": "https://github.com/mwilliamson/java-mammoth",
+    "组件描述": "Mammoth 是一个开源项目，旨在提供一种简单、轻量级的方法来处理 Word 文档，并提取其内容为纯文本或其他格式（如 HTML）。这对于需要处理 Word 文档但在 JVM 上运行的应用程序特别有用。",
+    "分类": "数据解析",
+    "语言": "java",
+    "license": "bsd-2-clause"
+  },
+  {
+    "三方库名称": "avrdude",
+    "raw_URL": "https://github.com/avrdudes/avrdude",
+    "组件描述": "是一个用于下载和上传的程序 Microchip AVR 微控制器的片上存储器",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "gpl-2.0"
+  },
+  {
+    "三方库名称": "jackson-dataformat-yaml",
+    "raw_URL": "https://github.com/FasterXML/jackson-dataformat-yaml.git",
+    "组件描述": "Jackson 模块添加 YAML 后端（解析器/生成器适配器）",
+    "分类": "数据解析",
+    "语言": "Java",
+    "license": ""
+  },
+  {
+    "三方库名称": "jackson-datatype-guava",
+    "raw_URL": "https://github.com/FasterXML/jackson-datatypes-collections",
+    "组件描述": "Jackson 项目，包含各种面向集合的数据，用于支持各种 Jackson Datatype 模块，以支持第三方集合库。",
+    "分类": "工具类",
+    "语言": "Java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "cron utils",
+    "raw_URL": "https://github.com/jmrozanec/cron-utils",
+    "组件描述": "cron-utils 是一个 Java 库，用于定义、解析、验证、迁移 cron 以及获取人类可读的描述。该项目遵循语义版本控制约定，提供 OSGi 元数据并使用 Apache 2.0 许可证。",
+    "分类": "",
+    "语言": "java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "net-snmp",
+    "raw_URL": "https://github.com/net-snmp/net-snmp",
+    "组件描述": "SNMP 应用程序库、工具和守护进程",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libmysofa",
+    "raw_URL": "https://github.com/hoene/libmysofa",
+    "组件描述": "用于 AES SOFA 文件的阅读器，以获得更好的 HRTF",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "graphicsmagick",
+    "raw_URL": "http://www.graphicsmagick.org/",
+    "组件描述": "GraphicsMagick 是一款开源的图像处理工具，它可以用于创建、编辑、合并和转换图像。GraphicsMagick 支持多种图像格式，包括 JPEG、PNG、GIF、TIFF 等。它还提供了许多高级功能，如图像缩放、裁剪、旋转、颜色校正、渐变、透明度等。GraphicsMagick 可以通过命令行界面或 API 接口进行操作，适用于 Linux、Windows 和 Mac OS 等多个平台。由于其高效、稳定和可靠的性能，GraphicsMagick 被广泛应用于图像处理、网站开发、桌面应用等领域。",
+    "分类": "UI 类",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "xgboost predictor java",
+    "raw_URL": "https://github.com/komiya-atsushi/xgboost-predictor-java",
+    "组件描述": "纯 Java 实现的 XGBoost 预测器，用于在线预测任务。XGBoost Predictor Java 库是一个用于使用 XGBoost 模型进行预测的 Java 库。XGBoost 是一种基于决策树的机器学习算法，可以用于分类和回归问题。该库提供了一个 Java 接口，可以加载训练好的 XGBoost 模型，并使用它来进行预测。它支持多种数据格式，包括稠密和稀疏矩阵、CSV 和 LibSVM 格式。此外，该库还提供了一些可配置的参数，如线程数、预测类型和缺失值处理方式等。使用 XGBoost Predictor Java 库，开发人员可以轻松地将 XGBoost 模型集成到自己的 Java 应用程序中，以实现高效的预测功能。",
+    "分类": "",
+    "语言": "java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "libmspack",
+    "raw_URL": "https://github.com/kyz/libmspack",
+    "组件描述": "一些松散相关的 Microsoft 压缩格式的库，CAB, CHM, HLP, LIT, KWAJ 和 SZDD。",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "libevdev",
+    "raw_URL": "https://gitlab.freedesktop.org/libevdev/libevdev.git",
+    "组件描述": "一种用于访问 Linux 输入设备的开源库，可以在用户空间模拟输入事件",
+    "分类": "",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "sqlite3pp",
+    "raw_URL": "https://github.com/iwongu/sqlite3pp",
+    "组件描述": "SQLite3++-SQLite3 API 的 C++ 包装器",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "daterangepicker",
+    "raw_URL": "https://github.com/dangrossman/daterangepicker.git",
+    "组件描述": "日期范围选择器组件",
+    "分类": "UI 类",
+    "语言": "JS",
+    "license": ""
+  },
+  {
+    "三方库名称": "iprange",
+    "raw_URL": "https://github.com/firehol/iprange",
+    "组件描述": "管理 IP 范围。Iprange 是一个 C 库，用于处理 IP 地址和网络掩码。它提供了一组函数，可以用于操作 IP 地址和网络掩码，包括主机名到 IP 地址的转换、IP 地址的搜索、网络掩码的计算等。Iprange 库可以用于多种编程语言，包括 C、C++、Python 等。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "poly1305",
+    "raw_URL": "https://github.com/floodyberry/poly1305-donna",
+    "组件描述": "消息验证码的实现。Poly1305 是一个密码学哈希函数，用于生成消息认证码（MAC）。它是由 Daniel J. Bernstein 设计的，并以他的姓氏首字母命名。Poly1305 三方库提供了一种在多种编程语言中实现 Poly1305 算法的方式",
+    "分类": "",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "rapidxml",
+    "raw_URL": "https://github.com/dwd/rapidxml",
+    "组件描述": "RapidXML fork; XML 名称间隔、每元素解析等",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "jthread",
+    "raw_URL": "https://github.com/josuttis/jthread",
+    "组件描述": "用于连接和协作的可中断线程的 C++ 类（应该变成 std::jthread）JThread 是 Java 中的一个线程库，提供了 Java 多线程编程的框架和工具。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "xvidcore",
+    "raw_URL": "https://github.com/arthenica/xvidcore",
+    "组件描述": "xvidcore 是一个功能强大且灵活的视频编解码三方库。它提供了高效的视频处理能力，支持多种平台和编程语言",
+    "分类": "",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "msgpack-c",
+    "raw_URL": "https://github.com/msgpack/msgpack-c",
+    "组件描述": "msgpack-c 是一个用于序列化和反序列化数据的 C 语言库，基于 MessagePack 格式。MessagePack 是一种高效的二进制序列化格式，可用于交换数据",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "rsync",
+    "raw_URL": "https://github.com/WayneD/rsync",
+    "组件描述": "Rsync 是一个快速且功能非凡的文件复制工具，可用于远程和本地文件。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "aom",
+    "raw_URL": "https://aomedia.googlesource.com/aom.git",
+    "组件描述": "AOM (AV1 Codec Library) 是一个开源的视频编解码库，用于实现 AV1 视频编码标准",
+    "分类": "",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "pcl",
+    "raw_URL": "https://github.com/PointCloudLibrary/pcl",
+    "组件描述": "PCL (Point Cloud Library) 是一个开源的 C++ 库，用于处理 2D 和 3D 点云数据。它提供了许多点云处理算法，如过滤、特征提取、配准和分割等",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "openwsman",
+    "raw_URL": "https://github.com/Openwsman/openwsman",
+    "组件描述": "openwsman 是一个开源的 Web 服务管理协议（WS-Management）实现，提供了一套 API，可以用于管理和监控远程设备和应用程序。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "jerryscript",
+    "raw_URL": "https://github.com/jerryscript-project/jerryscript",
+    "组件描述": "用于物联网的超轻量级 JavaScript 引擎",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "jaudiotagger",
+    "raw_URL": "https://bitbucket.org/ijabz/jaudiotagger.git",
+    "组件描述": "Jaudiotagger 是一个 Java 库，用于读取和写入音频文件的元数据（如 ID3 标签）。它支持多种音频格式，包括 MP3，FLAC，OGG，WAV 和 WMA 等。它允许您轻松地读取和写入音频文件的艺术家，专辑，曲目标题，发行年份等元数据信息。Jaudiotagger 还提供了一些其他功能，例如计算音频文件的长度，检查文件是否损坏等。它是一个开源库，可以在 GitHub 上找到它的源代码。",
+    "分类": "",
+    "语言": "Java",
+    "license": ""
+  },
+  {
+    "三方库名称": "ace+tao",
+    "raw_URL": "https://github.com/DOCGroup/ACE_TAO",
+    "组件描述": "是一组在分布式系统中广泛使用的开源库和框架。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "str4d_ed25519-java",
+    "raw_URL": "https://github.com/str4d/ed25519-java",
+    "组件描述": "EdDSA 的纯 Java 实现",
+    "分类": "安全类",
+    "语言": "java",
+    "license": "cc0-1.0"
+  },
+  {
+    "三方库名称": "clucene - a c++ search engine",
+    "raw_URL": "https://github.com/luceneplusplus/LucenePlusPlus",
+    "组件描述": "Lucene++ 是流行的 Java Lucene 库（一个高性能，功能齐全的文本搜索引擎）的最新 C++ 移植。",
+    "分类": "搜索引擎",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "thumbnailator",
+    "raw_URL": "https://github.com/coobird/thumbnailator",
+    "组件描述": "Thumbnailator - Java 的缩略图生成库",
+    "分类": "UI 类",
+    "语言": "java",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "thttpd",
+    "raw_URL": "https://github.com/larryhe/tinyhttpd",
+    "组件描述": "Tinyhttpd 是一个轻量级的 HTTP 服务器，由 J. DavidBlackstone 在 1999 年编写。它支持 GET 和 POST 方法，总代码量在 500 行左右，可以用来学习 HTTP 协议和 UNIX 系统调用。",
+    "分类": "网络类",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "smackx",
+    "raw_URL": "https://repo1.maven.org/maven2/jivesoftware/smackx/3.0.4/smackx-3.0.4.pom",
+    "组件描述": "Smackx 是 Smack 的一个扩展模块，提供了许多有用的功能和扩展，以增强 Smack 库的功能。",
+    "分类": "",
+    "语言": "java",
+    "license": ""
+  },
+  {
+    "三方库名称": "bloomfilter",
+    "raw_URL": "https://github.com/jasondavies/bloomfilter.js",
+    "组件描述": "使用 FNV 进行快速散列的 JavaScript bloomfilter",
+    "分类": "",
+    "语言": "JS",
+    "license": "bsd-3-clause"
+  },
+  {
+    "三方库名称": "stateview",
+    "raw_URL": "https://github.com/nukc/StateView",
+    "组件描述": "StateView 一个轻量级的控件，继承自 View, 吸收了 ViewStub 的一些特性，初始状态下是不可见的，不占布局位置，占用内存少。当进行操作显示空/重试/加载视图后，该视图才会被添加到布局中。",
+    "分类": "UI 类",
+    "语言": "java",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "gzip",
+    "raw_URL": "https://github.com/kunpengcompute/gzip",
+    "组件描述": "GNU Gzip with Kunpeng optimization.",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "gpl-3.0"
+  },
+  {
+    "三方库名称": "prismjs_prism",
+    "raw_URL": "https://github.com/PrismJS/prism",
+    "组件描述": "Prism is a lightweight, robust, and elegant syntax highlighting library.",
+    "分类": "工具类",
+    "语言": "JS",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "underscore.js",
+    "raw_URL": "https://github.com/jashkenas/underscore",
+    "组件描述": "Underscore.js 是一个用于 JavaScript 的实用程序库，它在不扩展任何核心 JavaScript 对象的情况下，为常见的功能怀疑（each、map、reduce、filter…）提供支持。",
+    "分类": "工具类",
+    "语言": "JS",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "nats-io/java-nats",
+    "raw_URL": "https://github.com/nats-io/nats.java",
+    "组件描述": "Java client for NATS",
+    "分类": "客户端",
+    "语言": "java",
+    "license": "apache-2.0"
+  },
+  {
+    "三方库名称": "bootstrap-fileinput",
+    "raw_URL": "https://github.com/kartik-v/bootstrap-fileinput",
+    "组件描述": "Bootstrap 5.x/4.x./3.x的增强HTML 5 文件输入，具有文件预览、多选和更多功能。",
+    "分类": "工具类",
+    "语言": "JS",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libkate",
+    "raw_URL": "https://github.com/Distrotech/libkate",
+    "组件描述": "libkate，用于对 Kate 流进行编码和解码的库",
+    "分类": "",
+    "语言": "C/C++",
+    "license": "other"
+  },
+  {
+    "三方库名称": "libsoup",
+    "raw_URL": "https://wiki.gnome.org/Projects/libsoup",
+    "组件描述": "libsoup 是 GNOME 的 HTTP 客户端/服务器库。",
+    "分类": "",
+    "语言": "C/C++",
+    "license": ""
+  },
+  {
+    "三方库名称": "javagl_obj",
+    "raw_URL": "https://github.com/javagl/Obj",
+    "组件描述": "javagl_obj 是一个 Java 库，用于读取和写入 Wavefront OBJ 格式的 3D 模型文件。它提供了一组简单的 API，用于加载和处理 3D 模型数据。",
+    "分类": "工具类",
+    "语言": "java",
+    "license": "other"
+  },
+  {
+    "三方库名称": "handsontable",
+    "raw_URL": "https://github.com/handsontable/handsontable",
+    "组件描述": "具有电子表格外观的 JavaScript 数据网格。适用于 React、Angular 和 Vue。由 Handstoable 团队支持",
+    "分类": "网络类",
+    "语言": "JS",
+    "license": "other"
+  },
+  {
+    "三方库名称": "dtls",
+    "raw_URL": "https://github.com/nodertc/dtls",
+    "组件描述": "dtls 是一种基于 UDP 协议的安全传输协议，用于在不可靠的网络环境中传输数据，提供了与 TLS 类似的安全性",
+    "分类": "网络类",
+    "语言": "JS",
+    "license": "MIT"
+  },
+  {
+    "三方库名称": "suiteparse",
+    "raw_URL": "https://github.com/DrTimothyAldenDavis/SuiteSparse",
+    "组件描述": "SuiteSparse 是一个用于稀疏矩阵计算的开源库集合，CHOLMOD 是 SuiteSparse 库的一部分，提供了一系列用于求解稀疏矩阵的 Cholesky 分解和相关操作的函数",
+    "分类": "工具类",
+    "语言": "C/C++",
+    "license": "other"
+  }
+]

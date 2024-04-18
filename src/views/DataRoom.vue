@@ -1,34 +1,34 @@
 <script setup lang="ts">
-import { ref } from "vue"
-import { useRoute, useRouter } from "vue-router"
-import { UserFilled } from "@element-plus/icons-vue"
-import { ThumbsUp } from "@icon-park/vue-next"
-import favicon from "@/assets/favicon.ico"
-import TextComponent from "@/components/Message/Text.vue"
+import { ref } from "vue";
+import { useRoute, useRouter } from "vue-router";
+import { UserFilled } from "@element-plus/icons-vue";
+import { ThumbsUp } from "@icon-park/vue-next";
+import favicon from "@/assets/favicon.ico";
+import TextComponent from "@/components/Message/Text.vue";
 
-import Header from "@/components/Header/index.vue"
-import Footer from "@/components/Footer/index.vue"
+import Header from "@/components/Header/index.vue";
+import Footer from "@/components/Footer/index.vue";
 interface MyMap {
-  [key: string]: { [key: string]: string }
+  [key: string]: { [key: string]: string };
 }
 
-const route = useRoute()
-const router = useRouter()
+const route = useRoute();
+const router = useRouter();
 
-const activeName = ref("first")
-const input = ref("")
-const model = route.query?.name || "ChatGPT"
+const activeName = ref("first");
+const input = ref("");
+const model = route.query?.name || "ChatGPT";
 const modelInfo: MyMap = {
   openai_humaneval: {
-    info: "GPT-3.5 由openAI开发并通过API提供服务，模型能够理解和生成自然语言或代码。在GPT-3.5系列中，最具能力且成本效益最高的模型是gpt-3.5-turbo，它经过了针对聊天功能进行优化，并通过Chat completions API实现。它同样也适用于传统的对话任务。",
+    info: "GPT-3.5 由 openAI 开发并通过 API 提供服务，模型能够理解和生成自然语言或代码。在 GPT-3.5 系列中，最具能力且成本效益最高的模型是 gpt-3.5-turbo，它经过了针对聊天功能进行优化，并通过 Chat completions API 实现。它同样也适用于传统的对话任务。",
   },
   "THUDM/AgentInstruct": {
-    info: "FastChat-T5是一个开源聊天机器人，通过在来自ShareGPT的用户共享对话数据上微调Flan-t5-xl（30亿参数）进行训练而得到。它基于编码-解码变压器架构，并能自动生成回应来响应用户的输入。",
+    info: "FastChat-T5 是一个开源聊天机器人，通过在来自 ShareGPT 的用户共享对话数据上微调 Flan-t5-xl（30 亿参数）进行训练而得到。它基于编码 - 解码变压器架构，并能自动生成回应来响应用户的输入。",
   },
-}
+};
 const dataList = [
   {
-    name: "社区口碑标注-南大144",
+    name: "社区口碑标注 - 南大 144",
     time: "2023/7/12",
     num: "144 / 3465",
     detail: "",
@@ -59,28 +59,28 @@ const dataList = [
   // ABSA_aoe
   // 2/3
   // 情感分析三元组数据标注
-]
+];
 
-const dialogVisible = ref(false)
-const finish = ref(true)
-const finish1 = ref(false)
+const dialogVisible = ref(false);
+const finish = ref(true);
+const finish1 = ref(false);
 
-const tableData = ref<any>([])
-const tableData1 = ref([{ a: "split", b: "http" }])
+const tableData = ref<any>([]);
+const tableData1 = ref([{ a: "split", b: "http" }]);
 
 const addList = () => {
-  dialogVisible.value = false
-  finish.value = false
+  dialogVisible.value = false;
+  finish.value = false;
 
-  tableData.value.push({ a: "WEB Loader", b: "http" })
-}
-const radio = ref(3)
-const radio1 = ref(3)
-const edit = ref(false)
-const editValue = ref("12314")
+  tableData.value.push({ a: "WEB Loader", b: "http" });
+};
+const radio = ref(3);
+const radio1 = ref(3);
+const edit = ref(false);
+const editValue = ref("12314");
 
-const edit1 = ref(false)
-const editValue1 = ref("12314")
+const edit1 = ref(false);
+const editValue1 = ref("12314");
 </script>
 
 <template>
@@ -90,7 +90,7 @@ const editValue1 = ref("12314")
       <div class="flex mt-8">
         <div class="flex-1">
           <div class="mb-4">
-            <h2 class="flex-1 mb-4">Setp 1 添加Loader:</h2>
+            <h2 class="flex-1 mb-4">Setp 1 添加 Loader:</h2>
             <div v-if="finish" class="">
               <div class="grid grid-cols-4 gap-4 mb-4">
                 <div
@@ -121,7 +121,8 @@ const editValue1 = ref("12314")
             </div>
             <div v-else class="border p-4 rounded">
               <el-table :data="tableData" style="width: 100%">
-                <el-table-column label="名称" prop="a" width="180"> </el-table-column>
+                <el-table-column label="名称" prop="a" width="180">
+                </el-table-column>
 
                 <el-table-column label="url" width="">
                   <template #default="scope">
@@ -133,10 +134,11 @@ const editValue1 = ref("12314")
             </div>
           </div>
           <div class="mb-4">
-            <h2 class="flex-1 my-4">Setp 2 设置切片策略:</h2>
+            <h2 class="flex-1 my-4">Setp 2 设置切片策略：</h2>
             <div class="border p-4 rounded">
               <el-table :data="tableData1" style="width: 100%">
-                <el-table-column label="action" prop="a" width="180"> </el-table-column>
+                <el-table-column label="action" prop="a" width="180">
+                </el-table-column>
 
                 <el-table-column label="chunk size" width="">
                   <template #default="scope">
@@ -165,10 +167,17 @@ const editValue1 = ref("12314")
             <h2 class="flex-1 my-4">Setp 4 question generation:</h2>
             <div class="border p-4 rounded">
               <el-button class="mb-4" type="primary" plain>RUN</el-button>
-              <el-button class="mb-4" type="primary" @click="edit = true" plain>edit</el-button>
+              <el-button class="mb-4" type="primary" @click="edit = true" plain
+                >edit</el-button
+              >
               <div v-if="edit" class="flex">
                 <el-input size="large" v-model="editValue"></el-input>
-                <el-button size="large" class="ml-4" type="primary" @click="edit = true" plain
+                <el-button
+                  size="large"
+                  class="ml-4"
+                  type="primary"
+                  @click="edit = true"
+                  plain
                   >save</el-button
                 >
               </div>
@@ -177,7 +186,7 @@ const editValue1 = ref("12314")
                 ref="textRef"
                 :inversion="false"
                 :error="false"
-                :text="12344"
+                :text="'12344'"
                 :loading="false"
                 :as-raw-text="true"
                 :isComment="true"
@@ -209,10 +218,17 @@ const editValue1 = ref("12314")
             <h2 class="flex-1 my-4">Setp 7 Answer generation:</h2>
             <div class="border p-4 rounded">
               <el-button class="mb-4" type="primary" plain>RUN</el-button>
-              <el-button class="mb-4" type="primary" @click="edit1 = true" plain>edit</el-button>
+              <el-button class="mb-4" type="primary" @click="edit1 = true" plain
+                >edit</el-button
+              >
               <div v-if="edit1" class="flex">
                 <el-input size="large" v-model="editValue1"></el-input>
-                <el-button size="large" class="ml-4" type="primary" @click="edit = true" plain
+                <el-button
+                  size="large"
+                  class="ml-4"
+                  type="primary"
+                  @click="edit = true"
+                  plain
                   >save</el-button
                 >
               </div>
@@ -239,23 +255,29 @@ const editValue1 = ref("12314")
                 alt=""
               />
             </div>
-            <div class="w-[280px] pt-2 pl-4 text-xl font-medium">在5分钟内创建一个您自己的模型</div>
+            <div class="w-[280px] pt-2 pl-4 text-xl font-medium">
+              在 5 分钟内创建一个您自己的模型
+            </div>
           </div>
           <div class="h-[520px] pt-4 pl-10">
             <div class="relative flex pt-6">
-              <div class="absolute -top-[16px] left-[8px] h-full w-0.5 bg-[#e5e5e5]"></div>
+              <div
+                class="absolute -top-[16px] left-[8px] h-full w-0.5 bg-[#e5e5e5]"
+              ></div>
               <div
                 class="relative flex h-[18px] w-[18px] items-center justify-center rounded-full bg-[#4E4E4E] text-xs text-white"
               >
                 1
               </div>
               <div class="ml-4">
-                <div class="-mt-1 text-base font-medium">选择Loader</div>
+                <div class="-mt-1 text-base font-medium">选择 Loader</div>
                 <span class="text-xs">覆盖各领域各行业 200+ Loader</span>
               </div>
             </div>
             <div class="relative flex pt-6">
-              <div class="absolute -top-[16px] left-[8px] h-full w-0.5 bg-[#e5e5e5]"></div>
+              <div
+                class="absolute -top-[16px] left-[8px] h-full w-0.5 bg-[#e5e5e5]"
+              ></div>
               <div
                 class="relative flex h-[18px] w-[18px] items-center justify-center rounded-full bg-[#4E4E4E] text-xs text-white"
               >
@@ -267,31 +289,43 @@ const editValue1 = ref("12314")
               </div>
             </div>
             <div class="relative flex pt-6">
-              <div class="absolute -top-[16px] left-[8px] h-full w-0.5 bg-[#e5e5e5]"></div>
+              <div
+                class="absolute -top-[16px] left-[8px] h-full w-0.5 bg-[#e5e5e5]"
+              ></div>
               <div
                 class="relative flex h-[18px] w-[18px] items-center justify-center rounded-full bg-[#4E4E4E] text-xs text-white"
               >
                 3
               </div>
               <div class="ml-4">
-                <div class="-mt-1 text-base font-medium">embedding model choose</div>
-                <span class="text-xs">支持 AHP 和其他自定义的多种embedding</span>
+                <div class="-mt-1 text-base font-medium">
+                  embedding model choose
+                </div>
+                <span class="text-xs"
+                  >支持 AHP 和其他自定义的多种 embedding</span
+                >
               </div>
             </div>
             <div class="relative flex pt-6">
-              <div class="absolute -top-[16px] left-[8px] h-full w-0.5 bg-[#e5e5e5]"></div>
+              <div
+                class="absolute -top-[16px] left-[8px] h-full w-0.5 bg-[#e5e5e5]"
+              ></div>
               <div
                 class="relative flex h-[18px] w-[18px] items-center justify-center rounded-full bg-[#4E4E4E] text-xs text-white"
               >
                 4
               </div>
               <div class="ml-4">
-                <div class="-mt-1 text-base font-medium">question generation</div>
-                <span class="text-xs">支持question generation</span>
+                <div class="-mt-1 text-base font-medium">
+                  question generation
+                </div>
+                <span class="text-xs">支持 question generation</span>
               </div>
             </div>
             <div class="relative flex pt-6">
-              <div class="absolute -top-[16px] left-[8px] h-full w-0.5 bg-[#e5e5e5]"></div>
+              <div
+                class="absolute -top-[16px] left-[8px] h-full w-0.5 bg-[#e5e5e5]"
+              ></div>
               <div
                 class="relative flex h-[18px] w-[18px] items-center justify-center rounded-full bg-[#4E4E4E] text-xs text-white"
               >
@@ -299,11 +333,13 @@ const editValue1 = ref("12314")
               </div>
               <div class="ml-4">
                 <div class="-mt-1 text-base font-medium">Retriever Setting</div>
-                <span class="text-xs">支持Retriever Setting</span>
+                <span class="text-xs">支持 Retriever Setting</span>
               </div>
             </div>
             <div class="relative flex pt-6">
-              <div class="absolute -top-[16px] left-[8px] h-full w-0.5 bg-[#e5e5e5]"></div>
+              <div
+                class="absolute -top-[16px] left-[8px] h-full w-0.5 bg-[#e5e5e5]"
+              ></div>
               <div
                 class="relative flex h-[18px] w-[18px] items-center justify-center rounded-full bg-[#4E4E4E] text-xs text-white"
               >
@@ -311,11 +347,13 @@ const editValue1 = ref("12314")
               </div>
               <div class="ml-4">
                 <div class="-mt-1 text-base font-medium">chat model choose</div>
-                <span class="text-xs">支持chat model choose</span>
+                <span class="text-xs">支持 chat model choose</span>
               </div>
             </div>
             <div class="relative flex pt-6">
-              <div class="absolute -top-[16px] left-[8px] h-10 w-0.5 bg-[#e5e5e5]"></div>
+              <div
+                class="absolute -top-[16px] left-[8px] h-10 w-0.5 bg-[#e5e5e5]"
+              ></div>
               <div
                 class="relative flex h-[18px] w-[18px] items-center justify-center rounded-full bg-[#4E4E4E] text-xs text-white"
               >
@@ -323,7 +361,7 @@ const editValue1 = ref("12314")
               </div>
               <div class="ml-4">
                 <div class="-mt-1 text-base font-medium">Answer generation</div>
-                <span class="text-xs">最后，完成Answer generation</span>
+                <span class="text-xs">最后，完成 Answer generation</span>
               </div>
             </div>
           </div>
@@ -340,7 +378,9 @@ const editValue1 = ref("12314")
       <div class="grid grid-cols-3 gap-4 pr-2">
         <div class="relative cursor-pointer bg-white border p-px">
           <div class="py-2.5 px-4">
-            <div class="absolute bottom-1.5 right-4"><input type="checkbox" @click="" /></div>
+            <div class="absolute bottom-1.5 right-4">
+              <input type="checkbox" @click="" />
+            </div>
             <div>
               <p class="mb-1 truncate break-words font-bold">CSV Loader</p>
               <p class="h-2 truncate text-sm text-gray-400"></p>
@@ -355,7 +395,9 @@ const editValue1 = ref("12314")
 
         <div class="relative cursor-pointer bg-white border p-px">
           <div class="py-2.5 px-4">
-            <div class="absolute bottom-1.5 right-4"><input type="checkbox" @click="" /></div>
+            <div class="absolute bottom-1.5 right-4">
+              <input type="checkbox" @click="" />
+            </div>
             <div>
               <p class="mb-1 truncate break-words font-bold">PDF Loader</p>
               <p class="h-2 truncate text-sm text-gray-400"></p>
@@ -369,7 +411,9 @@ const editValue1 = ref("12314")
         </div>
         <div class="relative cursor-pointer bg-white border p-px">
           <div class="py-2.5 px-4">
-            <div class="absolute bottom-1.5 right-4"><input type="checkbox" @click="" /></div>
+            <div class="absolute bottom-1.5 right-4">
+              <input type="checkbox" @click="" />
+            </div>
             <div>
               <p class="mb-1 truncate break-words font-bold">JSON Loader</p>
               <p class="h-2 truncate text-sm text-gray-400"></p>
@@ -401,7 +445,9 @@ const editValue1 = ref("12314")
 
         <div class="relative cursor-pointer bg-white border p-px">
           <div class="py-2.5 px-4">
-            <div class="absolute bottom-1.5 right-4"><input type="checkbox" @click="" /></div>
+            <div class="absolute bottom-1.5 right-4">
+              <input type="checkbox" @click="" />
+            </div>
             <div>
               <p class="mb-1 truncate break-words font-bold">Github Loader</p>
               <p class="h-2 truncate text-sm text-gray-400"></p>
@@ -415,7 +461,9 @@ const editValue1 = ref("12314")
         </div>
         <div class="relative cursor-pointer bg-white border p-px">
           <div class="py-2.5 px-4">
-            <div class="absolute bottom-1.5 right-4"><input type="checkbox" @click="" /></div>
+            <div class="absolute bottom-1.5 right-4">
+              <input type="checkbox" @click="" />
+            </div>
             <div>
               <p class="mb-1 truncate break-words font-bold">XXX Loader</p>
               <p class="h-2 truncate text-sm text-gray-400"></p>
