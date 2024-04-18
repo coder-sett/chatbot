@@ -67,17 +67,17 @@ const openNew = (item) => {
     class="w-full overflow-auto h-full flex flex-col justify-between relative"
   >
     <section
-      class="flex-1 max-w-[1240px] w-full mx-auto my-5 mt-10 border-l-2 border-[#4d97db]"
+      class="flex-1 max-w-[1240px] w-full mx-auto my-5 mt-10 border-l-2 border-[#009be8]"
     >
       <div v-for="(item, index) of typeList">
         <div
-          class="w-full h-7 bg-[#4d97db] px-3 text-white font-bold text-sm flex items-center"
+          class="w-full h-7 bg-[#009be8] px-3 text-white font-bold text-sm flex items-center"
         >
           {{ item }}
         </div>
         <div class="p-4 flex gap-2 flex-wrap">
           <!-- <div
-            class="w-20 h-20 border-2 border-[#4d97db] cursor-pointer"
+            class="w-20 h-20 border-2 border-[#009be8] cursor-pointer"
             v-for="(z, i) of rowDataObj[item]"
             @click="showDialog(z)"
           >
@@ -116,7 +116,7 @@ const openNew = (item) => {
       {{ selectItem?.三方库名称 }}
     </div>
     <div
-      class="mb-2 mt-2 flex text-sm items-center text-black border-b pb-4 border-[#4d97db]"
+      class="mb-2 mt-2 flex text-sm items-center text-black border-b pb-4 border-[#009be8]"
     >
       <div class="mr-2">
         <svg
@@ -177,13 +177,24 @@ const openNew = (item) => {
         }}
       </div>
     </div>
-    <!-- <div class="mt-4 text-sm text-black border-b pb-4 border-[#4d97db]">
+    <!-- <div class="mt-4 text-sm text-black border-b pb-4 border-[#009be8]">
       描述：{{ selectItem?.["三方库详情"] || "" }}
     </div> -->
-    <div class="mt-4 text-lg text-black">Compass Active Score: 95.6/100</div>
+    <div class="mt-8 text-lg text-black">项目活跃度：90.6/100</div>
+    <div class="mt-4 text-lg text-black">软件版本质量：86.6/100</div>
+    <div class="mt-4 text-lg text-black">依赖项：</div>
     <div class="w-full">
-      <img src="@/assets/active.png" />
+      <img src="@/assets/tpc/1.png" />
     </div>
+    <div class="mt-4 text-lg text-black">
+      依赖方：
+      <div class="w-full">
+        <img src="@/assets/tpc/2.png" />
+      </div>
+    </div>
+    <!-- <div class="w-full">
+      <img src="@/assets/active.png" />
+    </div> -->
   </el-dialog>
 </template>
 
