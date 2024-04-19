@@ -312,7 +312,7 @@ let newObj = {
 
 const value1 = ref("三方库/三方库框架");
 const value2 = ref("活跃度");
-const value3 = ref("");
+const value3 = ref([new Date().setMonth(new Date().getMonth() -12),new Date()])
 
 const options1 = ref(Object.keys(newObj));
 const options2 = ref(["活跃度", "社区响应", "代码贡献"]);
@@ -372,7 +372,7 @@ const initChart = () => {
     },
     visualMap: {
       min: 0,
-      max: 10,
+      max: 100,
       calculable: true,
       inRange: {
         color: ["#e2fae2", "#77c74e"],
@@ -416,17 +416,28 @@ const initChart = () => {
     window.open("https://compass.gitee.com/analyze/ck8eobrl");
   });
 };
-const hours = Array.from(
-  { length: 12 },
-  (_, index) => "2023-" + (index + 1).toString()
-);
+function getRecentYearMonths() {
+  var monthsArray = [];
+  var currentDate = new Date(); // 获取当前日期
+  for (var i = 0; i < 12; i++) {
+    var month = currentDate.getMonth(); // 月份从0开始，需要加1
+    var year = currentDate.getFullYear();
+    var formattedMonth = year + '-' + (month < 10 ? '0' : '') + month; // 格式化为 YYYY-MM 形式
+    monthsArray.unshift(formattedMonth); // 将月份添加到数组的开头
+    currentDate.setMonth(currentDate.getMonth() - 1); // 获取上一个月的日期
+  }
+  return monthsArray;
+}
+
+var recentYearMonths = getRecentYearMonths();
+const hours = getRecentYearMonths();
 // prettier-ignore
 
 function getdata(days){
   const data:any = []
   for (let d=0; d < days.length; d += 1){
     for (let j=0; j < 52;  j += 1){
-      data.push([d, j, Math.floor(Math.random() * 10) ])
+      data.push([d, j, Math.floor(Math.random() * 100) ])
     }
   }
   return data;
@@ -495,14 +506,15 @@ let obj = {
     class="w-full overflow-auto h-full flex flex-col justify-between relative"
   >
     <section class="flex-1 max-w-[1220px] w-full mx-auto my-5 mt-10">
-      <div class="flex justify-start">
-        <div>
+      <div class="flex justify-start w-full  overflow-auto">
+        <div class="flex items-center w-[300px]">
           SIG分类：
           <el-select
             v-model="value1"
             placeholder=""
             @change="handleClick"
             size="default"
+            style="width: 200px"
           >
             <el-option
               v-for="item in options1"
@@ -512,22 +524,23 @@ let obj = {
             />
           </el-select>
         </div>
-        <div class="ml-5">
+        <div class="ml-5 flex items-center w-[290px]">
           模型：
-          <el-select v-model="value2" placeholder="" size="default">
+          <el-select v-model="value2" placeholder="" size="default" style="width: 200px">
             <el-option
               v-for="item in options2"
               :key="item"
               :label="item"
               :value="item"
+              
             />
           </el-select>
         </div>
-        <div class="block ml-5">
+        <div class="flex ml-5 items-center">
           <span class="demonstration">日期：</span>
           <el-date-picker
             v-model="value3"
-            type="daterange"
+            type="monthrange"
             range-separator="至"
             start-placeholder="开始日期"
             end-placeholder="结束日期"
